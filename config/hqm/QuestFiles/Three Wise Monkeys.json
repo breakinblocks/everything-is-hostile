@@ -1,0 +1,714 @@
+{
+  "name": "Three Wise Monkeys",
+  "quests": [
+    {
+      "name": "Dark Origins",
+      "description": "The power that radiates from this ore makes you feel powerful, your dark thoughts coming to the forefront of your mind.",
+      "x": 21,
+      "y": 13,
+      "icon": {
+        "id": "evilcraft:darkGem"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "evilcraft:darkGem"
+              },
+              "required": 5,
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "What is this, Snow White?",
+      "description": "The crystals contained inside this ore are filled with a sinister power and a epitome of dark knowledge, who knows how they will corrupt the living world. Perhaps an apple infused with one for a start. The result may hold enough strength to toss a book into.",
+      "x": 50,
+      "y": 39,
+      "icon": {
+        "id": "evilcraft:darkenedApple"
+      },
+      "prerequisites": [
+        "Dark Origins"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "evilcraft:darkenedApple"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemLootBag",
+          "damage": 2,
+          "amount": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "arsmagica2:manaMartini",
+          "amount": 3
+        },
+        {
+          "id": "Thaumcraft:ItemResource",
+          "damage": 9,
+          "amount": 4
+        },
+        {
+          "id": "Forestry:beeQueenGE",
+          "nbt": "{MaxH:30,Health:30,IsAnalyzed:1b,Genome:{Chromosomes:[0:{UID1:\"extrabees.species.mineral\",UID0:\"extrabees.species.mineral\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanShort\",UID0:\"forestry.lifespanShort\",Slot:2b},3:{UID1:\"forestry.fertilityLow\",UID0:\"forestry.fertilityLow\",Slot:3b},4:{UID1:\"forestry.toleranceBoth2\",UID0:\"forestry.toleranceBoth2\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceBoth2\",UID0:\"forestry.toleranceBoth2\",Slot:7b},7:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:8b},8:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:9b},9:{UID1:\"extrabees.flower.rock\",UID0:\"extrabees.flower.rock\",Slot:10b},10:{UID1:\"forestry.floweringSlower\",UID0:\"forestry.floweringSlower\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
+        }
+      ]
+    },
+    {
+      "name": "Evil Queen Indeed.",
+      "description": "You\u0027ve done it. The knowledge of all things dark and sinister now rests in your hands. Go forth with your new found power, learn the ways of spirits and blood, for you are now the one true master of evil.",
+      "x": 85,
+      "y": 66,
+      "icon": {
+        "id": "evilcraft:originsOfDarkness"
+      },
+      "prerequisites": [
+        "What is this, Snow White?"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "evilcraft:originsOfDarkness"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "evilcraft:darkGem",
+          "amount": 5
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Sanguimancy:BlockBloodTank"
+        },
+        {
+          "id": "Thaumcraft:blockJar",
+          "damage": 3
+        },
+        {
+          "id": "minecraft:obsidian",
+          "amount": 4
+        },
+        {
+          "id": "Botania:flower",
+          "damage": 3,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "In the Palm of My Hand",
+      "description": "Thunder booms, rain pours and winds howl. Brave the wilds to find the temple in the dark. The core within will allow you to contain the strength of the weather.",
+      "x": 65,
+      "y": 90,
+      "icon": {
+        "id": "evilcraft:weatherContainer"
+      },
+      "prerequisites": [
+        "Evil Queen Indeed."
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "evilcraft:weatherContainer"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:hqmInvalidItem"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "evilcraft:weatherContainer",
+          "damage": 1
+        },
+        {
+          "id": "evilcraft:weatherContainer",
+          "damage": 2
+        },
+        {
+          "id": "evilcraft:weatherContainer",
+          "damage": 3
+        },
+        {
+          "id": "arsmagica2:essence",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Blood is Everything",
+      "description": "Sacrifice is the key to everything, so lets use our animals for good use. Dark gems and the power of blood can be used to create an even stronger gem. Maybe the origins of darkness has insight on how to complete this task",
+      "x": 91,
+      "y": 110,
+      "icon": {
+        "id": "evilcraft:darkPowerGem"
+      },
+      "prerequisites": [
+        "Evil Queen Indeed."
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "evilcraft:darkPowerGem"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "evilcraft:darkPowerGem"
+        },
+        {
+          "id": "Thaumcraft:ItemLootBag",
+          "damage": 2,
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "Timing is Everything",
+      "description": "You fell asleep and the blood you left out for the crystals has hardened...wait, maybe this hardened blood can have a use, if only you could pick it up. Perhaps the silkiest of touches will help.",
+      "x": 117,
+      "y": 93,
+      "icon": {
+        "id": "evilcraft:darkBloodBrick"
+      },
+      "prerequisites": [
+        "Evil Queen Indeed."
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "evilcraft:hardenedBlood"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "evilcraft:hardenedBlood",
+          "amount": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Thaumcraft:ItemResource",
+          "damage": 9,
+          "amount": 2
+        },
+        {
+          "id": "HardcoreEnderExpansion:knowledge_note"
+        },
+        {
+          "id": "Mystcraft:page",
+          "amount": 2,
+          "nbt": "{linkpanel:{properties:[0:\"Intra Linking\"]}}"
+        }
+      ]
+    },
+    {
+      "name": "This seems familiar....",
+      "description": "FINALLY, the powers of darkness can finally be harnessed into a physical form. Blood extracted from the ground can be stored inside this. Gravity will be your friend when collecting blood...unless you can find a supplimental source of blood?",
+      "x": 119,
+      "y": 60,
+      "icon": {
+        "id": "evilcraft:bloodExtractor",
+        "nbt": "{Fluid:{FluidName:\"evilcraftblood\",Amount:0}}"
+      },
+      "prerequisites": [
+        "Evil Queen Indeed."
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "evilcraft:bloodExtractor",
+                "nbt": "{Fluid:{FluidName:\"evilcraftblood\",Amount:0}}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "evilcraft:bloodExtractor",
+          "nbt": "{Fluid:{FluidName:\"evilcraftblood\",Amount:5000}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "aura:consumerBlockloot"
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:2s,id:21s}]}"
+        },
+        {
+          "id": "AWWayofTime:weakBloodOrb"
+        }
+      ]
+    },
+    {
+      "name": "The Craftiest of them All",
+      "description": "The gods of the dark are generous in their ideas. Your ender chest inventory can be used to craft and store. Maybe the result can be empowered with a lightning strike?",
+      "x": 36,
+      "y": 128,
+      "icon": {
+        "id": "evilcraft:exaltedCrafter",
+        "damage": 2
+      },
+      "prerequisites": [
+        "In the Palm of My Hand"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "evilcraft:exaltedCrafter",
+                "damage": 2
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Thaumcraft:ItemEssence",
+          "damage": 1,
+          "amount": 2,
+          "nbt": "{Aspects:[0:{amount:8,key:\"exanimis\"}]}"
+        },
+        {
+          "id": "AWWayofTime:incendium",
+          "amount": 4
+        },
+        {
+          "id": "Botania:flower",
+          "damage": 14,
+          "amount": 2
+        },
+        {
+          "id": "AWWayofTime:reinforcedSlate",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Last Piece of the Puzzle",
+      "description": "This is what you were looking for, the final piece in your workshop of horrors. Using this you can now create anything found in the old texts.",
+      "x": 160,
+      "y": 123,
+      "icon": {
+        "id": "evilcraft:bloodInfusionCore"
+      },
+      "prerequisites": [
+        "Timing is Everything"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "evilcraft:bloodInfusionCore"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "AWWayofTime:largeBloodStoneBrick",
+          "amount": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "evilcraft:bloodInfusionCore"
+        },
+        {
+          "id": "evilcraft:darkPowerGem",
+          "amount": 2
+        },
+        {
+          "id": "Forestry:beeQueenGE",
+          "nbt": "{MaxH:50,Health:50,IsAnalyzed:1b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesFiendish\",UID0:\"forestry.speciesFiendish\",Slot:0b},1:{UID1:\"forestry.speedNormal\",UID0:\"forestry.speedNormal\",Slot:1b},2:{UID1:\"forestry.lifespanLong\",UID0:\"forestry.lifespanLong\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceDown2\",UID0:\"forestry.toleranceDown2\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersNether\",UID0:\"forestry.flowersNether\",Slot:10b},10:{UID1:\"forestry.floweringAverage\",UID0:\"forestry.floweringAverage\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectAggressive\",UID0:\"forestry.effectAggressive\",Slot:13b}]}}"
+        },
+        {
+          "id": "EnderIO:itemAlloy",
+          "damage": 5,
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "Blood heals all Wounds",
+      "description": "People say that time heals all wounds, but time and blood can also repair all tools. Like all blood healing, infections are possible, but rare.",
+      "x": 144,
+      "y": 157,
+      "icon": {
+        "id": "evilcraft:bloodChest"
+      },
+      "prerequisites": [
+        "Last Piece of the Puzzle"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "evilcraft:bloodChest"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "evilcraft:promiseAcceptor",
+          "amount": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Botania:floatingSpecialFlower",
+          "nbt": "{type:\"tigerseye\"}"
+        },
+        {
+          "id": "evilcraft:bloodWaxedCoal",
+          "amount": 32
+        },
+        {
+          "id": "evilcraft:veinedScribingTools",
+          "damage": 200,
+          "nbt": "{Fluid:{FluidName:\"evilcraftblood\",Amount:0}}"
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:2s,id:34s}]}"
+        }
+      ]
+    },
+    {
+      "name": "If it\u0027s not bloody It should Be",
+      "description": "No longer a neanderthal in terms of the way you can process blood, you not can automate and increase your efficiency when it comes to practicing the dark arts. Welcome to a new age of evil.",
+      "x": 177,
+      "y": 157,
+      "icon": {
+        "id": "evilcraft:bloodInfuser"
+      },
+      "prerequisites": [
+        "Last Piece of the Puzzle"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "evilcraft:bloodInfuser"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "witchery:seepingshoes"
+        },
+        {
+          "id": "Thaumcraft:ItemLootBag",
+          "damage": 2,
+          "amount": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "arsmagica2:rune",
+          "damage": 17,
+          "amount": 2
+        },
+        {
+          "id": "Botania:overgrowthSeed"
+        },
+        {
+          "id": "Thaumcraft:blockCrystal",
+          "damage": 6,
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "name": "As Empty as Your Heart.",
+      "description": "Just like your mother, these bowls will never give you what you really need. Maybe combining them with iron or a diamond will give you the much needed love and affection you desire.",
+      "x": 197,
+      "y": 131,
+      "icon": {
+        "id": "evilcraft:bowlOfPromises",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Last Piece of the Puzzle"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "evilcraft:bowlOfPromises",
+                "damage": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "evilcraft:bowlOfPromises"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "evilcraft:promiseAcceptor"
+        },
+        {
+          "id": "Botania:brewVial",
+          "nbt": "{brewKey:\"warpWard\"}"
+        },
+        {
+          "id": "Forestry:beeQueenGE",
+          "nbt": "{MaxH:40,Health:40,IsAnalyzed:1b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesImperial\",UID0:\"forestry.speciesImperial\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanNormal\",UID0:\"forestry.lifespanNormal\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:10b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectBeatific\",UID0:\"forestry.effectBeatific\",Slot:13b}]}}"
+        },
+        {
+          "id": "AWWayofTime:weakBloodShard"
+        }
+      ]
+    },
+    {
+      "name": "Something from Nothing",
+      "description": "Laws of nature do not apply to you. Infusing a tree with blood will allow you to grow a tree any place any time. Maybe the wood will be useful.",
+      "x": 191,
+      "y": 97,
+      "icon": {
+        "id": "evilcraft:undeadSapling"
+      },
+      "prerequisites": [
+        "Last Piece of the Puzzle"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "evilcraft:undeadSapling"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "witchery:sungrenade",
+          "amount": 5
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Forestry:beeQueenGE",
+          "nbt": "{MaxH:20,Health:20,IsAnalyzed:1b,Genome:{Chromosomes:[0:{UID1:\"magicbees.speciesAttuned\",UID0:\"magicbees.speciesAttuned\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityHigh\",UID0:\"forestry.fertilityHigh\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:10b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
+        },
+        {
+          "id": "witchery:ingredient",
+          "damage": 25,
+          "amount": 4
+        },
+        {
+          "id": "Thaumcraft:ItemResource",
+          "damage": 14,
+          "amount": 2
+        },
+        {
+          "id": "AWWayofTime:reinforcedSlate",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "One Dank Tank",
+      "description": "Liquid storage using the powers of darkness.",
+      "x": 123,
+      "y": 17,
+      "icon": {
+        "id": "evilcraft:darkTank",
+        "nbt": "{tankCapacity:16000}"
+      },
+      "prerequisites": [
+        "Evil Queen Indeed."
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "evilcraft:darkTank",
+                "nbt": "{tankCapacity:16000}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemLootBag",
+          "damage": 2,
+          "amount": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Thaumcraft:ItemResource",
+          "damage": 15
+        },
+        {
+          "id": "Botania:blackLotus"
+        },
+        {
+          "id": "AWWayofTime:reinforcedSlate",
+          "amount": 4
+        },
+        {
+          "id": "Automagy:phialExtra",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Two Dank Tanks",
+      "description": "More blood? More Storage! By combining the dark tanks you can create even DARKER tanks. How far down does this rabbit hole go?",
+      "x": 153,
+      "y": 35,
+      "icon": {
+        "id": "evilcraft:darkTank",
+        "nbt": "{tankCapacity:64000}"
+      },
+      "prerequisites": [
+        "One Dank Tank"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "evilcraft:darkTank",
+                "nbt": "{tankCapacity:64000}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "EnderIO:itemAlloy",
+          "damage": 6,
+          "amount": 4
+        },
+        {
+          "id": "Forestry:beeQueenGE",
+          "nbt": "{MaxH:60,Health:60,IsAnalyzed:1b,Genome:{Chromosomes:[0:{UID1:\"magicbees.speciesBMBloody\",UID0:\"magicbees.speciesBMBloody\",Slot:0b},1:{UID1:\"forestry.speedFast\",UID0:\"forestry.speedFast\",Slot:1b},2:{UID1:\"forestry.lifespanLonger\",UID0:\"forestry.lifespanLonger\",Slot:2b},3:{UID1:\"forestry.fertilityHigh\",UID0:\"forestry.fertilityHigh\",Slot:3b},4:{UID1:\"forestry.toleranceBoth2\",UID0:\"forestry.toleranceBoth2\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceBoth2\",UID0:\"forestry.toleranceBoth2\",Slot:7b},7:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:10b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
+        },
+        {
+          "id": "RandomThings:ingredient",
+          "damage": 4,
+          "amount": 3
+        },
+        {
+          "id": "Thaumcraft:ItemResource",
+          "damage": 2,
+          "amount": 4
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

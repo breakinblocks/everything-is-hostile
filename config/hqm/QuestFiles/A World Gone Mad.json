@@ -1,0 +1,738 @@
+{
+  "name": "A World Gone Mad",
+  "description": "All around me are familiar faces...                              Worn out places ...               Worn out faces...                                                                     What little life remains in this forsaken world has but singular purpose, your death. You must fall to the simpler nescesities of life, shelter, food, and still drawing breath come morning. Luckily, being the prodigy of potentia as you are, a clear plan for your rise is held within.                    ",
+  "quests": [
+    {
+      "name": "Back to Cube One",
+      "description": "You still don\u0027t know how you got here, but survival is your single most important goal. Trees will provide materials for the most basic of tools.",
+      "x": 129,
+      "y": 11,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:log"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:log"
+              },
+              "required": 5,
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "minecraft:wooden_sword"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:hatchet",
+          "nbt": "{InfiTool:{BaseDurability:65,Head:1,BaseAttack:4,ToolEXP:0L,Built:1b,HarvestLevel:1,Attack:4,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,MiningSpeed:400,ToolLevel:1,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:0,TotalDurability:65},display:{Name:\"§fStone Hatchet\"}}"
+        }
+      ]
+    },
+    {
+      "name": "Taming the Lands",
+      "description": "Swords and materials are well and good, but your stomach has made it clear you require food. Craft a hoe and start your farm.",
+      "x": 57,
+      "y": 11,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:wheat_seeds"
+      },
+      "prerequisites": [
+        "Back to Cube One"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:stone_hoe"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:wheat_seeds"
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Tools... evolved",
+      "description": "Who would have guessed that wood would break. Maybe something a little more solid will help.",
+      "x": 23,
+      "y": 46,
+      "icon": {
+        "id": "TConstruct:hammer",
+        "nbt": "{InfiTool:{RenderExtra:3,BaseDurability:1077,BaseAttack:5,ToolEXP:0L,Built:1b,HarvestLevel:1,HarvestLevelExtra:1,RenderHead:3,ModDurability:0.0f,MiningSpeedExtra:525,Shoddy:0.0f,RenderHandle:3,Accessory:3,MiningSpeed:525,Unbreaking:0,Damage:0,HarvestLevel2:1,BonusDurability:0,TotalDurability:1077,MiningSpeed2:525,Head:3,Attack:5,Handle:3,Broken:0b,Extra:3,RenderAccessory:3,ToolLevel:1,Modifiers:0},display:{Name:\"§fFlint Hammer\"}}"
+      },
+      "prerequisites": [
+        "Taming the Lands"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:mattock",
+                "nbt": "{InfiTool:{MiningSpeed2:400,BaseDurability:98,Head:1,BaseAttack:4,ToolEXP:0L,Built:1b,HarvestLevel:1,Attack:4,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,RenderAccessory:1,ToolLevel:1,Unbreaking:0,Damage:0,HarvestLevel2:1,BonusDurability:0,Modifiers:0,TotalDurability:98},display:{Name:\"§fStone Mattock\"}}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:ore.berries.one",
+          "damage": 8,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Fight to Survive",
+      "description": "Offence is the best defence...or something like that. Maybe a sword will help.",
+      "x": 180,
+      "y": 14,
+      "icon": {
+        "id": "chocolateQuest:egg",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Back to Cube One"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:stone_sword"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:jerky",
+          "damage": 5,
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "A Place To Lay Your Head",
+      "description": "Rest your body, rest your mind, because tommorow will be another day. Craft a bed, and dream away your worries tonight.",
+      "x": 118,
+      "y": 49,
+      "icon": {
+        "id": "minecraft:bed"
+      },
+      "prerequisites": [
+        "Taming the Lands"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bed"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:wool",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "name": "A Stronger Foundation",
+      "description": "Iron. You know what to do. It\u0027s ironic how simple this is.",
+      "x": 32,
+      "y": 73,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:iron_ore"
+      },
+      "prerequisites": [
+        "Tools... evolved"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_ore"
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "evilcraft:darkGem"
+        },
+        {
+          "id": "TConstruct:ore.berries.one",
+          "damage": 10
+        }
+      ]
+    },
+    {
+      "name": "Filling in the Cracks",
+      "description": "Are you sure about this? I mean it seems like a bit of a waste? Iron works fine trust me...you still want to do it? well then easy come, easy go",
+      "x": 68,
+      "y": 86,
+      "icon": {
+        "id": "BiblioCraft:item.FramingSaw"
+      },
+      "prerequisites": [
+        "A Stronger Foundation"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ForgeMicroblock:sawDiamond"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:diamond"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Thorny Minerals",
+      "description": "Bushes of iron, copper and tin. The world has many sources of materials.",
+      "x": 49,
+      "y": 111,
+      "icon": {
+        "id": "TConstruct:ore.berries.two",
+        "damage": 9
+      },
+      "prerequisites": [
+        "A Stronger Foundation"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:ore.berries.one",
+                "damage": 8
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:ore.berries.one",
+                "damage": 10
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:ore.berries.one",
+                "damage": 11
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:ore.berries.two",
+          "damage": 9
+        }
+      ]
+    },
+    {
+      "name": "Beautification",
+      "description": "This wolf tells you that 9X9 rooms are the most efficient way of building. Maybe in this dire situation you could spice up your designs.",
+      "x": 17,
+      "y": 114,
+      "icon": {
+        "id": "CarpentersBlocks:itemCarpentersHammer"
+      },
+      "prerequisites": [
+        "A Stronger Foundation"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "CarpentersBlocks:itemCarpentersHammer"
+              }
+            },
+            {
+              "item": {
+                "id": "chisel:chisel"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "CarpentersBlocks:blockCarpentersBlock",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:double_plant",
+          "damage": 4,
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Lets get this started",
+      "description": "Learning the ways of the forge, you figure out how to make a structure to handle the heat of the lava. What happens if you add metals to the container?",
+      "x": 62,
+      "y": 172,
+      "icon": {
+        "id": "TConstruct:Smeltery"
+      },
+      "prerequisites": [
+        "Bushes? Food? I dont think so.."
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:Smeltery"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:lava_bucket"
+        },
+        {
+          "id": "TConstruct:SearedBrick",
+          "damage": 5,
+          "amount": 3
+        },
+        {
+          "id": "TConstruct:materials",
+          "damage": 9,
+          "amount": 6
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "technom:itemBO",
+          "damage": 1,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Bigger IS Better",
+      "description": "Efficiency is the name of the game here, and this new forge will let you make bigger and badder tools.",
+      "x": 24,
+      "y": 158,
+      "icon": {
+        "id": "TConstruct:ToolForgeBlock"
+      },
+      "prerequisites": [
+        "Lets get this started"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:ToolForgeBlock"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:hammer",
+          "nbt": "{InfiTool:{RenderExtra:1,BaseDurability:589,BaseAttack:3,ToolEXP:0L,Built:1b,HarvestLevel:1,HarvestLevelExtra:1,RenderHead:1,ModDurability:0.0f,MiningSpeedExtra:400,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,Unbreaking:0,Damage:0,HarvestLevel2:1,BonusDurability:0,TotalDurability:589,MiningSpeed2:400,Head:1,Attack:3,Handle:1,Broken:0b,Extra:1,RenderAccessory:1,ToolLevel:1,Modifiers:0},display:{Name:\"§fStone Hammer\"}}"
+        },
+        {
+          "id": "TConstruct:lumberaxe",
+          "nbt": "{InfiTool:{RenderExtra:1,BaseDurability:368,BaseAttack:2,ToolEXP:0L,Built:1b,HarvestLevel:1,RenderHead:1,ModDurability:0.0f,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,Unbreaking:0,Damage:0,HarvestLevel2:1,BonusDurability:0,TotalDurability:368,MiningSpeed2:400,Head:1,Attack:2,Handle:1,Broken:0b,Extra:1,RenderAccessory:1,ToolLevel:1,Modifiers:0},display:{Name:\"§fStone Lumber Axe\"}}"
+        },
+        {
+          "id": "TConstruct:excavator",
+          "nbt": "{InfiTool:{RenderExtra:1,BaseDurability:405,BaseAttack:4,ToolEXP:0L,Built:1b,HarvestLevel:1,RenderHead:1,ModDurability:0.0f,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,Unbreaking:0,Damage:0,HarvestLevel2:1,BonusDurability:0,TotalDurability:405,MiningSpeed2:400,Head:1,Attack:4,Handle:1,Broken:0b,Extra:1,RenderAccessory:1,ToolLevel:1,Modifiers:0},display:{Name:\"§fStone Excavator\"}}"
+        }
+      ]
+    },
+    {
+      "name": "By My Command",
+      "description": "Evil has many faces. The ultimate power maybe be availabl through this staff.",
+      "x": 218,
+      "y": 24,
+      "bigicon": true,
+      "icon": {
+        "id": "AS_Minions:masterstaff"
+      },
+      "prerequisites": [
+        "Fight to Survive"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AS_Minions:masterstaff"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TravellersGear:simpleGear",
+          "damage": 6,
+          "nbt": "{title:\"TG.personaltitle.freshPrince\"}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Bushes? Food? I dont think so..",
+      "description": "The bushes bear fruit!..Well, a fruit of sorts. Maybe you can use this is some way.",
+      "x": 62,
+      "y": 139,
+      "icon": {
+        "id": "minecraft:iron_ingot"
+      },
+      "prerequisites": [
+        "Thorny Minerals"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_ingot"
+              }
+            },
+            {
+              "item": {
+                "id": "abyssalcraft:copperingot"
+              },
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "abyssalcraft:tingingot"
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:hqmInvalidItem"
+        }
+      ]
+    },
+    {
+      "name": "Ancient Jails",
+      "description": "These corridor echoes with the clanky noise of the chains of the prisoners once held in this stronghold... at its heart lies a portal, leading to the end of the world...",
+      "x": 275,
+      "y": 27,
+      "icon": {
+        "id": "minecraft:ender_eye"
+      },
+      "prerequisites": [
+        "By My Command"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:ender_eye"
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemLootBag",
+          "damage": 2,
+          "amount": 3
+        },
+        {
+          "id": "ExtraUtilities:decorativeBlock1",
+          "damage": 11
+        }
+      ]
+    },
+    {
+      "name": "The Dividend and the Divisor",
+      "description": "When the you are below the moon and the animial at its doom. You will have been granted the power to divide...",
+      "x": 228,
+      "y": 64,
+      "icon": {
+        "id": "ExtraUtilities:divisionSigil",
+        "nbt": "{damage:256}"
+      },
+      "prerequisites": [
+        "By My Command"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:divisionSigil",
+                "nbt": "{damage:256}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "The Twilight",
+      "description": "Your journal speaks of another realm where magic is rich and ripe for the taking. There are scribbled diagrams of a portal created by a 2x2 of water surrounded by flowers. A large burst of energy is required to ignite the portal, a diamond should suffice for this. Create a portal to the Twilight Forest.",
+      "x": 157,
+      "y": 87,
+      "icon": {
+        "id": "TwilightForest:item.scepterTwilight"
+      },
+      "prerequisites": [
+        "A Place To Lay Your Head"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:water_bucket"
+              },
+              "required": 2,
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:diamond"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TwilightForest:item.liveRoot",
+          "amount": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Thaumcraft:ItemResource",
+          "damage": 9,
+          "amount": 4
+        },
+        {
+          "id": "TwilightForest:item.mazebreakerPick",
+          "nbt": "{ench:[0:{lvl:4s,id:32s},1:{lvl:3s,id:34s},2:{lvl:2s,id:35s}]}"
+        },
+        {
+          "id": "TwilightForest:tile.TFSapling",
+          "damage": 6
+        }
+      ]
+    },
+    {
+      "name": "Twisting Turning....",
+      "description": "Below the bedrock? Seems impossible at first but your journal records an obsidian gateway ignited by flame that leads into a tormented hellscape. Create a nether portal and continue your progress, be weary for the night is dark and full of terrors.",
+      "x": 177,
+      "y": 65,
+      "icon": {
+        "id": "minecraft:quartz"
+      },
+      "prerequisites": [
+        "A Place To Lay Your Head"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:obsidian"
+              },
+              "required": 10
+            },
+            {
+              "item": {
+                "id": "minecraft:flint_and_steel"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "witchery:poppet",
+          "damage": 3,
+          "nbt": "{WITCDamage:0}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:glowstone",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:quartz",
+          "amount": 8
+        },
+        {
+          "id": "minecraft:nether_brick",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:lava_bucket",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "I Speak for the Trees",
+      "description": "Trees, although mundane provide an unending source of energy for you both magically, and physically. Harvest oak\u0027s bounty by collecting saplings, wood, and apples. Turn some of the wood into charcoal for yourself. ",
+      "x": 78,
+      "y": 55,
+      "icon": {
+        "id": "NOVA:blockSapling"
+      },
+      "prerequisites": [
+        "Taming the Lands"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:sapling"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:log"
+              },
+              "required": 5,
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:apple"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:coal",
+                "damage": 1
+              },
+              "required": 5,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "NOVA:blockSapling"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Thaumcraft:ItemAxeThaumium"
+        },
+        {
+          "id": "Thaumcraft:ItemResource",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:dye",
+          "damage": 15,
+          "amount": 16
+        },
+        {
+          "id": "HardcoreQuesting:hqmInvalidItem"
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

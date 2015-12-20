@@ -1,0 +1,1318 @@
+{
+  "name": "Legacy of the Draíochta",
+  "quests": [
+    {
+      "name": "The Fool",
+      "description": "These plants do not spark or crackle with power. They are not whisperers of dark secrets. They are humble plants in service to Nature. Find them by breaking tall grass.",
+      "x": 23,
+      "y": 15,
+      "bigicon": true,
+      "icon": {
+        "id": "witchery:ingredient",
+        "damage": 81
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:seedsbelladonna"
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 21
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "witchery:seedsmandrake"
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 22
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "witchery:seedssnowbell"
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "witchery:seedsartichoke"
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 69
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "minecraft:sapling"
+              },
+              "required": 3
+            },
+            {
+              "item": {
+                "id": "minecraft:sapling",
+                "damage": 1
+              },
+              "required": 3
+            },
+            {
+              "item": {
+                "id": "minecraft:sapling",
+                "damage": 2
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "witchery:ingredient",
+          "damage": 81
+        },
+        {
+          "id": "witchery:earmuffs"
+        },
+        {
+          "id": "witchery:ingredient",
+          "damage": 22,
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "The Chariot",
+      "description": "Only the purest substances can be made as an offering to Nature. A witch\u0027s oven is able to capture the essences within plants, mostly saplings, and bottle them for use. The only container stable enough to hold these ethereal extracts are clay jars. On a sidenote, the oven is paricularly good at making food and charcoal. ",
+      "x": 68,
+      "y": 30,
+      "icon": {
+        "id": "witchery:ingredient",
+        "damage": 28
+      },
+      "prerequisites": [
+        "The Fool"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:witchesovenidle"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 31
+              },
+              "required": 3
+            },
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 33
+              },
+              "required": 3
+            },
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 32
+              },
+              "required": 3
+            },
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 18
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "witchery:ingredient",
+          "damage": 46
+        },
+        {
+          "id": "witchery:ingredient",
+          "damage": 27,
+          "amount": 64
+        },
+        {
+          "id": "minecraft:iron_ingot",
+          "amount": 8
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "The Magician",
+      "description": "The Witches Cauldron is an important tool in your kitchen. Allowing you to brew up any manner of brews, potions, or substances. To continue filling out your garden, you\u0027ll need a few more plants. Make Mutandis within the cauldron.",
+      "x": 43,
+      "y": 64,
+      "icon": {
+        "id": "witchery:cauldron"
+      },
+      "prerequisites": [
+        "The Chariot"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 153
+              }
+            },
+            {
+              "item": {
+                "id": "witchery:cauldron"
+              }
+            },
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 14
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "witchery:cauldronbook"
+        },
+        {
+          "id": "witchery:ingredient",
+          "damage": 24,
+          "amount": 5
+        },
+        {
+          "id": "witchery:ingredient",
+          "damage": 25,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "The Empress",
+      "description": "These are Nature\u0027s favored Trees. They contain slightly more powerful essences and are protected by her power. Be wary, as she may send guardians to protect them.",
+      "x": 88,
+      "y": 67,
+      "bigicon": true,
+      "icon": {
+        "id": "witchery:ingredient",
+        "damage": 14
+      },
+      "prerequisites": [
+        "The Magician"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:witchsapling",
+                "damage": 1
+              },
+              "required": 3
+            },
+            {
+              "item": {
+                "id": "witchery:witchsapling",
+                "damage": 2
+              },
+              "required": 3
+            },
+            {
+              "item": {
+                "id": "witchery:witchsapling"
+              },
+              "required": 3
+            },
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 34
+              },
+              "required": 3
+            },
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 35
+              },
+              "required": 3
+            },
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 36
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:diamond",
+          "amount": 3
+        },
+        {
+          "id": "minecraft:iron_ingot",
+          "amount": 16
+        },
+        {
+          "id": "witchery:ingredient",
+          "damage": 14,
+          "amount": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "arsmagica2:rune",
+          "damage": 17
+        },
+        {
+          "id": "Thaumcraft:ItemEssence",
+          "damage": 1,
+          "amount": 4,
+          "nbt": "{Aspects:[0:{amount:8,key:\"tutamen\"}]}"
+        },
+        {
+          "id": "Botania:specialFlower",
+          "amount": 3,
+          "nbt": "{type:\"daybloom\"}"
+        },
+        {
+          "id": "aura:AuraCrystal",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "The Lovers",
+      "description": "The first thing a Witch learns is to direct negative energy to a simulacrum.  This carefully constructed doll is the target of all manner of foul and evil intentions.  Practice stitching simple Poppets, link them to you or others by pricking them.with a taglock and then weaving the blood in.  A poppet will only protect you if it is in your inventory",
+      "x": 143,
+      "y": 43,
+      "icon": {
+        "id": "TConstruct:heartCanister",
+        "damage": 1
+      },
+      "prerequisites": [
+        "The Empress"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:poppet",
+                "damage": 3,
+                "nbt": "{WITCDamage:0}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "witchery:poppet",
+                "damage": 4,
+                "nbt": "{WITCDamage:0}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "witchery:taglockkit"
+              },
+              "required": 3,
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "witchery:poppet",
+                "nbt": "{WITCDamage:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "witchery:embermoss",
+          "amount": 5
+        },
+        {
+          "id": "witchery:spanishmoss",
+          "amount": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:2s,id:43s}]}"
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:3s,id:4s}]}"
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:3s,id:3s}]}"
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:3s,id:1s}]}"
+        }
+      ]
+    },
+    {
+      "name": "The High Priestess",
+      "description": "Mary! Mary! quite contrary; How does your garden grow?  The second thing a Witch learns is to bend nature.  You\u0027ll need a wand that contains the spark of Nature\u0027s Guardian, Mutandis thats been enhanced, and a plant from a netherworld.  With this Sprig you\u0027ll be able to change Nature\u0027s basic flora and fauna into what you need them to be.",
+      "x": 46,
+      "y": 124,
+      "icon": {
+        "id": "chocolateQuest:staffLife"
+      },
+      "prerequisites": [
+        "The Empress"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:mutator"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "witchery:ingredient",
+          "damage": 82,
+          "amount": 2
+        },
+        {
+          "id": "witchery:ingredient",
+          "damage": 24,
+          "amount": 5
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Thaumcraft:ItemBathSalts",
+          "amount": 5
+        },
+        {
+          "id": "arsmagica2:rune",
+          "damage": 17
+        },
+        {
+          "id": "Botania:floatingSpecialFlower",
+          "amount": 2,
+          "nbt": "{type:\"hydroangeas\"}"
+        },
+        {
+          "id": "Thaumcraft:ItemEssence",
+          "damage": 1,
+          "amount": 4,
+          "nbt": "{Aspects:[0:{amount:8,key:\"telum\"}]}"
+        }
+      ]
+    },
+    {
+      "name": "The Hierophant",
+      "description": "\"An altar is a focal point to concentrate the magic present in the surrounding area into single usable source of power. Since witchcraft is a method to harness the power of nature, placing an altar in a location with little or no living things will yield very little magic to work with. An altar is created by placing six altar blocks in a 2x3 pattern; you will know it is correct when a red cloth appears over the top of the altar. Activating the altar by right-clicking on it will bring up a screen showing how much power the altar has collected, how much it can collect and its current recharge rate. It is important to check that there is sufficient available power to perform a given rite or use a distillery or kettle recipe. The  maximum amount of power available is determined by how many natural items are in the vicinity of the altar, dirt, grass, trees, plants, etc. all contribute; stone and sand do not. The important thing is to have a diverse mix of different plants, trees and crops (plants from other mods are supported to an extent as well).\"",
+      "x": 130,
+      "y": 81,
+      "bigicon": true,
+      "icon": {
+        "id": "Botania:goldenLaurel"
+      },
+      "prerequisites": [
+        "The Empress"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:altar"
+              },
+              "required": 6,
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "witchery:ingredient",
+          "damage": 48
+        },
+        {
+          "id": "witchery:circletalisman"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "witchery:chalkinfernal"
+        },
+        {
+          "id": "minecraft:nether_wart",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:blaze_powder",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:diamond",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "Judgement",
+      "description": "\"Excellent, you should be well versed in sympathetic magics now.  With powerful ingredients you can craft poppets that will absorb death itself.  With mastery of this magic also comes a bonus, a poppet shelf will hold all your poppets and apply them to you as if they were in your inventory without taking up space.\"",
+      "x": 178,
+      "y": 28,
+      "icon": {
+        "id": "witchery:poppetshelf"
+      },
+      "prerequisites": [
+        "The Lovers"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:poppet",
+                "damage": 6,
+                "nbt": "{WITCDamage:0}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "witchery:poppetshelf"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "witchery:ingredient",
+          "damage": 39,
+          "amount": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "The World",
+      "description": "You\u0027ll need these plants in your arsenal for truly complex mutations, including the creation of familiars and other creatures that do your bidding.",
+      "x": 21,
+      "y": 162,
+      "icon": {
+        "id": "witchery:grassper"
+      },
+      "prerequisites": [
+        "The High Priestess"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:grassper"
+              },
+              "required": 4,
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "witchery:crittersnare"
+              },
+              "required": 4,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "witchery:leechchest"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "arsmagica2:rune",
+          "damage": 18
+        },
+        {
+          "id": "Thaumcraft:WandRod",
+          "damage": 2
+        },
+        {
+          "id": "AWWayofTime:demonicSlate",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "The Tower",
+      "description": "Casting a ritual requires a circle to be drawn in runic glyphs. These powerful totems can be used in Summoning Magic, Tranfiguaration, an Enchanting.  Some say; in the dark of night, they have seen witches use the circles to even take hold and command the Dead.  Each ritual uses a single or multiple circles, in one of the 3 different colors.  Use the Witchery: Circle Magic, to research different rituals and colored chalk.  A circle talisman can absorb the glyphs for later use, and a broom can easily erase mistaken marks.",
+      "x": 211,
+      "y": 59,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:stonebrick",
+        "damage": 3
+      },
+      "prerequisites": [
+        "The Hierophant"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:chalkritual"
+              }
+            },
+            {
+              "item": {
+                "id": "witchery:chalkotherwhere"
+              }
+            },
+            {
+              "item": {
+                "id": "witchery:chalkheart"
+              }
+            },
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 8
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "witchery:ingredient",
+          "damage": 149,
+          "amount": 5
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ExtraUtilities:divisionSigil"
+        },
+        {
+          "id": "Thaumcraft:ItemResource",
+          "damage": 17
+        },
+        {
+          "id": "Botania:overgrowthSeed"
+        }
+      ]
+    },
+    {
+      "name": "The Hanged Man",
+      "description": "\"Have you been tending to your altar young witch?  To boost it\u0027s power, range and regeneration you need to provide it some of the following: Base Power: Skull 1x or Wither Skull 2x,  And either Chalice 1x or  Filled Chalice 1x.  Base recharge rate: Torch 1x  or Candelabra  2x AND a Pentacle 2x.  An Arthana will provide 2x distribution range.  It is the opinion of some Witches that you can boost the altar more if you lay upon it the Egg of a Great Ender Beast.\"",
+      "x": 240,
+      "y": 41,
+      "icon": {
+        "id": "minecraft:skull",
+        "damage": 3
+      },
+      "prerequisites": [
+        "The Tower"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:skull"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "witchery:arthana"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "witchery:ingredient",
+          "damage": 149,
+          "amount": 5
+        },
+        {
+          "id": "minecraft:emerald",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "Temperance",
+      "description": "A distillery used by a witch is a construct used for distilling magical ingredients. It is unlike a normal distillery, because it heats itself using energy obtained from a nearby altar, the distillery must be within about 14 (to 16) blocks of an altar to draw power from it.  Recipes can be found in Witchcraft: Distilling",
+      "x": 178,
+      "y": 99,
+      "icon": {
+        "id": "TConstruct:CraftingSlab",
+        "damage": 5
+      },
+      "prerequisites": [
+        "The Hierophant"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:distilleryidle"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "witchery:ingredient",
+          "damage": 47
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:diamond",
+          "amount": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "Thaumcraft:ItemLootBag",
+          "damage": 2,
+          "amount": 3
+        },
+        {
+          "id": "ChromatiCraft:chromaticraft_item_fragment",
+          "nbt": "{page:\"CASTING1\"}"
+        }
+      ]
+    },
+    {
+      "name": "Justice",
+      "description": "\"Time to put your research into practice.  Create refined and purified ingredients to assist you in your cauldron and circle rituals\"",
+      "x": 203,
+      "y": 123,
+      "icon": {
+        "id": "props:props",
+        "damage": 228
+      },
+      "prerequisites": [
+        "Temperance"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 30
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 29
+              },
+              "required": 3
+            },
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 38
+              },
+              "required": 3
+            },
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 67
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:ender_pearl",
+          "amount": 3
+        },
+        {
+          "id": "Thaumcraft:ItemEssence",
+          "damage": 1,
+          "amount": 4,
+          "nbt": "{Aspects:[0:{amount:8,key:\"iter\"}]}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "witchery:bramble"
+        },
+        {
+          "id": "Botania:manaResource",
+          "damage": 15,
+          "amount": 2
+        },
+        {
+          "id": "minecraft:end_stone",
+          "amount": 8
+        },
+        {
+          "id": "aura:magicRoad",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "Strength",
+      "description": "Nothing invokes the image of witchcraft more than a bubbling witches kettle (or cauldron), which is used to make witches brews and later infusions. A kettle must be set up in the correct way, before it may be used. Firstly, a fire must be set under the kettle (netherrack is best for this, but wood will do just as well). Next the kettle must be filled by using a Water-filled Bucket on it. Thirdly, the ingredients for the brew or infusion must be thrown into the kettle (the liquid will change color according to the recipe being used). Finally, a glass bottle must be used on the kettle to bottle the resulting brew.It is important to keep the fire going constantly while the recipe is being prepared, otherwise it will be ruined. Swirls coming from thekettle is a sign all is well, black smoke (and brown liquid) indicates the brew is ruined. When a brew is ruined, the kettle must be emptied with a glass bottle, or just filled with more water, and the whole process repeated. When a brew is complete, the liquid will be the color of the resulting brew and will splutter (in addition to white swirls). All recipes can be found in the book Witchcraft: Brews \u0026 Infusions, and they all require six ingredients.",
+      "x": 90,
+      "y": 119,
+      "icon": {
+        "id": "witchery:kettle"
+      },
+      "prerequisites": [
+        "The Hierophant"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:kettle"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "witchery:ingredient",
+          "damage": 49
+        },
+        {
+          "id": "witchery:witchhat"
+        },
+        {
+          "id": "minecraft:diamond",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "The Hermit",
+      "description": "\"Some recipes will require magical energy from a nearby Altar before they are bottled. If the brew is bottled when insufficient energy is available, the brew will be ruined. Black swirls coming from the Kettle is a good sign there is not enough power. A kettle must be within 14 (to 16) blocks of an Altar in order to obtain power from it (it can obtain power only from a single altar).\"",
+      "x": 73,
+      "y": 152,
+      "icon": {
+        "id": "minecraft:leather_helmet"
+      },
+      "prerequisites": [
+        "Strength"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 40
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "witchery:ingredient",
+          "damage": 39,
+          "amount": 2
+        },
+        {
+          "id": "witchery:ingredient",
+          "damage": 72,
+          "amount": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Forestry:impregnatedCasing",
+          "amount": 4
+        },
+        {
+          "id": "Botania:floatingSpecialFlower",
+          "nbt": "{type:\"pollidisiac\"}"
+        },
+        {
+          "id": "Thaumcraft:ItemGolemCore",
+          "damage": 8
+        },
+        {
+          "id": "arsmagica2:Aum",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Wheel of Fortune",
+      "description": "\"A crystal ball is a crystal or glass ball is used by Witches to focus thier clairvoyance. Holding a Taglock Kit  containing the taglocks of another player or creature will allow the witch to see through the eyes of that being, so long as they are not too far away (within 100 - 150 blocks). Holding a Taglock Kit containing their own taglocks will allow the witch to view the immediate area from an increasingly wide bird\u0027s eye perspective. Holding a Bound Waystone will allow the witch to view the area around the waystone from an increasingly wide bird\u0027s eye perspective, so long as that location is not too far away (within 100 - 150 blocks). The crystal ball may also be used without a Taglock Kit  to glimpse into the future of the player (or if another player is nearby, into their future). Predictions made by the player when looking into the ball may be positive or negative, but they will happen. Using such powerful magic concerning fate may attract unwanted attention however. If reading the future of another nearby player, the closest other player to the Crystal Ball will be the one who is read.\"",
+      "x": 120,
+      "y": 132,
+      "icon": {
+        "id": "witchery:crystalball"
+      },
+      "prerequisites": [
+        "The Hierophant"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:crystalball"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:quartz",
+          "amount": 32
+        },
+        {
+          "id": "witchery:ingredient",
+          "damage": 66,
+          "amount": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreEnderExpansion:essence",
+          "amount": 20
+        },
+        {
+          "id": "arsmagica2:bookAffinity"
+        },
+        {
+          "id": "aura:ingotAngelSteel",
+          "damage": 3,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "The Moon",
+      "description": "The Spirit World is an alternate reality that mirrors the Overworld in topography. When people dream they often end up in the spirit world without realizing it (often appearing as one of its many denizens). Powerful witches can create Brews of Sleeping that allow them to pass their awake consciousness into the Spirit World, leaving their bodies and gear behind.  Also an Apple of Sleeping may be used to enter the Spirit World.",
+      "x": 157,
+      "y": 128,
+      "icon": {
+        "id": "witchery:mooncharm"
+      },
+      "prerequisites": [
+        "The Hierophant"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:spinningwheel"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 99
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 95
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "witchery:ingredient",
+          "damage": 99,
+          "amount": 5
+        },
+        {
+          "id": "witchery:ingredient",
+          "damage": 91
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Botania:specialFlower",
+          "nbt": "{type:\"whisperweed\"}"
+        },
+        {
+          "id": "Forestry:beeQueenGE",
+          "nbt": "{MaxH:20,Health:20,IsAnalyzed:1b,Genome:{Chromosomes:[0:{UID1:\"fe.bees.species.reinforced\",UID0:\"fe.bees.species.reinforced\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:9b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:10b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
+        },
+        {
+          "id": "Thaumcraft:ItemEssence",
+          "damage": 1,
+          "amount": 4,
+          "nbt": "{Aspects:[0:{amount:8,key:\"humanus\"}]}"
+        },
+        {
+          "id": "AWWayofTime:bloodMagicBaseItems",
+          "damage": 27,
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "The Stars",
+      "description": "A dreamcatcher, or dream snare, is a handmade object normally made from a wooden loop, on which is woven a loose net or web of imbued sinew. The dreamcatcher is then decorated with sacred items such as feathers and beads. The resulting \"dream catcher\", hung above the bed, is used as a charm to protect sleeping people from nightmares by sifting the sleepers dreams and in some cases weaving them into something new and beneficial to the dreamer. But beware, there is but a fine line between dreams and nightmares, and a less scrupulous practitioner of the art might find ways to sieve the dreams to leave only nightmares.",
+      "x": 158,
+      "y": 168,
+      "prerequisites": [
+        "The Moon"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 6
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "witchery:somniancotton",
+          "amount": 16
+        },
+        {
+          "id": "witchery:ingredient",
+          "damage": 96
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "arsmagica2:rune",
+          "damage": 19
+        },
+        {
+          "id": "Thaumcraft:blockJar",
+          "damage": 1
+        },
+        {
+          "id": "Botania:blackLotus",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "The Sun",
+      "description": "Certain famous witches have been known to require a bit of a ego boost from time to time, and have found ways though magic to achieve this, in the form of the Magic Mirror. Such a mirror traps a demon who will provide certain services for its owner, including the aforementioned ego boosting. Once created, using a Rite of Infusion (a medium white circle containing a Brew of Hollow Tears, a Gold Ingot, a Glass Pane and a Demon), the mirror may be placed on any two high wall (at the top block).",
+      "x": 186,
+      "y": 159,
+      "icon": {
+        "id": "props:props",
+        "damage": 375
+      },
+      "prerequisites": [
+        "The Moon"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:mirror"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "witchery:ingredient",
+          "damage": 150,
+          "amount": 3
+        },
+        {
+          "id": "minecraft:spawn_egg",
+          "damage": 98
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Mystcraft:page",
+          "amount": 6,
+          "nbt": "{linkpanel:{properties:[0:\"Intra Linking\"]}}"
+        },
+        {
+          "id": "Forestry:beeQueenGE",
+          "nbt": "{MaxH:20,Health:20,IsAnalyzed:1b,Genome:{Chromosomes:[0:{UID1:\"magicbees.speciesFluix\",UID0:\"magicbees.speciesFluix\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityLow\",UID0:\"forestry.fertilityLow\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:9b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:10b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
+        },
+        {
+          "id": "evilcraft:bowlOfPromises",
+          "damage": 2
+        },
+        {
+          "id": "Botania:specialFlower",
+          "nbt": "{type:\"euclidaisy\"}"
+        }
+      ]
+    },
+    {
+      "name": "The Emporer",
+      "description": "Mirrors without demons have another useful property when placed a short distance apart (up to 16 blocks) and back to back, in such a configuration they act as a doorway between each other. This effect can also occur vertically if placed over one another with the same facing.",
+      "x": 221,
+      "y": 179,
+      "prerequisites": [
+        "The Sun"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 165
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "witchery:dupgrenade"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "witchery:ingredient",
+          "damage": 150,
+          "amount": 3
+        },
+        {
+          "id": "minecraft:spawn_egg",
+          "damage": 120
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Thaumcraft:ItemSpawnerEgg",
+          "damage": 27
+        },
+        {
+          "id": "Thaumcraft:ItemEssence",
+          "damage": 1,
+          "amount": 4,
+          "nbt": "{Aspects:[0:{amount:8,key:\"lucrum\"}]}"
+        },
+        {
+          "id": "witchery:ingredient",
+          "damage": 102,
+          "amount": 8
+        },
+        {
+          "id": "arsmagica2:rune",
+          "damage": 18
+        }
+      ]
+    },
+    {
+      "name": "Death",
+      "description": "\"Demons and Flame Imps are powerful, evil beings who dwell in the infernal dimensions. Indeed, bargaining with a demon is one of only two ways to obtain a Demon Heart; the main ingredient for an Infernal infusion. The other way is of course to slay a demon (preferably with an arthana).  A Charm held in your hand can sway a Demon into simply trading, while a Demonic Contract in your blood will tempt the Imp into giving you favors\"",
+      "x": 240,
+      "y": 89,
+      "icon": {
+        "id": "witchery:deathshand"
+      },
+      "prerequisites": [
+        "The Tower"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 140
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "witchery:devilstonguecharm"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "witchery:ingredient",
+          "damage": 23
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "The Devil",
+      "description": "A Lord of Torment is a mighty demonic being that is able to create prisons to Torment its victims. Those foolish enough to summon one of these creatures must prepare for an arduous fight. A Lord of Torment may only be summoned using the Ritual outlined in a Torment Scroll. These scrolls are hard to come by, but it is rumored that well treated Flame Imps have occasionally given them up. Consuming the Soul of a Torment Demon grants the ability to Torment others.",
+      "x": 275,
+      "y": 64,
+      "icon": {
+        "id": "witchery:devilstonguecharm"
+      },
+      "prerequisites": [
+        "The Hanged Man",
+        "Death"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 141
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:spawn_egg",
+          "damage": 6410
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

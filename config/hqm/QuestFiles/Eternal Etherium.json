@@ -1,0 +1,906 @@
+{
+  "name": "Eternal Etherium",
+  "quests": [
+    {
+      "name": "The Sound and the Fury",
+      "description": "You notice large pools of a glowing white water. Upon closer examination, it\u0027s still water. Yet you can feel the raw and powerful energy clawing at you bit by bit, pulling you closer to the pool. Something compels you to hang a book above the pool.",
+      "x": 28,
+      "y": 14,
+      "bigicon": true,
+      "icon": {
+        "id": "arsmagica2:ArcaneCompendium"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:book"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:item_frame"
+              }
+            },
+            {
+              "item": {
+                "id": "arsmagica2:liquidEssenceBucket"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "arsmagica2:manaMartini",
+          "amount": 3
+        },
+        {
+          "id": "arsmagica2:rune",
+          "damage": 17
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Sight Beyond Sight",
+      "description": "After discovering the raw energy source, you find yourself desiring more insight into this strange new world. You decide to create a lens of sorts, allowing you to peer into this unseen world.",
+      "x": 64,
+      "y": 47,
+      "icon": {
+        "id": "arsmagica2:occulus"
+      },
+      "prerequisites": [
+        "The Sound and the Fury"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "arsmagica2:occulus"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "arsmagica2:vinteumOre",
+          "amount": 16
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Tools of the Trade",
+      "description": "Magic comes in handy and all but sometimes, all it really needs is a good whack with a wrench.",
+      "x": 23,
+      "y": 58,
+      "icon": {
+        "id": "arsmagica2:magitechStaff"
+      },
+      "prerequisites": [
+        "The Sound and the Fury"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "arsmagica2:magitechStaff"
+              }
+            },
+            {
+              "item": {
+                "id": "arsmagica2:crystal_wrench"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "arsmagica2:magitechGoggles"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "arsmagica2:blueChalk",
+          "amount": 2
+        },
+        {
+          "id": "arsmagica2:itemOre",
+          "damage": 8,
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "The Pen and the Sword",
+      "description": "In order to record the mystical happenings, you decide it\u0027s time to create a magical desk to help house your studies.",
+      "x": 96,
+      "y": 25,
+      "icon": {
+        "id": "arsmagica2:InscriptionTable"
+      },
+      "prerequisites": [
+        "The Sound and the Fury"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "arsmagica2:InscriptionTable"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:quartz_block",
+          "amount": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "arsmagica2:spellParchment",
+          "amount": 8
+        },
+        {
+          "id": "arsmagica2:rune",
+          "damage": 1,
+          "amount": 8
+        },
+        {
+          "id": "minecraft:snowball",
+          "amount": 32
+        },
+        {
+          "id": "minecraft:golden_apple"
+        }
+      ]
+    },
+    {
+      "name": "Shaping the World",
+      "description": "With a basic understanding of magic, you decide to use it for a basic, but much needed task, of moving the earth around you",
+      "x": 38,
+      "y": 90,
+      "icon": {
+        "id": "arsmagica2:CraftingAltar"
+      },
+      "prerequisites": [
+        "Tools of the Trade"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "arsmagica2:CraftingAltar"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "arsmagica2:rune",
+          "damage": 17
+        },
+        {
+          "id": "TConstruct:ore.berries.two",
+          "damage": 9,
+          "amount": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ForbiddenMagic:WandCaps",
+          "damage": 1,
+          "amount": 2
+        },
+        {
+          "id": "ForbiddenMagic:WandCores",
+          "damage": 10
+        },
+        {
+          "id": "Forestry:beeQueenGE",
+          "nbt": "{MaxH:20,Health:20,IsAnalyzed:1b,Genome:{Chromosomes:[0:{UID1:\"magicbees.speciesAMArcane\",UID0:\"magicbees.speciesAMArcane\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityLow\",UID0:\"forestry.fertilityLow\",Slot:3b},4:{UID1:\"forestry.toleranceBoth2\",UID0:\"forestry.toleranceBoth2\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"magicbees.flowerflowerArsMagicaPlant\",UID0:\"magicbees.flowerflowerArsMagicaPlant\",Slot:10b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
+        },
+        {
+          "id": "TwilightForest:item.charmOfKeeping3",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "The Night that Covers Me",
+      "description": "Water. Coursing through your veins in the guise of blood. The murky darknes pulls you deeper, filling your lungs with the blue abyssal depths. As you are pulled deeper, you ready yourself for the salty leviathan of the deep",
+      "x": 81,
+      "y": 94,
+      "icon": {
+        "id": "arsmagica2:essence",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Shaping the World"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Water Guardian",
+              "icon": {
+                "id": "arsmagica2:essence",
+                "damage": 4
+              },
+              "mob": "arsmagica2.BossWaterGuardian",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "arsmagica2:essence",
+          "damage": 4,
+          "amount": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "evilcraft:eternalWaterBlock"
+        },
+        {
+          "id": "ExtraBees:hive"
+        },
+        {
+          "id": "arsmagica2:flickerJar",
+          "damage": 2
+        },
+        {
+          "id": "AWWayofTime:waterSigil"
+        }
+      ]
+    },
+    {
+      "name": "Whatever Gods May Be",
+      "description": "Upon this rock you make your stand. The dust from which you came seeks to reclaim you. Brace yourself for the dust devil to come",
+      "x": 132,
+      "y": 89,
+      "icon": {
+        "id": "arsmagica2:essence",
+        "damage": 1
+      },
+      "prerequisites": [
+        "The Night that Covers Me"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Earth Guardian",
+              "icon": {
+                "id": "arsmagica2:essence",
+                "damage": 1
+              },
+              "mob": "arsmagica2.BossEarthGuardian",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "arsmagica2:essence",
+          "damage": 1,
+          "amount": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "arsmagica2:flickerFocus",
+          "damage": 4
+        },
+        {
+          "id": "arsmagica2:bookAffinity",
+          "damage": 4
+        },
+        {
+          "id": "AWWayofTime:earthScribeTool",
+          "amount": 2
+        },
+        {
+          "id": "Botania:rune",
+          "damage": 2,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "My Unconquerable Soul",
+      "description": "You have stood strong thus far, your will unflinching in the elements of this world which seek to do you in. The gale force winds circle around you. You scrape the heavens as you brace for the devil that seeks to drag you to hell",
+      "x": 149,
+      "y": 31,
+      "icon": {
+        "id": "arsmagica2:essence",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Whatever Gods May Be"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Air Guardian",
+              "icon": {
+                "id": "arsmagica2:essence",
+                "damage": 2
+              },
+              "mob": "arsmagica2.BossAirGuardian",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "arsmagica2:essence",
+          "damage": 2,
+          "amount": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:hqmInvalidItem"
+        },
+        {
+          "id": "arsmagica2:rune",
+          "damage": 17,
+          "amount": 3
+        },
+        {
+          "id": "arsmagica2:rune",
+          "damage": 18
+        },
+        {
+          "id": "AWWayofTime:airSigil"
+        }
+      ]
+    },
+    {
+      "name": "Bloody But Unbowed",
+      "description": "The powers which you have harnessed thus far to serve you have rebelled. The ",
+      "x": 209,
+      "y": 13,
+      "icon": {
+        "id": "arsmagica2:essence"
+      },
+      "prerequisites": [
+        "My Unconquerable Soul"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Arcane Guardian",
+              "icon": {
+                "id": "arsmagica2:essence"
+              },
+              "mob": "arsmagica2.BossArcaneGuardian",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "arsmagica2:essence",
+          "amount": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Thaumcraft:blockStoneDevice",
+          "damage": 12
+        },
+        {
+          "id": "thaumicenergistics:thaumicenergistics.block.arcane.assembler"
+        },
+        {
+          "id": "arsmagica2:essence",
+          "amount": 2
+        },
+        {
+          "id": "Forestry:beeQueenGE",
+          "nbt": "{MaxH:10,Health:10,IsAnalyzed:1b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesCultivated\",UID0:\"forestry.speciesCultivated\",Slot:0b},1:{UID1:\"forestry.speedFast\",UID0:\"forestry.speedFast\",Slot:1b},2:{UID1:\"forestry.lifespanShortest\",UID0:\"forestry.lifespanShortest\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:10b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
+        }
+      ]
+    },
+    {
+      "name": "This Place of Wrath and Tears",
+      "description": "Life\u0027s a B**** sometimes. Summon the Life guardian and claim dominion over the power to give and take the breath of existence itself.",
+      "x": 272,
+      "y": 62,
+      "icon": {
+        "id": "arsmagica2:essence",
+        "damage": 8
+      },
+      "prerequisites": [
+        "Bloody But Unbowed"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Life Guardian",
+              "icon": {
+                "id": "arsmagica2:essence",
+                "damage": 8
+              },
+              "mob": "arsmagica2.BossLifeGuardian",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "arsmagica2:essence",
+          "damage": 8,
+          "amount": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "TwilightForest:item.scepterLifeDrain"
+        },
+        {
+          "id": "HardcoreEnderExpansion:charm",
+          "damage": 28
+        },
+        {
+          "id": "arsmagica2:flickerJar",
+          "damage": 9
+        },
+        {
+          "id": "TConstruct:heartCanister",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "The Horror of the Shade",
+      "description": "You always felt the natural world around you. You treasured the time you\u0027ve spent in nature, it makes you feel strong, independent even. But as of late... you\u0027ve almost felt something... watching you",
+      "x": 277,
+      "y": 129,
+      "icon": {
+        "id": "arsmagica2:essence",
+        "damage": 5
+      },
+      "prerequisites": [
+        "This Place of Wrath and Tears"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Nature Guardian",
+              "icon": {
+                "id": "arsmagica2:essence",
+                "damage": 5
+              },
+              "mob": "arsmagica2.BossNatureGuardian",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "arsmagica2:essence",
+          "damage": 5,
+          "amount": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "arsmagica2:flickerFocus",
+          "damage": 832
+        },
+        {
+          "id": "HardcoreQuesting:hqmInvalidItem"
+        },
+        {
+          "id": "Botania:pylon",
+          "damage": 1
+        },
+        {
+          "id": "Natura:Obelisk"
+        }
+      ]
+    },
+    {
+      "name": "The Menace of the Years",
+      "description": "The thunder rolls, and the lightning strikes. Since ancient times, man worshipped lightning as an act of god. Some seek to harness the limitless power of electricity, but you seek to do more. You seek to make it your own. To conquer its very existence. ",
+      "x": 235,
+      "y": 190,
+      "icon": {
+        "id": "arsmagica2:essence",
+        "damage": 7
+      },
+      "prerequisites": [
+        "The Horror of the Shade"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Lightning Guardian",
+              "icon": {
+                "id": "arsmagica2:essence",
+                "damage": 7
+              },
+              "mob": "arsmagica2.BossLightningGuardian",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "arsmagica2:essence",
+          "damage": 7,
+          "amount": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "arsmagica2:lightningCharm"
+        },
+        {
+          "id": "Thaumcraft:FocusShock"
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:2s,id:243s}]}"
+        }
+      ]
+    },
+    {
+      "name": "The Master of My Fate",
+      "description": "Fate. Fate is a funny thing. No matter how it goes, it always catches you. You always end up in it\u0027s cold unreleasing grasp. You slowly start to see your breath crystalize... time\u0027s up.",
+      "x": 180,
+      "y": 154,
+      "icon": {
+        "id": "Botania:rune",
+        "damage": 7
+      },
+      "prerequisites": [
+        "The Menace of the Years"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Winter Guardian",
+              "icon": {
+                "id": "arsmagica2:essence",
+                "damage": 6
+              },
+              "mob": "arsmagica2.BossWinterGuardian",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "arsmagica2:essence",
+          "damage": 6,
+          "amount": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "arsmagica2:rune",
+          "damage": 17,
+          "amount": 4
+        },
+        {
+          "id": "arsmagica2:rune",
+          "damage": 18,
+          "amount": 2
+        },
+        {
+          "id": "arsmagica2:rune",
+          "damage": 19
+        },
+        {
+          "id": "AWWayofTime:sigilOfElementalAffinity"
+        }
+      ]
+    },
+    {
+      "name": "The Captain of My Soul",
+      "description": "We start with a fire in our heart, by which no worldly immodesty can quench. as we slowly turn to ash, part by part, we try to hold on to that to which we clench.",
+      "x": 203,
+      "y": 85,
+      "icon": {
+        "id": "arsmagica2:essence",
+        "damage": 3
+      },
+      "prerequisites": [
+        "The Master of My Fate"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Fire Guardian",
+              "icon": {
+                "id": "arsmagica2:essence",
+                "damage": 3
+              },
+              "mob": "arsmagica2.BossFireGuardian",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "arsmagica2:essence",
+          "damage": 3,
+          "amount": 3
+        },
+        {
+          "id": "arsmagica2:rune",
+          "damage": 19
+        },
+        {
+          "id": "ThaumicExploration:trashJar"
+        }
+      ]
+    },
+    {
+      "name": "Woods are lovely, dark and deep",
+      "description": "While inscribing your word to parchment you find it nescesary to extract some of the naturally attuned flora to coax the and strengthen the effects you seek. Gather these items to assist in your spell creation.",
+      "x": 20,
+      "y": 135,
+      "icon": {
+        "id": "arsmagica2:TarmaRoot"
+      },
+      "prerequisites": [
+        "Shaping the World"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "arsmagica2:Aum"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "arsmagica2:wakebloom"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "arsmagica2:desertNova"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "arsmagica2:TarmaRoot"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "arsmagica2:obelisk"
+        },
+        {
+          "id": "arsmagica2:vinteumOre",
+          "amount": 16
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Mystcraft:page",
+          "amount": 4,
+          "nbt": "{linkpanel:{properties:[0:\"Intra Linking\"]}}"
+        },
+        {
+          "id": "Thaumcraft:ItemEssence",
+          "damage": 1,
+          "amount": 4,
+          "nbt": "{Aspects:[0:{amount:8,key:\"instrumentum\"}]}"
+        },
+        {
+          "id": "Botania:rune",
+          "damage": 4,
+          "amount": 4
+        },
+        {
+          "id": "witchery:ingredient",
+          "damage": 14,
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "But I have Promises to Keep",
+      "description": "Spellweaving is a task on its own, for more practical matters you\u0027ll need to construct a few machines to help your will bending. The Calefactor will smelt items for you using essence, and has a chance to produce some useful Vinteum for you. Next, some spells will require a more concentrated form of essence. For this you\u0027ll need to build an Essence Refiner. Lastly, no one likes broken things, the Arcane Reconstructor ",
+      "x": 67,
+      "y": 130,
+      "icon": {
+        "id": "arsmagica2:blockArcaneReconstructor"
+      },
+      "prerequisites": [
+        "Shaping the World"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "arsmagica2:calefactor"
+              }
+            },
+            {
+              "item": {
+                "id": "arsmagica2:essenceRefiner"
+              }
+            },
+            {
+              "item": {
+                "id": "arsmagica2:blockArcaneReconstructor"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "arsmagica2:slipstreamGenerator"
+        },
+        {
+          "id": "arsmagica2:flickerLure"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "arsmagica2:manaFocus"
+        },
+        {
+          "id": "arsmagica2:playerFocus"
+        },
+        {
+          "id": "arsmagica2:mobFocus"
+        },
+        {
+          "id": "arsmagica2:standardFocus"
+        }
+      ]
+    },
+    {
+      "name": "And Miles to Go Before I Sleep",
+      "description": "Your spellweaving takes you to every corner of the known world and beyond. A faster form of transportation has become a necessity. Constuct a Gateway and a keystone, naturally you\u0027ll need a place to keey your varius Keystones as well.",
+      "x": 101,
+      "y": 165,
+      "icon": {
+        "id": "arsmagica2:keystoneReceptacle"
+      },
+      "prerequisites": [
+        "But I have Promises to Keep"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "arsmagica2:keystoneReceptacle"
+              }
+            },
+            {
+              "item": {
+                "id": "arsmagica2:keystoneChest"
+              }
+            },
+            {
+              "item": {
+                "id": "arsmagica2:keystone"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "arsmagica2:itemOre",
+          "amount": 16
+        },
+        {
+          "id": "arsmagica2:itemOre",
+          "damage": 4,
+          "amount": 16
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Thaumcraft:blockCosmeticSolid",
+          "damage": 2,
+          "amount": 16
+        },
+        {
+          "id": "EnderIO:itemTravelStaff",
+          "nbt": "{Energy:250000}"
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:2s,id:150s}]}"
+        },
+        {
+          "id": "AWWayofTime:sigilOfHaste"
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

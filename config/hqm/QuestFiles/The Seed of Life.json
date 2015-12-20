@@ -1,0 +1,519 @@
+{
+  "name": "The Seed of Life",
+  "quests": [
+    {
+      "name": "The Seeds of Creation",
+      "description": "This green powder appears to have the ability to form other elements and structures, it also shows a great ablility to grow... You should work on getting suitable infrastructure to farm first.",
+      "x": 18,
+      "y": 9,
+      "bigicon": true,
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:wheat_seeds"
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "minecraft:sapling"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:dye",
+                "damage": 15
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "Thaumcraft:ItemShard",
+                "damage": 3
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:hqmInvalidItem"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Essence of Basic Elements",
+      "description": "Aha! by infusing this essence into a diamond you are able to manipulate the essence to great degree;you must infuse them with wheat seeds to start cultivation.",
+      "x": 71,
+      "y": 13,
+      "prerequisites": [
+        "The Seeds of Creation"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {}
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:hqmInvalidItem"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:hqmInvalidItem"
+        }
+      ]
+    },
+    {
+      "name": "Essence of Common Ores",
+      "description": "The elements serve you well but there is must be more, you will probably need a stronger stone...",
+      "x": 123,
+      "y": 13,
+      "prerequisites": [
+        "Essence of Basic Elements"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {}
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:hqmInvalidItem"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Essence of Rare Ores and Mobs",
+      "description": "With a more powerful stone you will likely be able to catylize seeds to farm the essence of creatures themselves!",
+      "x": 184,
+      "y": 13,
+      "prerequisites": [
+        "Essence of Common Ores"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {}
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:hqmInvalidItem"
+        },
+        {
+          "id": "minecraft:slime_ball",
+          "amount": 2
+        },
+        {
+          "id": "TConstruct:materials",
+          "damage": 15,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Essence of Legendary Ores",
+      "description": "With an upgraded stone you beleive you will be able to create some very rare materials in the near future.",
+      "x": 231,
+      "y": 13,
+      "prerequisites": [
+        "Essence of Rare Ores and Mobs"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {}
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:hqmInvalidItem"
+        },
+        {
+          "id": "TConstruct:materials",
+          "damage": 3,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Essence of All Things",
+      "description": "If you unlock the true potential of this stone you can make tools and armor with unmatched strength.",
+      "x": 280,
+      "y": 13,
+      "prerequisites": [
+        "Essence of Legendary Ores"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {}
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:hqmInvalidItem"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "minecraft:emerald",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Indentured Servants",
+      "description": "Farming is long and hard work, why not teach golems to do it for you?",
+      "x": 70,
+      "y": 51,
+      "bigicon": true,
+      "icon": {
+        "id": "Thaumcraft:ItemGolemPlacer"
+      },
+      "prerequisites": [
+        "Essence of Basic Elements"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemGolemCore",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemGolemCore",
+          "damage": 8
+        },
+        {
+          "id": "Thaumcraft:ItemGolemUpgrade",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Automation Nation",
+      "description": "Have your minions take over all your manual labor.",
+      "x": 48,
+      "y": 83,
+      "icon": {
+        "id": "Thaumcraft:ItemGolemCore",
+        "damage": 7
+      },
+      "prerequisites": [
+        "Indentured Servants"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemGolemCore",
+                "damage": 7
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemGolemCore",
+          "damage": 11
+        },
+        {
+          "id": "HardcoreQuesting:hqmInvalidItem"
+        },
+        {
+          "id": "arsmagica2:magicBroom"
+        }
+      ]
+    },
+    {
+      "name": "Thaumic Fertilizer",
+      "description": "There must be a way to speed up the process of growing through thurmaturgy.",
+      "x": 96,
+      "y": 84,
+      "icon": {
+        "id": "Thaumcraft:blockMetalDevice",
+        "damage": 8
+      },
+      "prerequisites": [
+        "Indentured Servants"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockMetalDevice",
+                "damage": 8
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemEssence",
+          "damage": 1,
+          "amount": 8,
+          "nbt": "{Aspects:[0:{amount:8,key:\"herba\"}]}"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Tending to The Crops",
+      "description": "Crops grow faster with water, right? Why not water them directly!",
+      "x": 21,
+      "y": 62,
+      "icon": {
+        "id": "ExtraUtilities:watering_can"
+      },
+      "prerequisites": [
+        "The Seeds of Creation"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:watering_can"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:melon_seeds",
+          "amount": 2
+        },
+        {
+          "id": "minecraft:pumpkin_seeds",
+          "amount": 2
+        },
+        {
+          "id": "Natura:barley.seed",
+          "damage": 1,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Botanical Fertilizer",
+      "description": "Agricarnations are flowers that will encourage crops nearby to grow at an increased rate for the cost mana.",
+      "x": 123,
+      "y": 50,
+      "icon": {
+        "id": "Botania:specialFlower",
+        "nbt": "{type:\"agricarnation\"}"
+      },
+      "prerequisites": [
+        "Essence of Common Ores"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:specialFlower",
+                "nbt": "{type:\"agricarnation\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:rune",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Ranching",
+      "description": "Bread is nice but meat is nicer.",
+      "x": 18,
+      "y": 135,
+      "bigicon": true,
+      "icon": {
+        "id": "props:props",
+        "damage": 233
+      },
+      "prerequisites": [
+        "Tending to The Crops"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:lead"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:fence"
+              },
+              "required": 2,
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:wheat"
+              },
+              "required": 3
+            },
+            {
+              "item": {
+                "id": "minecraft:carrot"
+              },
+              "required": 3
+            },
+            {
+              "item": {
+                "id": "minecraft:wheat_seeds"
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:spawn_egg",
+          "damage": 92,
+          "amount": 2
+        },
+        {
+          "id": "minecraft:spawn_egg",
+          "damage": 90,
+          "amount": 2
+        },
+        {
+          "id": "minecraft:spawn_egg",
+          "damage": 93,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Fresh Meat",
+      "description": "Killing animals is sad, get something to do it for you!",
+      "x": 58,
+      "y": 117,
+      "icon": {
+        "id": "Thaumcraft:ItemGolemCore",
+        "damage": 9
+      },
+      "prerequisites": [
+        "Ranching"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemGolemCore",
+                "damage": 9
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemGolemPlacer",
+          "damage": 6
+        }
+      ]
+    },
+    {
+      "name": "Aural Fertilizer",
+      "description": "This grower will make any seeds planted on top of it grow very quickly when supplied with power.",
+      "x": 154,
+      "y": 52,
+      "icon": {
+        "id": "aura:consumerBlockplant"
+      },
+      "prerequisites": [
+        "Essence of Basic Elements"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "aura:consumerBlockplant"
+              },
+              "required": 2,
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Ztones:cleanDirt",
+          "amount": 8
+        },
+        {
+          "id": "HardcoreQuesting:hqmInvalidItem"
+        },
+        {
+          "id": "Botania:fertilizer",
+          "amount": 4
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

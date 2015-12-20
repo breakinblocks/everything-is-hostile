@@ -1,0 +1,653 @@
+{
+  "name": "A Time to Bee Prepared",
+  "quests": [
+    {
+      "name": "Gather the Basics",
+      "description": "To start breeding trees you will first need some trees to start with. Go and find them! (The reward is a very good base tree to breed traits on.) To breed trees, you have to place two different forestry trees (turn vanilla saplings into forestry saplings by putting them into a treealyzer) near an apiary or similar. If there\u0027s bees alive, they\u0027ll slowly start to pollinate single leaf blocks. Make yourself some spectacles to be able to spot them and mine them by grafter so you definitely get the mutated sapling.",
+      "x": 17,
+      "y": 7,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:sapling"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:sapling"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:sapling",
+                "damage": 5
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:sapling",
+                "damage": 2
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:sapling",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:sapling",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Forestry:sapling",
+          "nbt": "{IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.treeLime\",UID0:\"forestry.treeLime\",Slot:0b},1:{UID1:\"forestry.growthLightlevel\",UID0:\"forestry.growthLightlevel\",Slot:1b},2:{UID1:\"forestry.heightSmall\",UID0:\"forestry.heightSmall\",Slot:2b},3:{UID1:\"forestry.saplingsLow\",UID0:\"forestry.saplingsLow\",Slot:3b},4:{UID1:\"forestry.fruitNone\",UID0:\"forestry.fruitNone\",Slot:4b},5:{UID1:\"forestry.yieldLower\",UID0:\"forestry.yieldLower\",Slot:5b},6:{UID1:\"forestry.plantTypeNone\",UID0:\"forestry.plantTypeNone\",Slot:6b},7:{UID1:\"forestry.sappinessLower\",UID0:\"forestry.sappinessLower\",Slot:7b},8:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:8b},9:{UID1:\"forestry.leavesNone\",UID0:\"forestry.leavesNone\",Slot:9b},10:{UID1:\"forestry.maturationAverage\",UID0:\"forestry.maturationAverage\",Slot:10b},11:{UID1:\"forestry.i1d\",UID0:\"forestry.i1d\",Slot:11b},12:{UID1:\"forestry.fireproofFalse\",UID0:\"forestry.fireproofFalse\",Slot:12b}]}}"
+        },
+        {
+          "id": "Forestry:sapling",
+          "nbt": "{IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.treeLarch\",UID0:\"forestry.treeLarch\",Slot:0b},1:{UID1:\"forestry.growthLightlevel\",UID0:\"forestry.growthLightlevel\",Slot:1b},2:{UID1:\"forestry.heightAverage\",UID0:\"forestry.heightAverage\",Slot:2b},3:{UID1:\"forestry.saplingsLow\",UID0:\"forestry.saplingsLow\",Slot:3b},4:{UID1:\"forestry.fruitNone\",UID0:\"forestry.fruitNone\",Slot:4b},5:{UID1:\"forestry.yieldLowest\",UID0:\"forestry.yieldLowest\",Slot:5b},6:{UID1:\"forestry.plantTypeNone\",UID0:\"forestry.plantTypeNone\",Slot:6b},7:{UID1:\"forestry.sappinessLower\",UID0:\"forestry.sappinessLower\",Slot:7b},8:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:8b},9:{UID1:\"forestry.leavesNone\",UID0:\"forestry.leavesNone\",Slot:9b},10:{UID1:\"forestry.maturationAverage\",UID0:\"forestry.maturationAverage\",Slot:10b},11:{UID1:\"forestry.i1d\",UID0:\"forestry.i1d\",Slot:11b},12:{UID1:\"forestry.fireproofFalse\",UID0:\"forestry.fireproofFalse\",Slot:12b}]}}"
+        },
+        {
+          "id": "ForestryExtras:item.fe.grafter.grafterReinforced"
+        }
+      ]
+    },
+    {
+      "name": "Bee Prepared!",
+      "description": "All these bees you can find in the overworld. Most bee species can be bred from those. Better don\u0027t try to breed anything before you\u0027ve made more drones of each species!",
+      "x": 290,
+      "y": 8,
+      "bigicon": true,
+      "icon": {
+        "id": "Forestry:beeDroneGE",
+        "nbt": "{MaxH:30,Health:30,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"extrabees.species.rock\",UID0:\"extrabees.species.rock\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanShort\",UID0:\"forestry.lifespanShort\",Slot:2b},3:{UID1:\"forestry.fertilityLow\",UID0:\"forestry.fertilityLow\",Slot:3b},4:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:7b},7:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:8b},8:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:9b},9:{UID1:\"extrabees.flower.rock\",UID0:\"extrabees.flower.rock\",Slot:10b},10:{UID1:\"forestry.floweringSlower\",UID0:\"forestry.floweringSlower\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Forestry:beePrincessGE",
+                "nbt": "{MaxH:20,Health:20,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesMeadows\",UID0:\"forestry.speciesMeadows\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:10b},10:{UID1:\"forestry.floweringSlower\",UID0:\"forestry.floweringSlower\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "Forestry:beePrincessGE",
+                "nbt": "{MaxH:20,Health:20,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesForest\",UID0:\"forestry.speciesForest\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityHigh\",UID0:\"forestry.fertilityHigh\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:10b},10:{UID1:\"forestry.floweringSlower\",UID0:\"forestry.floweringSlower\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "Forestry:beePrincessGE",
+                "nbt": "{MaxH:30,Health:30,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesModest\",UID0:\"forestry.speciesModest\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanShort\",UID0:\"forestry.lifespanShort\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceDown1\",UID0:\"forestry.toleranceDown1\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersCacti\",UID0:\"forestry.flowersCacti\",Slot:10b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "Forestry:beePrincessGE",
+                "nbt": "{MaxH:30,Health:30,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesWintry\",UID0:\"forestry.speciesWintry\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanShort\",UID0:\"forestry.lifespanShort\",Slot:2b},3:{UID1:\"forestry.fertilityMaximum\",UID0:\"forestry.fertilityMaximum\",Slot:3b},4:{UID1:\"forestry.toleranceUp1\",UID0:\"forestry.toleranceUp1\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersSnow\",UID0:\"forestry.flowersSnow\",Slot:10b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectGlacial\",UID0:\"forestry.effectGlacial\",Slot:13b}]}}"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "Forestry:beePrincessGE",
+                "nbt": "{MaxH:30,Health:30,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesTropical\",UID0:\"forestry.speciesTropical\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanShort\",UID0:\"forestry.lifespanShort\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceUp1\",UID0:\"forestry.toleranceUp1\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceUp1\",UID0:\"forestry.toleranceUp1\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersJungle\",UID0:\"forestry.flowersJungle\",Slot:10b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectMiasmic\",UID0:\"forestry.effectMiasmic\",Slot:13b}]}}"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "Forestry:beePrincessGE",
+                "nbt": "{MaxH:20,Health:20,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesMarshy\",UID0:\"forestry.speciesMarshy\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersMushrooms\",UID0:\"forestry.flowersMushrooms\",Slot:10b},10:{UID1:\"forestry.floweringSlower\",UID0:\"forestry.floweringSlower\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "Forestry:beePrincessGE",
+                "nbt": "{MaxH:20,Health:20,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"magicbees.speciesUnusual\",UID0:\"magicbees.speciesUnusual\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceBoth2\",UID0:\"forestry.toleranceBoth2\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:10b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "Forestry:beePrincessGE",
+                "nbt": "{MaxH:20,Health:20,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"magicbees.speciesSorcerous\",UID0:\"magicbees.speciesSorcerous\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityHigh\",UID0:\"forestry.fertilityHigh\",Slot:3b},4:{UID1:\"forestry.toleranceDown2\",UID0:\"forestry.toleranceDown2\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceUp1\",UID0:\"forestry.toleranceUp1\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:10b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "Forestry:beePrincessGE",
+                "nbt": "{MaxH:20,Health:20,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"magicbees.speciesMystical\",UID0:\"magicbees.speciesMystical\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:10b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ForestryExtras:item.fe.scoop.scoopReinforced"
+        },
+        {
+          "id": "Forestry:apiculture"
+        },
+        {
+          "id": "Forestry:frameProven",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "Breed, Breed, Breed",
+      "description": "You\u0027ve started your very own journey into breeding and genetic superbeeings. Just look out to always make a stable breed, once you\u0027ve reached a valuable new species. What is a stable breed you may ask. Well, it\u0027s easy. When you obtain a new species, you don\u0027t just get bees with all the same traits. They are randomized from the basic traits of the new breed, the traits of the princess and the traits of the drone - resulting many different drones coming out of the breeding process. Now, getting a stable breed means, you take all those (semi-)random bees with (semi-)random traits and look for a drone you\u0027d like to further breed your princess with. Each time you breed a princess with a drone, both get random traits from their parents - so there is a chance to have all the traits stable (the same value on active AND inactive). So you either chose the drones with the best traits or the drones with the traits most similar to those of the princess - it\u0027s up to you. As soon as all the outcoming drones stack, your breed is stable.",
+      "x": 250,
+      "y": 38,
+      "icon": {
+        "id": "Forestry:apiculture",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Bee Prepared!"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Forestry:beePrincessGE",
+                "nbt": "{MaxH:20,GEN:1,Health:20,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesCommon\",UID0:\"forestry.speciesCommon\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:10b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "Forestry:beePrincessGE",
+                "nbt": "{MaxH:10,GEN:2,Health:10,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesCultivated\",UID0:\"forestry.speciesCultivated\",Slot:0b},1:{UID1:\"forestry.speedFast\",UID0:\"forestry.speedFast\",Slot:1b},2:{UID1:\"forestry.lifespanShortest\",UID0:\"forestry.lifespanShortest\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:10b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Forestry:apiculture"
+        },
+        {
+          "id": "ForestryExtras:item.fe.frame.frameReinforced",
+          "amount": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Treealyze",
+      "description": "Now you can start breeding traits. Make an oak tree super tall or make your common beech yield apples. Wanna see a single tree drop 3 stacks of apples? Well, now you can. (Solum bees only have an offspring of 1, maybe consider breeding them with a species with a better outcome.)",
+      "x": 59,
+      "y": 31,
+      "icon": {
+        "id": "Forestry:treealyzer"
+      },
+      "prerequisites": [
+        "Gather the Basics"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Forestry:treealyzer"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Forestry:beeDroneGE",
+          "amount": 5,
+          "nbt": "{MaxH:20,Health:20,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesCommon\",UID0:\"forestry.speciesCommon\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:10b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
+        },
+        {
+          "id": "Forestry:beeDroneGE",
+          "amount": 5,
+          "nbt": "{MaxH:10,Health:10,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesCultivated\",UID0:\"forestry.speciesCultivated\",Slot:0b},1:{UID1:\"forestry.speedFast\",UID0:\"forestry.speedFast\",Slot:1b},2:{UID1:\"forestry.lifespanShortest\",UID0:\"forestry.lifespanShortest\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:10b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
+        },
+        {
+          "id": "Forestry:beeDroneGE",
+          "amount": 5,
+          "nbt": "{MaxH:20,Health:20,IsAnalyzed:1b,Genome:{Chromosomes:[0:{UID1:\"magicbees.speciesEldritch\",UID0:\"magicbees.speciesEldritch\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:10b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
+        },
+        {
+          "id": "Forestry:beeQueenGE",
+          "nbt": "{MaxH:50,Health:50,IsAnalyzed:1b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesValiant\",UID0:\"forestry.speciesValiant\",Slot:0b},1:{UID1:\"forestry.speedSlow\",UID0:\"forestry.speedSlow\",Slot:1b},2:{UID1:\"forestry.lifespanLong\",UID0:\"forestry.lifespanLong\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:9b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:10b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
+        }
+      ]
+    },
+    {
+      "name": "Collecting The Species",
+      "description": "So what? It\u0027s a cherry tree you can grow on a hill. Get over yourself, we can\u0027t make something creative for all of these quest texts.",
+      "x": 20,
+      "y": 55,
+      "icon": {
+        "id": "Forestry:sapling",
+        "nbt": "{IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.treeCherry\",UID0:\"forestry.treeCherry\",Slot:0b},1:{UID1:\"forestry.growthLightlevel\",UID0:\"forestry.growthLightlevel\",Slot:1b},2:{UID1:\"forestry.heightSmaller\",UID0:\"forestry.heightSmaller\",Slot:2b},3:{UID1:\"forestry.saplingsLow\",UID0:\"forestry.saplingsLow\",Slot:3b},4:{UID1:\"forestry.fruitCherry\",UID0:\"forestry.fruitCherry\",Slot:4b},5:{UID1:\"forestry.yieldAverage\",UID0:\"forestry.yieldAverage\",Slot:5b},6:{UID1:\"forestry.plantTypeNone\",UID0:\"forestry.plantTypeNone\",Slot:6b},7:{UID1:\"forestry.sappinessLow\",UID0:\"forestry.sappinessLow\",Slot:7b},8:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:8b},9:{UID1:\"forestry.leavesNone\",UID0:\"forestry.leavesNone\",Slot:9b},10:{UID1:\"forestry.maturationAverage\",UID0:\"forestry.maturationAverage\",Slot:10b},11:{UID1:\"forestry.i1d\",UID0:\"forestry.i1d\",Slot:11b},12:{UID1:\"forestry.fireproofFalse\",UID0:\"forestry.fireproofFalse\",Slot:12b}]}}"
+      },
+      "prerequisites": [
+        "Treealyze"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Forestry:sapling",
+                "nbt": "{IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.treeCherry\",UID0:\"forestry.treeCherry\",Slot:0b},1:{UID1:\"forestry.growthLightlevel\",UID0:\"forestry.growthLightlevel\",Slot:1b},2:{UID1:\"forestry.heightSmaller\",UID0:\"forestry.heightSmaller\",Slot:2b},3:{UID1:\"forestry.saplingsLow\",UID0:\"forestry.saplingsLow\",Slot:3b},4:{UID1:\"forestry.fruitCherry\",UID0:\"forestry.fruitCherry\",Slot:4b},5:{UID1:\"forestry.yieldAverage\",UID0:\"forestry.yieldAverage\",Slot:5b},6:{UID1:\"forestry.plantTypeNone\",UID0:\"forestry.plantTypeNone\",Slot:6b},7:{UID1:\"forestry.sappinessLow\",UID0:\"forestry.sappinessLow\",Slot:7b},8:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:8b},9:{UID1:\"forestry.leavesNone\",UID0:\"forestry.leavesNone\",Slot:9b},10:{UID1:\"forestry.maturationAverage\",UID0:\"forestry.maturationAverage\",Slot:10b},11:{UID1:\"forestry.i1d\",UID0:\"forestry.i1d\",Slot:11b},12:{UID1:\"forestry.fireproofFalse\",UID0:\"forestry.fireproofFalse\",Slot:12b}]}}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Forestry:sapling",
+          "nbt": "{IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.treeBalsa\",UID0:\"forestry.treeBalsa\",Slot:0b},1:{UID1:\"forestry.growthLightlevel\",UID0:\"forestry.growthLightlevel\",Slot:1b},2:{UID1:\"forestry.heightLarge\",UID0:\"forestry.heightLarge\",Slot:2b},3:{UID1:\"forestry.saplingsHigh\",UID0:\"forestry.saplingsHigh\",Slot:3b},4:{UID1:\"forestry.fruitNone\",UID0:\"forestry.fruitNone\",Slot:4b},5:{UID1:\"forestry.yieldLowest\",UID0:\"forestry.yieldLowest\",Slot:5b},6:{UID1:\"forestry.plantTypeNone\",UID0:\"forestry.plantTypeNone\",Slot:6b},7:{UID1:\"forestry.sappinessLower\",UID0:\"forestry.sappinessLower\",Slot:7b},8:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:8b},9:{UID1:\"forestry.leavesNone\",UID0:\"forestry.leavesNone\",Slot:9b},10:{UID1:\"forestry.maturationAverage\",UID0:\"forestry.maturationAverage\",Slot:10b},11:{UID1:\"forestry.i1d\",UID0:\"forestry.i1d\",Slot:11b},12:{UID1:\"forestry.fireproofFalse\",UID0:\"forestry.fireproofFalse\",Slot:12b}]}}"
+        },
+        {
+          "id": "Forestry:grafterProven"
+        }
+      ]
+    },
+    {
+      "name": "Collecting The Species 2",
+      "description": "Plums make prunes, and prunes make you swear off mexican food forever.",
+      "x": 59,
+      "y": 70,
+      "icon": {
+        "id": "Forestry:sapling",
+        "nbt": "{IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.treePlum\",UID0:\"forestry.treePlum\",Slot:0b},1:{UID1:\"forestry.growthLightlevel\",UID0:\"forestry.growthLightlevel\",Slot:1b},2:{UID1:\"forestry.heightSmallest\",UID0:\"forestry.heightSmallest\",Slot:2b},3:{UID1:\"forestry.saplingsLower\",UID0:\"forestry.saplingsLower\",Slot:3b},4:{UID1:\"forestry.fruitPlum\",UID0:\"forestry.fruitPlum\",Slot:4b},5:{UID1:\"forestry.yieldHigh\",UID0:\"forestry.yieldHigh\",Slot:5b},6:{UID1:\"forestry.plantTypeNone\",UID0:\"forestry.plantTypeNone\",Slot:6b},7:{UID1:\"forestry.sappinessAverage\",UID0:\"forestry.sappinessAverage\",Slot:7b},8:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:8b},9:{UID1:\"forestry.leavesNone\",UID0:\"forestry.leavesNone\",Slot:9b},10:{UID1:\"forestry.maturationAverage\",UID0:\"forestry.maturationAverage\",Slot:10b},11:{UID1:\"forestry.i1d\",UID0:\"forestry.i1d\",Slot:11b},12:{UID1:\"forestry.fireproofFalse\",UID0:\"forestry.fireproofFalse\",Slot:12b}]}}"
+      },
+      "prerequisites": [
+        "Treealyze"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Forestry:sapling",
+                "nbt": "{IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.treePlum\",UID0:\"forestry.treePlum\",Slot:0b},1:{UID1:\"forestry.growthLightlevel\",UID0:\"forestry.growthLightlevel\",Slot:1b},2:{UID1:\"forestry.heightSmallest\",UID0:\"forestry.heightSmallest\",Slot:2b},3:{UID1:\"forestry.saplingsLower\",UID0:\"forestry.saplingsLower\",Slot:3b},4:{UID1:\"forestry.fruitPlum\",UID0:\"forestry.fruitPlum\",Slot:4b},5:{UID1:\"forestry.yieldHigh\",UID0:\"forestry.yieldHigh\",Slot:5b},6:{UID1:\"forestry.plantTypeNone\",UID0:\"forestry.plantTypeNone\",Slot:6b},7:{UID1:\"forestry.sappinessAverage\",UID0:\"forestry.sappinessAverage\",Slot:7b},8:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:8b},9:{UID1:\"forestry.leavesNone\",UID0:\"forestry.leavesNone\",Slot:9b},10:{UID1:\"forestry.maturationAverage\",UID0:\"forestry.maturationAverage\",Slot:10b},11:{UID1:\"forestry.i1d\",UID0:\"forestry.i1d\",Slot:11b},12:{UID1:\"forestry.fireproofFalse\",UID0:\"forestry.fireproofFalse\",Slot:12b}]}}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Forestry:sapling",
+          "nbt": "{IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.treeWillow\",UID0:\"forestry.treeWillow\",Slot:0b},1:{UID1:\"forestry.growthLightlevel\",UID0:\"forestry.growthLightlevel\",Slot:1b},2:{UID1:\"forestry.heightAverage\",UID0:\"forestry.heightAverage\",Slot:2b},3:{UID1:\"forestry.saplingsLower\",UID0:\"forestry.saplingsLower\",Slot:3b},4:{UID1:\"forestry.fruitNone\",UID0:\"forestry.fruitNone\",Slot:4b},5:{UID1:\"forestry.yieldLowest\",UID0:\"forestry.yieldLowest\",Slot:5b},6:{UID1:\"forestry.plantTypeNone\",UID0:\"forestry.plantTypeNone\",Slot:6b},7:{UID1:\"forestry.sappinessLow\",UID0:\"forestry.sappinessLow\",Slot:7b},8:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:8b},9:{UID1:\"forestry.leavesNone\",UID0:\"forestry.leavesNone\",Slot:9b},10:{UID1:\"forestry.maturationFaster\",UID0:\"forestry.maturationFaster\",Slot:10b},11:{UID1:\"forestry.i1d\",UID0:\"forestry.i1d\",Slot:11b},12:{UID1:\"forestry.fireproofFalse\",UID0:\"forestry.fireproofFalse\",Slot:12b}]}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Beealyze",
+      "description": "Now you can start breeding traits. Make a bee producing diamonds throwing it\u0027s babies at you. (Ignis bees only have an offspring of 1, maybe consider breeding them with a species with a better outcome.)",
+      "x": 250,
+      "y": 71,
+      "icon": {
+        "id": "Forestry:beealyzer"
+      },
+      "prerequisites": [
+        "Breed, Breed, Breed"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Forestry:beealyzer"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Forestry:beePrincessGE",
+          "nbt": "{MaxH:20,GEN:1,Health:20,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"magicbees.speciesEldritch\",UID0:\"magicbees.speciesEldritch\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:10b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
+        },
+        {
+          "id": "Forestry:beeDroneGE",
+          "amount": 5,
+          "nbt": "{MaxH:20,Health:20,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"magicbees.speciesEldritch\",UID0:\"magicbees.speciesEldritch\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:10b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Honey Pot",
+      "description": "Start making your way into creating Alvearys to increase Production. You\u0027ll need to breed your bees up to Industrious and Imperial bees for the Pollen and Royal Jelly. Use those matierials in a carpenter to produce scented paneling, use the paneling to coat impregnated casings and voila!, Alveary blocks",
+      "x": 215,
+      "y": 88,
+      "icon": {
+        "id": "Forestry:beeCombs",
+        "damage": 6
+      },
+      "prerequisites": [
+        "Beealyze"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Forestry:beePrincessGE",
+                "nbt": "{MaxH:40,Health:40,IsAnalyzed:1b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesIndustrious\",UID0:\"forestry.speciesIndustrious\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanNormal\",UID0:\"forestry.lifespanNormal\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:10b},10:{UID1:\"forestry.floweringFast\",UID0:\"forestry.floweringFast\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "Forestry:beePrincessGE",
+                "nbt": "{MaxH:40,Health:40,IsAnalyzed:1b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesImperial\",UID0:\"forestry.speciesImperial\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanNormal\",UID0:\"forestry.lifespanNormal\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:10b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectBeatific\",UID0:\"forestry.effectBeatific\",Slot:13b}]}}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Forestry:beePrincessGE",
+          "amount": 2,
+          "nbt": "{MaxH:40,Health:40,IsAnalyzed:1b,Genome:{Chromosomes:[0:{UID1:\"magicbees.speciesTCFire\",UID0:\"magicbees.speciesTCFire\",Slot:0b},1:{UID1:\"forestry.speedFaster\",UID0:\"forestry.speedFaster\",Slot:1b},2:{UID1:\"forestry.lifespanNormal\",UID0:\"forestry.lifespanNormal\",Slot:2b},3:{UID1:\"forestry.fertilityLow\",UID0:\"forestry.fertilityLow\",Slot:3b},4:{UID1:\"forestry.toleranceDown3\",UID0:\"forestry.toleranceDown3\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceUp2\",UID0:\"forestry.toleranceUp2\",Slot:7b},7:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"magicbees.flowerThaumcraftPlant\",UID0:\"magicbees.flowerThaumcraftPlant\",Slot:10b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectIgnition\",UID0:\"forestry.effectIgnition\",Slot:13b}]}}"
+        },
+        {
+          "id": "Forestry:beeDroneGE",
+          "amount": 5,
+          "nbt": "{MaxH:40,Health:40,IsAnalyzed:1b,Genome:{Chromosomes:[0:{UID1:\"magicbees.speciesTCFire\",UID0:\"magicbees.speciesTCFire\",Slot:0b},1:{UID1:\"forestry.speedFaster\",UID0:\"forestry.speedFaster\",Slot:1b},2:{UID1:\"forestry.lifespanNormal\",UID0:\"forestry.lifespanNormal\",Slot:2b},3:{UID1:\"forestry.fertilityLow\",UID0:\"forestry.fertilityLow\",Slot:3b},4:{UID1:\"forestry.toleranceDown3\",UID0:\"forestry.toleranceDown3\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceUp2\",UID0:\"forestry.toleranceUp2\",Slot:7b},7:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"magicbees.flowerThaumcraftPlant\",UID0:\"magicbees.flowerThaumcraftPlant\",Slot:10b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectIgnition\",UID0:\"forestry.effectIgnition\",Slot:13b}]}}"
+        },
+        {
+          "id": "technom:essentiaDynamo",
+          "nbt": "{face:1b,Boost:0b,fuel:0,Amount:0s,x:0,y:0,modified:0b,z:0,id:\"TileEssentiaDynamo\",redstoneSettings:\"High\",energy:0}"
+        }
+      ]
+    },
+    {
+      "name": "Machines Bee Needed.",
+      "description": "Now that you\u0027ve begun breeding and harvesting the goods from bees and trees you\u0027ll need to create some basic infrastructure to deal with the byproducts. Your journal has rough sketeches for a device that should do just that. Using some of the properties of bronze as a base you can construct a carpenter to further develop your blossoming Apiarist endeavors. You\u0027ll also need a way to move fluids around, a reservoir should be helpful in this regard.",
+      "x": 154,
+      "y": 103,
+      "bigicon": true,
+      "icon": {
+        "id": "Forestry:factory",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Honey Pot"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Forestry:factory",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "EnderIO:blockReservoir"
+              },
+              "required": 4,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Forestry:sturdyMachine"
+        },
+        {
+          "id": "Forestry:impregnatedCasing"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Forestry:beeQueenGE",
+          "nbt": "{MaxH:30,Health:30,IsAnalyzed:1b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesTropical\",UID0:\"forestry.speciesTropical\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanShort\",UID0:\"forestry.lifespanShort\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceUp1\",UID0:\"forestry.toleranceUp1\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceUp1\",UID0:\"forestry.toleranceUp1\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersJungle\",UID0:\"forestry.flowersJungle\",Slot:10b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectMiasmic\",UID0:\"forestry.effectMiasmic\",Slot:13b}]}}"
+        },
+        {
+          "id": "Forestry:beeDroneGE",
+          "nbt": "{MaxH:50,Health:50,IsAnalyzed:1b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesMonastic\",UID0:\"forestry.speciesMonastic\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanLong\",UID0:\"forestry.lifespanLong\",Slot:2b},3:{UID1:\"forestry.fertilityLow\",UID0:\"forestry.fertilityLow\",Slot:3b},4:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:9b},9:{UID1:\"forestry.flowersWheat\",UID0:\"forestry.flowersWheat\",Slot:10b},10:{UID1:\"forestry.floweringFaster\",UID0:\"forestry.floweringFaster\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
+        },
+        {
+          "id": "Botania:specialFlower",
+          "nbt": "{type:\"hibeescus\"}"
+        },
+        {
+          "id": "Forestry:cratedRoyalJelly"
+        }
+      ]
+    },
+    {
+      "name": "The Big Squeeze",
+      "description": "With the carpenter you have the method to construct a device to extract useful liquids such as seed oil from plentiful resources. Construct a squeezer using more of the bronze metal.",
+      "x": 126,
+      "y": 128,
+      "icon": {
+        "id": "Forestry:factory",
+        "damage": 5
+      },
+      "prerequisites": [
+        "Machines Bee Needed."
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Forestry:factory",
+                "damage": 5
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Forestry:craftingMaterial",
+          "damage": 6,
+          "amount": 8
+        },
+        {
+          "id": "Forestry:frameImpregnated",
+          "amount": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "EnderIO:itemLiquidConduit",
+          "damage": 1,
+          "amount": 8
+        },
+        {
+          "id": "HardcoreQuesting:hqmInvalidItem"
+        },
+        {
+          "id": "HardcoreQuesting:hqmInvalidItem"
+        },
+        {
+          "id": "Forestry:cratedRoyalJelly",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Hive a Spin!",
+      "description": "The bees seem to produce combs that contain all sorts of useful ingredients, the problem is they\u0027re all locked inside the comb. By constructing a machine that is capable at spinning at high speeds you believe you can extract these materials. Build a Centrifuge and extract your first propolis. ",
+      "x": 183,
+      "y": 128,
+      "icon": {
+        "id": "Forestry:factory",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Machines Bee Needed."
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Forestry:factory",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Forestry:propolis"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Forestry:honeyDrop",
+          "amount": 8
+        },
+        {
+          "id": "Forestry:honeydew",
+          "amount": 8
+        },
+        {
+          "id": "Forestry:honeyedSlice",
+          "amount": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "EnderIO:blockCapBank",
+          "damage": 2,
+          "nbt": "{type:\"ACTIVATED\",storedEnergyRF:0}"
+        },
+        {
+          "id": "EnderIO:itemPowerConduit",
+          "damage": 1,
+          "amount": 8
+        },
+        {
+          "id": "Botania:floatingSpecialFlower",
+          "nbt": "{type:\"exoflame\"}"
+        },
+        {
+          "id": "ExtraBees:alveary",
+          "damage": 3,
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Beetopia!",
+      "description": "After watching the bees produce for you in their apiaries and with some of the construction techniques you\u0027ve learned utilizing bronze and some of the bee honies you believe it possible to construct the ultimate bee habitat. By combining several blocks made of scented paneling you\u0027ve determined a multiblock alviary is possible. Construct your new bee home to enjoy the benefits of increased productivity and automation. ",
+      "x": 153,
+      "y": 167,
+      "bigicon": true,
+      "icon": {
+        "id": "Forestry:alveary"
+      },
+      "prerequisites": [
+        "The Big Squeeze",
+        "Hive a Spin!"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Forestry:alveary"
+              },
+              "required": 9
+            },
+            {
+              "item": {
+                "id": "Forestry:alveary",
+                "damage": 2
+              }
+            },
+            {
+              "item": {
+                "id": "ExtraBees:alveary",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Botania:floatingSpecialFlower",
+          "nbt": "{type:\"hiveacynth\"}"
+        },
+        {
+          "id": "MagicBees:item.thaumiumScoop",
+          "nbt": "{ench:[0:{lvl:1s,id:101s},1:{lvl:2s,id:151s},2:{lvl:1s,id:249s},3:{lvl:5s,id:34s}],RepairCost:2,display:{Name:\"Beehave Stick\"}}"
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

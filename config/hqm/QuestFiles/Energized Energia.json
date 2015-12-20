@@ -1,0 +1,293 @@
+{
+  "name": "Energized Energia",
+  "quests": [
+    {
+      "name": "Charge it!",
+      "description": "A bit harder to find, the charged variant of Certus quartz is a key ingredient of some of the slightly more advanced ME devices.",
+      "x": 31,
+      "y": 56,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiMaterial",
+        "damage": 1
+      },
+      "prerequisites": [
+        "So you\u0027re back from outer space"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 1
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:tile.BlockCharger"
+        }
+      ]
+    },
+    {
+      "name": "Buy it, use it, break it, fix i",
+      "description": "By breaking down the crystals and combinging them with a catalyst you\u0027ve found a way to regrow a more purified version which may be useful in further exploting this strange magic.",
+      "x": 150,
+      "y": 30,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemCrystalSeed",
+        "damage": 600,
+        "nbt": "{progress:600}"
+      },
+      "prerequisites": [
+        "Welcome to the Machine"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 11
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 10
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 12
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "thaumicenergistics:thaumicenergistics.block.golem.gear.box"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Thaumcraft:ItemResource",
+          "damage": 9,
+          "amount": 4
+        },
+        {
+          "id": "Thaumcraft:ItemResource",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Welcome to the Machine",
+      "description": "By dropping a charges certus quarts crystal, nether quarts and some restone into water one can get fluix crystals, a major staple when creating a Matter-Energy Network",
+      "x": 109,
+      "y": 17,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiMaterial",
+        "damage": 7
+      },
+      "prerequisites": [
+        "So you\u0027re back from outer space"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 7
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:tile.BlockVibrationChamber"
+        }
+      ]
+    },
+    {
+      "name": "Trash it, change it, mail, upgr",
+      "description": "Harnessing the power of the certus crystals, you\u0027ve found a way to compact untold amounts of matter into a nearly useless state. You wonder what would happen should you push this too far...",
+      "x": 16,
+      "y": 75,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockCondenser"
+      },
+      "prerequisites": [
+        "So you\u0027re back from outer space"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockCondenser"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ExtraUtilities:extractor_base",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Technologic",
+      "description": "To make the next tier of AE items requires processors of multiple different kinds, this machine can, in time, provide them for you. ",
+      "x": 104,
+      "y": 52,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockInscriber"
+      },
+      "prerequisites": [
+        "Welcome to the Machine"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockInscriber"
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 19
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 15
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 13
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 14
+        }
+      ]
+    },
+    {
+      "name": "Electric Guest",
+      "description": "These crystals, although immensely powerful, are dreadfully fragile. Perhaps you should construct a protective casing for them.",
+      "x": 127,
+      "y": 65,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockDrive"
+      },
+      "prerequisites": [
+        "Technologic"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockDrive"
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 36
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:hqmInvalidItem"
+        },
+        {
+          "id": "appliedenergistics2:item.ItemBasicStorageCell.1k"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "thaumicenergistics:storage.essentia"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "So you\u0027re back from outer space",
+      "description": "Certus Quartz, a key material in the creation of ME networks. Perhaps you should get some?",
+      "x": 24,
+      "y": 12,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiMaterial",
+        "damage": 12
+      },
+      "prerequisites": [
+        "{A World Gone Mad}[A Stronger Foundation]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial"
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemCrystalSeed",
+          "amount": 4,
+          "nbt": "{progress:0}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:redstone",
+          "amount": 8
+        },
+        {
+          "id": "minecraft:quartz",
+          "amount": 4
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

@@ -1,0 +1,1112 @@
+{
+  "name": "Leaves that are Green",
+  "description": "Recalling memories past a field of flowers pulsing with radiant illumination holds in your mind. ",
+  "quests": [
+    {
+      "name": "Flower Power",
+      "description": "\"Everything you need to know about governing the natural world is within this book, the Lexica Botanica\"",
+      "x": 18,
+      "y": 6,
+      "bigicon": true,
+      "icon": {
+        "id": "Botania:lexicon"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:lexicon"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:petal",
+          "amount": 4
+        },
+        {
+          "id": "Botania:petal",
+          "damage": 12,
+          "amount": 4
+        },
+        {
+          "id": "Botania:petal",
+          "damage": 2,
+          "amount": 4
+        },
+        {
+          "id": "Botania:petal",
+          "damage": 9,
+          "amount": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "aura:ingotAngelSteel",
+          "amount": 4
+        },
+        {
+          "id": "Botania:blackLotus"
+        }
+      ]
+    },
+    {
+      "name": "Furious Rose",
+      "description": "The exoflame reverses the endoflame, using mana to heat a furnace to be faster than it\u0027s non-magical bretheren. ",
+      "x": 23,
+      "y": 72,
+      "icon": {
+        "id": "Botania:specialFlower",
+        "nbt": "{type:\"exoflame\"}"
+      },
+      "prerequisites": [
+        "Where the Columbines Grow"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:specialFlower",
+                "nbt": "{type:\"exoflame\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:rune",
+          "damage": 6
+        },
+        {
+          "id": "Botania:rune",
+          "damage": 7
+        }
+      ]
+    },
+    {
+      "name": "Lotus Blossom",
+      "description": "The soulscribe is a weapon specifically suited to cut through the mysterious energy surrounding endermen, by infusing the weapon with said energy, endermen can be cut like butter. This energy makes the manasteel used to craft this weapon very brittle however, and disrupts the manasteel\u0027s innate ability to heal, effectively allowing this weapon to only survive a few uses. Perhaps it is worth it though.",
+      "x": 95,
+      "y": 100,
+      "icon": {
+        "id": "Botania:specialFlower",
+        "nbt": "{type:\"vinculotus\"}"
+      },
+      "prerequisites": [
+        "Orchids in the Moonlight"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:specialFlower",
+                "nbt": "{type:\"vinculotus\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:ender_eye",
+          "amount": 2
+        },
+        {
+          "id": "minecraft:ender_pearl",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Build me up Buttercup",
+      "description": "You are ready Botanicalist to start inbueing your magic into the items around you, toss an iron or thaumian ingot into a mana pool to infuse it for better tools, armor and weapons",
+      "x": 233,
+      "y": 10,
+      "icon": {
+        "id": "Botania:manaResource"
+      },
+      "prerequisites": [
+        "Atomic Garden"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:manaResource"
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:petal",
+          "damage": 6,
+          "amount": 2
+        },
+        {
+          "id": "Botania:petal",
+          "damage": 9,
+          "amount": 2
+        },
+        {
+          "id": "Botania:petal",
+          "damage": 4,
+          "amount": 2
+        },
+        {
+          "id": "Botania:manaResource",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Cherry Blossom Girl",
+      "description": "Elementium is an upgrade to manasteel, and so stylish, courtesy of the Elves",
+      "x": 266,
+      "y": 10,
+      "icon": {
+        "id": "Botania:manaResource",
+        "damage": 7
+      },
+      "prerequisites": [
+        "Build me up Buttercup"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:manaResource",
+                "damage": 7
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:manaResource",
+          "damage": 7,
+          "amount": 3
+        },
+        {
+          "id": "Botania:flower",
+          "damage": 10,
+          "amount": 2
+        },
+        {
+          "id": "Botania:flower",
+          "damage": 2,
+          "amount": 2
+        },
+        {
+          "id": "Botania:flower",
+          "damage": 6,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Sugar Magnolia",
+      "description": "The apex of your work, the terrasteel ingot. Infusing copious amounts of mana, as well as a mana reinforced diamond and ender pearl, into a single piece of manasteel creates a material unrivaled. The energies within the pearl, the diamond, and the ingot are bound together by the mana used in the process, allowing them to reinforce one another and withstand any damage.",
+      "x": 299,
+      "y": 10,
+      "icon": {
+        "id": "Botania:manaResource",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Cherry Blossom Girl"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:manaResource",
+                "damage": 4
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:manaResource",
+          "damage": 4,
+          "amount": 3
+        },
+        {
+          "id": "Botania:flower",
+          "damage": 13,
+          "amount": 2
+        },
+        {
+          "id": "Botania:flower",
+          "damage": 5,
+          "amount": 2
+        },
+        {
+          "id": "Botania:flower",
+          "damage": 8,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Forget Me Nots",
+      "description": "The master corporea spark is the brain of the corporea network. While not interacting with inventories on it\u0027s own, it acts as the brain of the network, and any netowork must have one.",
+      "x": 266,
+      "y": 85,
+      "icon": {
+        "id": "Botania:corporeaSpark"
+      },
+      "prerequisites": [
+        "Monarchy of the Roses"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:corporeaSpark"
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:corporeaSpark",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "Botania:overgrowthSeed"
+        }
+      ]
+    },
+    {
+      "name": "Monarchy of the Roses",
+      "description": "Augments allow finer control over your spark network. Recessive sparks will constantly try to empty the pool they are placed on into normal sparked pools. Dominant sparks will attempt to take from normal pools until their pool is full. Dispersive sparks will attempt to dispersive mana into items in a players inventory, allowing a wireless recharge of sorts.",
+      "x": 266,
+      "y": 49,
+      "icon": {
+        "id": "Botania:sparkUpgrade",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Lucy in the Sky with Diamonds"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:sparkUpgrade",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:sparkUpgrade",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Botania:manaResource",
+          "damage": 15
+        },
+        {
+          "id": "arsmagica2:rune",
+          "damage": 18
+        }
+      ]
+    },
+    {
+      "name": "Lucy in the Sky with Diamonds",
+      "description": "Sparks are a non-traditional way of dealing with a maze of spreaders. Dealing with much higher volumes of mana, they are capable of going places where spreaders are unfeasible or impossible. At a basic level, devices with sparks placed on top of them can request mana through sparks on top of mana pools. ",
+      "x": 227,
+      "y": 49,
+      "icon": {
+        "id": "Botania:spark"
+      },
+      "prerequisites": [
+        "Atomic Garden"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:spark"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:spark"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "Botania:overgrowthSeed"
+        }
+      ]
+    },
+    {
+      "name": "Psycho Daisies",
+      "description": "The loonium can conjure items normallly only found in dungeon chests. This affront to nature requires a large amount of mana to perform, and there is no waay to control what item is summoned.",
+      "x": 131,
+      "y": 101,
+      "icon": {
+        "id": "Botania:specialFlower",
+        "nbt": "{type:\"loonium\"}"
+      },
+      "prerequisites": [
+        "Lotus Blossom"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:specialFlower",
+                "nbt": "{type:\"loonium\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:overgrowthSeed"
+        },
+        {
+          "id": "Botania:blackLotus"
+        }
+      ]
+    },
+    {
+      "name": "Love, the Tiger Lily",
+      "description": "Unfortunatly, nothing lasts forever, and flowers are no exception. A more stable flower is the Endoflame. Not only will it not wither, but it also provides greatly increased mana generation speed for simple furnace burnables.",
+      "x": 95,
+      "y": 53,
+      "icon": {
+        "id": "Botania:specialFlower",
+        "nbt": "{type:\"endoflame\"}"
+      },
+      "prerequisites": [
+        "The Rain, Park \u0026 Other Things"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:specialFlower",
+                "nbt": "{type:\"endoflame\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:specialFlower",
+          "nbt": "{type:\"endoflame\"}"
+        },
+        {
+          "id": "Botania:flower",
+          "damage": 14,
+          "amount": 4
+        },
+        {
+          "id": "Botania:flower",
+          "damage": 8,
+          "amount": 4
+        },
+        {
+          "id": "Botania:flower",
+          "damage": 12,
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Where the Columbines Grow",
+      "description": "Not just any flower petal will do, you need a way to cultivate the Mystical Flowers of Alfheim.",
+      "x": 57,
+      "y": 50,
+      "bigicon": true,
+      "icon": {
+        "id": "Botania:specialFlower",
+        "nbt": "{type:\"jadedAmaranthus\"}"
+      },
+      "prerequisites": [
+        "Love, the Tiger Lily"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:specialFlower",
+                "nbt": "{type:\"jadedAmaranthus\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:flower",
+          "damage": 1,
+          "amount": 4
+        },
+        {
+          "id": "Botania:flower",
+          "damage": 9,
+          "amount": 4
+        },
+        {
+          "id": "Botania:flower",
+          "damage": 11,
+          "amount": 4
+        },
+        {
+          "id": "Botania:flower",
+          "damage": 12,
+          "amount": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Botania:grassHorn"
+        },
+        {
+          "id": "Botania:forestDrum"
+        }
+      ]
+    },
+    {
+      "name": "Atomic Garden",
+      "description": "\"The runic altar can fold items into a piece of livingrock, using mana to power the operation to create a rune. Runes are important to craft more advanced items, and to further your magic.\"",
+      "x": 182,
+      "y": 8,
+      "bigicon": true,
+      "icon": {
+        "id": "Botania:runeAltar"
+      },
+      "prerequisites": [
+        "Begininng of a Botanist"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:runeAltar"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:flower",
+          "damage": 5,
+          "amount": 2
+        },
+        {
+          "id": "Botania:flower",
+          "damage": 13,
+          "amount": 2
+        },
+        {
+          "id": "Botania:flower",
+          "damage": 7,
+          "amount": 2
+        },
+        {
+          "id": "Botania:flower",
+          "damage": 11,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Begininng of a Botanist",
+      "description": "\"There\u0027s only so much you can do by hand. Thankfully, the daybloom and nightshade can collect and distill mana, a substance of pure natural energy produced and used by magical flora. The daybloom collects mana during the day, and the nightshade  collects mana all the time, but at half the rate of a daybloom. Mana producing flowers will feed into a mana spreader, a device capable of \"\"spreading\"\" mana into whatever you aim it at. The diluted mana pool is a basic storage method of mana, with limited capablities.\"",
+      "x": 131,
+      "y": 11,
+      "icon": {
+        "id": "Botania:specialFlower",
+        "nbt": "{type:\"daybloom\"}"
+      },
+      "prerequisites": [
+        "Like a Daisy"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:specialFlower",
+                "nbt": "{type:\"daybloom\"}"
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:pool",
+                "damage": 2
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:spreader"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:specialFlower",
+          "amount": 2,
+          "nbt": "{type:\"daybloom\"}"
+        },
+        {
+          "id": "Botania:specialFlower",
+          "amount": 2,
+          "nbt": "{type:\"nightshade\"}"
+        },
+        {
+          "id": "Botania:flower",
+          "damage": 6,
+          "amount": 4
+        },
+        {
+          "id": "Botania:flower",
+          "damage": 8,
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Like a Daisy",
+      "description": "Flowers contain the powers of Transmutation, and the most simple of all of them is the Pure White Daisy.",
+      "x": 95,
+      "y": 11,
+      "icon": {
+        "id": "Botania:specialFlower",
+        "nbt": "{type:\"puredaisy\"}"
+      },
+      "prerequisites": [
+        "A Thousand Petals"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:specialFlower",
+                "nbt": "{type:\"puredaisy\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:specialFlower",
+          "nbt": "{type:\"puredaisy\"}"
+        },
+        {
+          "id": "Botania:petal",
+          "damage": 15,
+          "amount": 4
+        },
+        {
+          "id": "Botania:petal",
+          "damage": 14,
+          "amount": 4
+        },
+        {
+          "id": "Botania:petal",
+          "damage": 13,
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "The Rain, Park \u0026 Other Things",
+      "description": "A more potent method of collecting mana is by using the flower\u0027s ultimate friend, water.",
+      "x": 131,
+      "y": 53,
+      "icon": {
+        "id": "Botania:floatingSpecialFlower",
+        "nbt": "{type:\"hydroangeas\"}"
+      },
+      "prerequisites": [
+        "Begininng of a Botanist"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:specialFlower",
+                "nbt": "{type:\"hydroangeas\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:specialFlower",
+          "nbt": "{type:\"hydroangeas\"}"
+        },
+        {
+          "id": "Botania:flower",
+          "damage": 11,
+          "amount": 2
+        },
+        {
+          "id": "Botania:flower",
+          "damage": 3,
+          "amount": 2
+        },
+        {
+          "id": "Botania:flower",
+          "damage": 10,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Orchids in the Moonlight",
+      "description": "Using extreme amounts of mana, the orechid can encourage stone to achieve its true potential, transforming it into an ore. Most stone doesnt have the mettle to become much more than coal or iron, but truly exceptional pieces can become more exotic and valuable minerals such as diamond and redstone.",
+      "x": 59,
+      "y": 99,
+      "icon": {
+        "id": "Botania:specialFlower",
+        "nbt": "{type:\"orechid\"}"
+      },
+      "prerequisites": [
+        "Furious Rose"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:specialFlower",
+                "nbt": "{type:\"orechid\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:smeltRod"
+        },
+        {
+          "id": "Botania:rune",
+          "damage": 8
+        }
+      ]
+    },
+    {
+      "name": "Field of Reeds",
+      "description": "The corporea funnel will attempt to pull a single item from a corporea network when it is given a redstone signal. Place an item frame nearby to define what it will pull. Truly endless automation possibilities. ",
+      "x": 299,
+      "y": 84,
+      "icon": {
+        "id": "Botania:corporeaFunnel"
+      },
+      "prerequisites": [
+        "Forget Me Nots"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:corporeaFunnel"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:corporeaInterceptor"
+        }
+      ]
+    },
+    {
+      "name": "A Thousand Petals",
+      "description": "\"The simple flowers surrounding you are capable of great feats of magic. All you will need a Petal Apothecary to get started.\"",
+      "x": 59,
+      "y": 11,
+      "icon": {
+        "id": "Botania:altar"
+      },
+      "prerequisites": [
+        "Flower Power"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:altar"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:petal",
+          "amount": 4
+        },
+        {
+          "id": "Botania:petal",
+          "damage": 3,
+          "amount": 4
+        },
+        {
+          "id": "Botania:petal",
+          "damage": 4,
+          "amount": 4
+        },
+        {
+          "id": "Botania:petal",
+          "damage": 1,
+          "amount": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:iron_ore",
+          "amount": 4
+        },
+        {
+          "id": "TConstruct:ore.berries.one",
+          "damage": 8
+        }
+      ]
+    },
+    {
+      "name": "Hemlocks and Primroses",
+      "description": "If the master spark is the brain of the network, the corporea index is the eyes and mouth of the network, allowing a player to manually request items from the network by simply asking for them.",
+      "x": 267,
+      "y": 124,
+      "icon": {
+        "id": "Botania:corporeaIndex"
+      },
+      "prerequisites": [
+        "Forget Me Nots"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:corporeaIndex"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:corporeaSpark"
+        }
+      ]
+    },
+    {
+      "name": "Days of Wine and Roses ",
+      "description": "Take advantage of imbuing brews with botanical magic, not only will you get effects that surpass traditional potions, but a vial or flask will hold multiple doses",
+      "x": 227,
+      "y": 84,
+      "icon": {
+        "id": "Botania:brewery"
+      },
+      "prerequisites": [
+        "Lucy in the Sky with Diamonds"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:brewery"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:vial",
+          "amount": 3
+        },
+        {
+          "id": "Botania:vial",
+          "damage": 1,
+          "amount": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Botania:blackLotus"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Marigold Conjunction",
+      "description": "Expand your horizons, and be a Master of Botanical Brewery. Prove your worth to the Powers and make them an offering.",
+      "x": 227,
+      "y": 125,
+      "icon": {
+        "id": "Botania:brewVial",
+        "nbt": "{brewKey:\"overload\"}"
+      },
+      "prerequisites": [
+        "Days of Wine and Roses "
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:brewVial",
+                "nbt": "{brewKey:\"overload\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:magma_cream",
+          "amount": 2
+        },
+        {
+          "id": "minecraft:blaze_powder",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Push the Little Daisies",
+      "description": "Sometimes when items are so similar to one another, mana can be used to fuzz reality,converting between these types of items. An alchemy catalyst is able to perform this feat of magic.",
+      "x": 187,
+      "y": 86,
+      "icon": {
+        "id": "Botania:alchemyCatalyst"
+      },
+      "prerequisites": [
+        "Lucy in the Sky with Diamonds"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:alchemyCatalyst"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:blaze_rod",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Amaryllis",
+      "description": "A conjuration catalyst is able to take a simple item and duplicate it using mana. This is usually an expensive process that should be used sparingly.",
+      "x": 188,
+      "y": 125,
+      "icon": {
+        "id": "Botania:conjurationCatalyst"
+      },
+      "prerequisites": [
+        "Push the Little Daisies"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:conjurationCatalyst"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:blaze_rod",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Legend of the Black Dahlia",
+      "description": "The Guardians of Gaia are the unseen keepers of nature. By sacrificing a terrasteel ingot in an altar to Nature\u0027s grace, you may convince her to test your strength. Should you prove to her you are capable of defending the sanctity of nature, she shall grant you power.",
+      "x": 128,
+      "y": 140,
+      "bigicon": true,
+      "icon": {
+        "id": "Botania:pylon",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Psycho Daisies",
+        "Amaryllis"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:manaResource",
+                "damage": 8
+              },
+              "required": 10
+            },
+            {
+              "item": {
+                "id": "Botania:manaResource",
+                "damage": 9
+              },
+              "required": 10
+            },
+            {
+              "item": {
+                "id": "Botania:manaResource",
+                "damage": 5
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:manaResource",
+          "damage": 14,
+          "amount": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "The Flower and the Shattered St",
+      "description": "Become the Mortal Keeper of the Relics of the Aegir",
+      "x": 93,
+      "y": 164,
+      "icon": {
+        "id": "Botania:aesirRing"
+      },
+      "prerequisites": [
+        "Legend of the Black Dahlia"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:aesirRing"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:overgrowthSeed",
+          "amount": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

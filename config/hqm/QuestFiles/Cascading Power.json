@@ -1,0 +1,815 @@
+{
+  "name": "Cascading Power",
+  "quests": [
+    {
+      "name": "Hey I just met you, and this is",
+      "description": "But heres my number, so call me maybe",
+      "x": 22,
+      "y": 13,
+      "bigicon": true,
+      "icon": {
+        "id": "aura:lexicon"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "aura:lexicon"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Not That Kind of Aura Node",
+      "description": "Aura Nodes are fundemental contraptions to harnessing the energy of Aura crystals. You will need them, and you will need a lot of them.",
+      "x": 71,
+      "y": 24,
+      "icon": {
+        "id": "aura:auraNode"
+      },
+      "prerequisites": [
+        "Hey I just met you, and this is"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "aura:auraNode"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "aura:auraNode",
+          "amount": 3
+        },
+        {
+          "id": "aura:AuraCrystal",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "Endless Power!",
+      "description": "Aura Crystals allow you to create aura by using or dropping them on Nodes. When they fall from a node they generate power for various machines. It is possible to recolor these crystals with dye to create other forms of Aura that each have their own unique abilities.",
+      "x": 44,
+      "y": 46,
+      "icon": {
+        "id": "aura:AuraCrystal"
+      },
+      "prerequisites": [
+        "Not That Kind of Aura Node"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "aura:AuraCrystal"
+              },
+              "required": 64,
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "aura:auraNode",
+          "amount": 3
+        },
+        {
+          "id": "aura:AuraCrystal",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "Pumped up kicks",
+      "description": "Pumps allow you to raise Aura from a lower node to a higher node, effectively this means you can create a drop for aura to create infinite power. There are other pumps powered from different materials aswell. This is just a basic pump powered from burnable fuel.",
+      "x": 73,
+      "y": 57,
+      "bigicon": true,
+      "icon": {
+        "id": "aura:auraNodepump"
+      },
+      "prerequisites": [
+        "Not That Kind of Aura Node"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "aura:auraNodepump"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:coal",
+          "damage": 1,
+          "amount": 32
+        },
+        {
+          "id": "aura:AuraCrystal",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "Jump on It!",
+      "description": "This block does wonders, simply place it down in an open air location and jump on it!",
+      "x": 262,
+      "y": 64,
+      "icon": {
+        "id": "aura:trampoline"
+      },
+      "prerequisites": [
+        "Duplification!"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "aura:trampoline"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ExtraUtilities:spike_base_diamond"
+        },
+        {
+          "id": "aura:auraNodepumpFall"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "OpenBlocks:hangglider"
+        }
+      ]
+    },
+    {
+      "name": "Duplification!",
+      "description": "Cascading processors serve two purposes: To process ores into their dust counterparts are a ratio of 1:2, and to Synthesise materials to advance deeper into Aural magic",
+      "x": 141,
+      "y": 63,
+      "icon": {
+        "id": "aura:consumerBlockore"
+      },
+      "prerequisites": [
+        "Pumped up kicks"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "aura:consumerBlockore"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:iron_ore",
+          "amount": 4
+        },
+        {
+          "id": "aura:ingotAngelSteel",
+          "damage": 1,
+          "amount": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "Thaumcraft:ItemGolemPlacer"
+        },
+        {
+          "id": "Botania:fertilizer",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Thank Ewe for the Wool",
+      "description": "Waiting for sheep to regrow wool and having to keep separate stocks of dyed sheeps is an unnecessary pain, this machine remedies that when given power. The only downside is that sheep must be very close to the block.",
+      "x": 166,
+      "y": 33,
+      "icon": {
+        "id": "aura:consumerBlockdye"
+      },
+      "prerequisites": [
+        "Pumped up kicks"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "aura:consumerBlockdye"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:wool",
+          "amount": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "TConstruct:ore.berries.two",
+          "damage": 9
+        }
+      ]
+    },
+    {
+      "name": "Triplification!",
+      "description": "This is an upgraded version of the Cascading processor that allows it to triple ores, quite the upgrade!",
+      "x": 211,
+      "y": 116,
+      "icon": {
+        "id": "aura:consumerBlockoreAdv"
+      },
+      "prerequisites": [
+        "Duplification!",
+        "Vortex Infusion"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "aura:consumerBlockoreAdv"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "aura:auraNodepumpProjectile"
+        },
+        {
+          "id": "aura:AuraCrystal",
+          "damage": 4,
+          "amount": 16
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:gold_ore",
+          "amount": 8
+        },
+        {
+          "id": "minecraft:iron_ore",
+          "amount": 16
+        },
+        {
+          "id": "abyssalcraft:abycopore",
+          "amount": 8
+        },
+        {
+          "id": "abyssalcraft:abytinore",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "Vortex Infusion",
+      "description": "By harnessing the energy of aura in a controlled manner you can channel some of the potential energy into items to create an infusion of great potential. Create a vortex infusion.",
+      "x": 137,
+      "y": 148,
+      "bigicon": true,
+      "icon": {
+        "id": "aura:auraNodecraftingCenter"
+      },
+      "prerequisites": [
+        "Pumped up kicks"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "aura:auraNodecraftingCenter"
+              }
+            },
+            {
+              "item": {
+                "id": "aura:auraNodecraftingPedestal"
+              },
+              "required": 4,
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "aura:auraNodecapacitor",
+          "amount": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "aura:ingotGreen",
+          "amount": 4
+        },
+        {
+          "id": "aura:ingotRed",
+          "amount": 4
+        },
+        {
+          "id": "aura:ingotViolet",
+          "amount": 4
+        },
+        {
+          "id": "aura:ingotWhite",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Just add Water (bottles)",
+      "description": "This machine when supplied power will apply random potion effects to nearby dropped water bottles. A very resource cheap option.",
+      "x": 228,
+      "y": 135,
+      "icon": {
+        "id": "aura:consumerBlockpotion"
+      },
+      "prerequisites": [
+        "Duplification!",
+        "Vortex Infusion"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "aura:consumerBlockpotion"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:glass_bottle",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:nether_wart",
+          "amount": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:hqmInvalidItem"
+        },
+        {
+          "id": "Botania:brewVial",
+          "nbt": "{brewKey:\"warpWard\"}"
+        }
+      ]
+    },
+    {
+      "name": "Choice Enchanting",
+      "description": "This enchanter gives you the ability to enchant items based on nearby dropped items. Details can be found inside the Encyclopedia.",
+      "x": 199,
+      "y": 139,
+      "icon": {
+        "id": "aura:consumerBlockenchant"
+      },
+      "prerequisites": [
+        "Duplification!",
+        "Vortex Infusion"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "aura:auraNodecraftingCenter"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "aura:auraNodecraftingPedestal"
+              },
+              "required": 4,
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:2s,id:43s}]}"
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:3s,id:67s}]}"
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:1s,id:247s}]}"
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:3s,id:86s}]}"
+        }
+      ]
+    },
+    {
+      "name": "Magical Storage en Masse",
+      "description": "A Magical sorting system similar to an ME network. Form the system by placing bookcases that eventually connect to the controller and put storage books inside them. This block uses more power the more storage books that are in use.",
+      "x": 260,
+      "y": 176,
+      "bigicon": true,
+      "icon": {
+        "id": "aura:storageBookshelfCoordinator"
+      },
+      "prerequisites": [
+        "Just add Water (bottles)",
+        "Triplification!",
+        "Choice Enchanting"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "aura:storageBookshelfCoordinator"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "aura:basicBook"
+        },
+        {
+          "id": "minecraft:bookshelf",
+          "amount": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "TConstruct:heartCanister",
+          "damage": 6,
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "King of the Fairies",
+      "description": "Fairies are helpful little beings that will boost your survival in this harsh environment considerably. Plus having an entourage of fairies is cool as hell.",
+      "x": 116,
+      "y": 176,
+      "icon": {
+        "id": "aura:fairyCharm",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Vortex Infusion"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "aura:fairyRing"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "arsmagica2:flickerLure"
+        },
+        {
+          "id": "ExtraTiC:funStuffIngot",
+          "amount": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Botania:blackLotus",
+          "damage": 1
+        },
+        {
+          "id": "Thaumcraft:ItemResource",
+          "amount": 16
+        },
+        {
+          "id": "witchery:ingredient",
+          "damage": 14,
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "It goes to 11",
+      "description": "Angel steel is created by a Cascading Synthesizer when supplied large amounts of power. It is used to create powerful tools and artifacts; to stengthen the bars one must drop three bars of the same degree on the ground to combine to one bar of the next degree.",
+      "x": 31,
+      "y": 77,
+      "icon": {
+        "id": "aura:ingotAngelSteel"
+      },
+      "prerequisites": [
+        "Pumped up kicks"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "aura:ingotAngelSteel"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "aura:ingotAngelSteel",
+          "amount": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Thaumcraft:ItemResource",
+          "damage": 9,
+          "amount": 2
+        },
+        {
+          "id": "aura:AuraCrystal",
+          "damage": 7,
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "Aural Smelting",
+      "description": "With this machine you can smelt nearby items on the ground by supplying it power.",
+      "x": 248,
+      "y": 43,
+      "icon": {
+        "id": "aura:consumerBlockfurnace"
+      },
+      "prerequisites": [
+        "Duplification!"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "aura:consumerBlockfurnace"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "aura:auraNode",
+          "amount": 2
+        },
+        {
+          "id": "aura:auraNodepumpLightAlt"
+        }
+      ]
+    },
+    {
+      "name": "Plenty of Fish",
+      "description": "The dancing lights of your cascading auras seem almost hypnotic. Perhaps you can utilize this to your benefit with some of the less developed species....",
+      "x": 26,
+      "y": 146,
+      "icon": {
+        "id": "minecraft:fish"
+      },
+      "prerequisites": [
+        "Pumped up kicks",
+        "Duplification!"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "aura:consumerBlockfish"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemNuggetFish",
+          "amount": 16
+        },
+        {
+          "id": "Thaumcraft:ItemLootBag",
+          "damage": 2
+        },
+        {
+          "id": "BiomesOPlenty:coral1",
+          "damage": 15,
+          "amount": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "aura:AuraCrystal",
+          "damage": 3,
+          "amount": 16
+        },
+        {
+          "id": "aura:AuraCrystal",
+          "amount": 16
+        },
+        {
+          "id": "aura:AuraCrystal",
+          "damage": 7,
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "Rain of Monsters",
+      "description": "After using the power of aura to master the seas you\u0027ve discovered a way to entice the deadlies of creatures to appear as well. Why you\u0027d ever want more monsters however, is between you and them. ",
+      "x": 25,
+      "y": 184,
+      "icon": {
+        "id": "minecraft:skull",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Plenty of Fish"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "aura:consumerBlockmob"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:quartz",
+          "amount": 8
+        },
+        {
+          "id": "minecraft:glowstone_dust",
+          "amount": 16
+        },
+        {
+          "id": "Thaumcraft:ItemLootBag",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "minecraft:skull",
+          "damage": 1
+        },
+        {
+          "id": "evilcraft:darkTank",
+          "nbt": "{darkTank:{FluidName:\"nutrient_distillation\",Amount:16000},tankCapacity:16000}"
+        }
+      ]
+    },
+    {
+      "name": "The forbidden Fruit",
+      "description": "You\u0027ve found a way to harness the benfits of a multitude of different foods through the aid of aura influx. Craft a Forbidden Fruit amulet to utilize your new discoveries!",
+      "x": 158,
+      "y": 179,
+      "icon": {
+        "id": "aura:amuletFood"
+      },
+      "prerequisites": [
+        "Vortex Infusion"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "aura:amuletFood"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "aura:ingotAngelSteel",
+          "damage": 2,
+          "amount": 2
+        },
+        {
+          "id": "Botania:fertilizer",
+          "amount": 4
+        },
+        {
+          "id": "Natura:boneBag",
+          "amount": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ForbiddenMagic:TaintFruit",
+          "amount": 4
+        },
+        {
+          "id": "TaintedMagic:MagicCroissant",
+          "amount": 4
+        },
+        {
+          "id": "HardcoreQuesting:hqmInvalidItem"
+        },
+        {
+          "id": "minecraft:cake",
+          "amount": 2
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

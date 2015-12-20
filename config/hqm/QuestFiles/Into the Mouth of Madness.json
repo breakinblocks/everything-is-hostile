@@ -1,0 +1,845 @@
+{
+  "name": "Into the Mouth of Madness",
+  "quests": [
+    {
+      "name": "The Abyss",
+      "description": "There is undecipherable runic markings on several pages of the jorunal. There does seem to be some order to the random scratches however and a reference to an ancient necronomicon of knowledge. Use the notes here to create a necronomicon to get more information about the abyssal lands. ",
+      "x": 19,
+      "y": 15,
+      "icon": {
+        "id": "abyssalcraft:abystone"
+      },
+      "prerequisites": [
+        "{A World Gone Mad}[The Twilight]",
+        "{A World Gone Mad}[Twisting Turning....]"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "abyssalcraft:necronomicon"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:potion",
+          "damage": 8235
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "AWWayofTime:reinforcedSlate",
+          "amount": 4
+        },
+        {
+          "id": "witchery:ingredient",
+          "damage": 105,
+          "amount": 3
+        },
+        {
+          "id": "arsmagica2:rune",
+          "damage": 17
+        },
+        {
+          "id": "Forestry:beeQueenGE",
+          "nbt": "{MaxH:20,Health:20,IsAnalyzed:1b,Genome:{Chromosomes:[0:{UID1:\"fe.bees.species.botanist\",UID0:\"fe.bees.species.botanist\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"fe.flower.Botania Basic\",UID0:\"fe.flower.Botania Basic\",Slot:10b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"fe.effect.Regeneration\",UID0:\"fe.effect.Regeneration\",Slot:13b}]}}"
+        }
+      ]
+    },
+    {
+      "name": "Oblivion Becomes Me",
+      "description": "Utilizing some of the inherient power of the abyssal metals you\u0027ve determined that equiping yourself with this strange metal may aid you in what is to come. It is higly recommended you gather a set of armor of the depths before proceeding.",
+      "x": 54,
+      "y": 6,
+      "icon": {
+        "id": "abyssalcraft:depthsplate"
+      },
+      "prerequisites": [
+        "The Abyss"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "abyssalcraft:depthshelmet"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "abyssalcraft:depthsplate"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "abyssalcraft:depthslegs"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "abyssalcraft:depthsboots"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:specialFlower",
+          "nbt": "{type:\"dreadthorn\"}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:potion",
+          "damage": 16423,
+          "amount": 3
+        },
+        {
+          "id": "HardcoreEnderExpansion:curse",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "Asorah, The Fallen",
+      "description": "In the necronomicon are instructions for a forbidden ritual to summon the great beast Asorah. Bring forth the Animated Dragon to master these abyssal plains and take what you need to create the keys to the realms beyond.",
+      "x": 78,
+      "y": 59,
+      "icon": {
+        "id": "acheads:head",
+        "damage": 8
+      },
+      "prerequisites": [
+        "Abyssal Wastelands Necronomicon"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Asorah, The Fallen",
+              "icon": {
+                "id": "acheads:head",
+                "damage": 8
+              },
+              "mob": "abyssalcraft.dragonboss",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:potion",
+          "damage": 16455,
+          "amount": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "abyssalcraft:corbow",
+          "nbt": "{ench:[0:{lvl:5s,id:48s},1:{lvl:1s,id:51s},2:{lvl:2s,id:151s}]}"
+        },
+        {
+          "id": "Thaumcraft:ItemBowBone",
+          "nbt": "{ench:[0:{lvl:5s,id:48s},1:{lvl:5s,id:86s},2:{lvl:2s,id:232s}]}"
+        },
+        {
+          "id": "Botania:crystalBow",
+          "nbt": "{ench:[0:{lvl:5s,id:49s},1:{lvl:1s,id:114s},2:{lvl:2s,id:225s},3:{lvl:2s,id:231s},4:{lvl:2s,id:235s}]}"
+        },
+        {
+          "id": "TConstruct:creativeModifier",
+          "nbt": "{TargetLock:\"LongBow\"}"
+        }
+      ]
+    },
+    {
+      "name": "Romancing the Stone",
+      "description": "To progress you will need to empower a powerstone by harnessing the life force of the denizens of the Abyssal Wastelands. Once you have aquired the life essence of each you will need to focus it into a crystal focal point, luckily such an item seems to be atop the strange towers in this realm. ",
+      "x": 118,
+      "y": 22,
+      "icon": {
+        "id": "abyssalcraft:psdl"
+      },
+      "prerequisites": [
+        "Asorah, The Fallen"
+      ],
+      "repeat": {
+        "type": "TIME",
+        "days": 120,
+        "hours": 0
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Skeleton Goliath",
+              "icon": {
+                "id": "acheads:head",
+                "damage": 18
+              },
+              "mob": "abyssalcraft.gskeleton",
+              "kills": 2,
+              "exact": false
+            },
+            {
+              "name": "Dr. Orange",
+              "icon": {
+                "id": "abyssalcraft:ohead"
+              },
+              "mob": "abyssalcraft.depthsghoul",
+              "kills": 3,
+              "exact": false
+            },
+            {
+              "name": "Pete",
+              "icon": {
+                "id": "abyssalcraft:phead"
+              },
+              "mob": "abyssalcraft.depthsghoul",
+              "kills": 3,
+              "exact": false
+            },
+            {
+              "name": "Spectral Dragon",
+              "icon": {
+                "id": "acheads:head",
+                "damage": 7
+              },
+              "mob": "abyssalcraft.dragonminion",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:diamond_block"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "abyssalcraft:psdl"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "arsmagica2:rune",
+          "damage": 17
+        },
+        {
+          "id": "abyssalcraft:coraliumu",
+          "amount": 5
+        },
+        {
+          "id": "appliedenergistics2:tile.BlockMolecularAssembler",
+          "amount": 2
+        },
+        {
+          "id": "Botania:spreader",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Dreaded Gateway Key",
+      "description": "After felling the dread beast Asorah you have the components you need to craft Asorah\u0027s dreaded gateway key and go deeper into these cursed wastelands. ",
+      "x": 163,
+      "y": 45,
+      "icon": {
+        "id": "abyssalcraft:portalplacerdl"
+      },
+      "prerequisites": [
+        "Romancing the Stone"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "abyssalcraft:portalplacerdl"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:specialFlower",
+          "nbt": "{type:\"dreadthorn\"}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "arsmagica2:rune",
+          "damage": 18
+        },
+        {
+          "id": "AWWayofTime:voidSigil"
+        },
+        {
+          "id": "ChromatiCraft:chromaticraft_item_modinteract"
+        },
+        {
+          "id": "aura:consumerBlockloot"
+        }
+      ]
+    },
+    {
+      "name": "The Dread Book of the Dead",
+      "description": "The dreadlands, as vast and deadly as the abyssal lands were cold and barren. You understand from the glyphs in the back of the necronomicon that with the right materials from this world you can piece together more information, construct a dreadlands necronomicon to proceed. ",
+      "x": 228,
+      "y": 19,
+      "bigicon": true,
+      "icon": {
+        "id": "abyssalcraft:necronomicon_dre"
+      },
+      "prerequisites": [
+        "Dreaded Gateway Key"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "abyssalcraft:necronomicon_dre"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Altar of Cha\u0027garoth",
+      "description": "Cha\u0027garoth was the result of an infernal virus that mutated this Dreadbeast into what he has become.So powerful did this abyssal hydra grow that he became a threat to even the Great Old Ones themselves.He was placed in this dimension and although contained, he corrupted and killed everything. This seems a hopeless battle, but you must find a way to end this blight on the once peaceful world. ",
+      "x": 286,
+      "y": 60,
+      "icon": {
+        "id": "abyssalcraft:dreadaltarbottom"
+      },
+      "prerequisites": [
+        "The Dread Book of the Dead"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "abyssalcraft:dreadaltartop"
+              }
+            },
+            {
+              "item": {
+                "id": "abyssalcraft:dreadaltarbottom"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Dread Plague Key",
+      "description": "After hunting Cha\u0027garoth to his lair and putting an end to him you\u0027ll have recovered the Dread-Plagues gateway key. They key born from his corrupted and mutated dread flesh. But where does it lead....",
+      "x": 272,
+      "y": 133,
+      "icon": {
+        "id": "abyssalcraft:dreadkey"
+      },
+      "prerequisites": [
+        "Altar of Cha\u0027garoth"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "abyssalcraft:dreadkey"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:spawn_egg",
+          "damage": 308
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Botania:manaResource",
+          "damage": 9
+        },
+        {
+          "id": "HardcoreEnderExpansion:essence",
+          "amount": 10
+        },
+        {
+          "id": "ForestryExtras:item.fe.frame.frameDraconic",
+          "amount": 4
+        },
+        {
+          "id": "TConstruct:MetalBlock",
+          "damage": 9
+        }
+      ]
+    },
+    {
+      "name": "Cha\u0027garoth\u0027s R\u0027lyehian Key",
+      "description": "Using the dread plagued key seems to be lacking something... Crystalizing elements hinted at in the necronomicon may allow for you to further awaken it\u0027s potential.",
+      "x": 168,
+      "y": 177,
+      "icon": {
+        "id": "abyssalcraft:portalplacerjzh"
+      },
+      "prerequisites": [
+        "Dread Plague Key"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "abyssalcraft:portalplacerjzh"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:specialFlower",
+          "nbt": "{type:\"orechidIgnem\"}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ThaumicExploration:bootsMeteor"
+        },
+        {
+          "id": "ThaumicExploration:bootsComet"
+        }
+      ]
+    },
+    {
+      "name": "The Omonthol Necronomicon",
+      "description": "How deep does this curse run? The ancient lands of Omothol lay before you, and again you must gather the natural sources of power to further unlock your necronomicon before continuing your descent. ",
+      "x": 136,
+      "y": 131,
+      "icon": {
+        "id": "abyssalcraft:necronomicon_omt"
+      },
+      "prerequisites": [
+        "Cha\u0027garoth\u0027s R\u0027lyehian Key"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "abyssalcraft:necronomicon_omt"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "arsmagica2:arcane_spellbook",
+          "nbt": "{ench:[0:{lvl:1s,id:101s}]}"
+        }
+      ]
+    },
+    {
+      "name": "Abyssal Wastelands Necronomicon",
+      "description": "Finally the last piece of the puzzle. You now have the knowledge to fully unlock the knowledge within the Necronomicon. Craft yours into the Abyssal Wasteland necronomicon.",
+      "x": 42,
+      "y": 44,
+      "icon": {
+        "id": "abyssalcraft:necronomicon_cor"
+      },
+      "prerequisites": [
+        "The Abyss"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "abyssalcraft:necronomicon_cor"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThaumicHorizons:focusIllumination"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "EnderStorage:enderChest",
+          "amount": 2
+        },
+        {
+          "id": "aura:consumerBlockminer",
+          "amount": 2
+        },
+        {
+          "id": "Botania:floatingSpecialFlower",
+          "nbt": "{type:\"orechid\"}"
+        },
+        {
+          "id": "ThaumicHorizons:suicidePill"
+        }
+      ]
+    },
+    {
+      "name": "Dreadium Ingots",
+      "description": "The dreadlands is made of a rare material never before seen in the overworld. Gather the dreadium and craft it into ingots for use in more practical applications. ",
+      "x": 277,
+      "y": 7,
+      "icon": {
+        "id": "abyssalcraft:dreadumingot"
+      },
+      "prerequisites": [
+        "The Dread Book of the Dead"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "abyssalcraft:dreadumingot"
+              },
+              "required": 12,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "abyssalcraft:dreadiumu",
+          "amount": 3
+        },
+        {
+          "id": "HardcoreEnderExpansion:curse",
+          "damage": 6,
+          "amount": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ExtraUtilities:lawSword"
+        },
+        {
+          "id": "Thaumcraft:ItemSwordVoid"
+        },
+        {
+          "id": "Thaumcraft:ItemSwordElemental"
+        },
+        {
+          "id": "TConstruct:rapier",
+          "nbt": "{InfiTool:{BaseDurability:67,Head:316,BaseAttack:2,ToolEXP:0L,Built:1b,HarvestLevel:1,Attack:2,RenderHead:316,ModDurability:0.0f,Handle:316,Broken:0b,Shoddy:0.0f,RenderHandle:316,Accessory:316,MiningSpeed:150,RenderAccessory:316,ToolLevel:1,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:67,Modifiers:8},display:{Name:\"§fMagical Wooden Rapier\"}}"
+        }
+      ]
+    },
+    {
+      "name": "Crystalizer",
+      "description": "You\u0027ve found a way to crystallize the properties of nearly any normal ingot. You imagine there are near limitless possibilities with this new form of crystalized matter. ",
+      "x": 217,
+      "y": 66,
+      "icon": {
+        "id": "abyssalcraft:crystallizer"
+      },
+      "prerequisites": [
+        "The Dread Book of the Dead"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "abyssalcraft:crystallizer"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "abyssalcraft:crystalcoralium",
+          "amount": 8
+        },
+        {
+          "id": "Thaumcraft:ItemLootBag",
+          "damage": 2,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Ethaxium; Exaulted.",
+      "description": "Ethalxium is a truely impressive material. The materials found only in this world provide you with ample raw resources to construct better armor and weapons to aid you in your fight. Craft a set of this impressive armor for yourself to aid in your endeavors here. ",
+      "x": 171,
+      "y": 105,
+      "icon": {
+        "id": "abyssalcraft:ethaxiumplate"
+      },
+      "prerequisites": [
+        "The Omonthol Necronomicon"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "abyssalcraft:ethaxiumplate"
+              }
+            },
+            {
+              "item": {
+                "id": "abyssalcraft:ethaxiumlegs"
+              }
+            },
+            {
+              "item": {
+                "id": "abyssalcraft:ethaxiumhelmet"
+              }
+            },
+            {
+              "item": {
+                "id": "abyssalcraft:ethaxiumboots"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThaumicTinkerer:spellCloth",
+          "amount": 5
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:3s,id:254s}]}"
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:4s,id:100s}]}"
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:4s,id:76s}]}"
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:3s,id:0s}]}"
+        }
+      ]
+    },
+    {
+      "name": "Token of Appreciation",
+      "description": "You have found a way to gain favor iwth the great old ones. Gather together the ancient symbols of power from the Old ones, craft an engraver and incribe the three symbols onto ancient coins to return with you to the overworld as a token of the power unleashed in these worlds. ",
+      "x": 63,
+      "y": 110,
+      "icon": {
+        "id": "abyssalcraft:cthulhucoin"
+      },
+      "prerequisites": [
+        "The Omonthol Necronomicon"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "abyssalcraft:engraver"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "abyssalcraft:cthulhucoin"
+              }
+            },
+            {
+              "item": {
+                "id": "abyssalcraft:eldercoin"
+              }
+            },
+            {
+              "item": {
+                "id": "abyssalcraft:jzaharcoin"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "abyssalcraft:OC"
+        },
+        {
+          "id": "AWWayofTime:blockCrystal"
+        },
+        {
+          "id": "HardcoreEnderExpansion:instability_orb"
+        }
+      ]
+    },
+    {
+      "name": "Now, I am become Death",
+      "description": "And I shall not be dark, but beautiful and terrible as the Morning and the Night! Fair as the Sea and the Sun and the Snow upon the Mountain! Dreadful as the Storm and the Lightning! Stronger than the foundations of the earth. All shall love me and despair! Power of absolute devestation lies now within your grasp. Contruct the Oblivion Death Bomb, and pray you never have to use it.",
+      "x": 79,
+      "y": 160,
+      "icon": {
+        "id": "abyssalcraft:odb"
+      },
+      "prerequisites": [
+        "The Omonthol Necronomicon"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "abyssalcraft:odb"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "witchery:poppet",
+          "damage": 6,
+          "nbt": "{WITCDamage:0}"
+        },
+        {
+          "id": "aura:orangeAmulet"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "TConstruct:heartCanister",
+          "damage": 6
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "The Destroyer of Worlds",
+      "description": "Perhaps you found a use for such great power afterall. Your research seems to indicate that unleashing the power of the Death Bomb will tear reality itself releasing a fearsome enemy. Defeat this foe to claim Sacthoth\u0027s Soul reaper Blade and with it steal the very souls of all enemies that would raise arms against you... and perhaps a few that wouldn\u0027t.",
+      "x": 26,
+      "y": 177,
+      "bigicon": true,
+      "icon": {
+        "id": "abyssalcraft:soulreaper"
+      },
+      "prerequisites": [
+        "Now, I am become Death"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "abyssalcraft:soulreaper"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "arsmagica2:rune",
+          "damage": 19
+        },
+        {
+          "id": "ThaumicTinkerer:kamiResource",
+          "amount": 6
+        },
+        {
+          "id": "Botania:storage",
+          "damage": 1
+        },
+        {
+          "id": "AWWayofTime:itemRitualDiviner",
+          "damage": 2
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

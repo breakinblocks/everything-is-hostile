@@ -1,0 +1,1918 @@
+{
+  "name": "The Ultimate Slayer",
+  "quests": [
+    {
+      "name": "March of the Undead",
+      "description": "    It\u0027s close to midnight and something evil\u0027s lurking In the dark                                                                                         Under the moonlight you see a sight that almost stops your heart...                                                                                You try to scream, but terror takes the sound before You make it...                                                                               You start to freeze as horror looks you right betweenThe eyes...You\u0027re paralyzed",
+      "x": 19,
+      "y": 190,
+      "icon": {
+        "id": "minecraft:skull"
+      },
+      "prerequisites": [
+        "{A World Gone Mad}[Fight to Survive]"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Zombie",
+              "icon": {
+                "id": "minecraft:skull",
+                "damage": 2
+              },
+              "mob": "Zombie",
+              "kills": 5,
+              "exact": false
+            },
+            {
+              "name": "Skeleton",
+              "icon": {
+                "id": "minecraft:skull"
+              },
+              "mob": "Skeleton",
+              "kills": 5,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:fletching",
+          "damage": 4,
+          "amount": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "AWWayofTime:efficiencyRune",
+          "amount": 2
+        },
+        {
+          "id": "Thaumcraft:ItemResource",
+          "damage": 1,
+          "amount": 2
+        },
+        {
+          "id": "Botania:floatingSpecialFlower",
+          "nbt": "{type:\"hydroangeas\"}"
+        },
+        {
+          "id": "witchery:ingredient",
+          "damage": 10
+        }
+      ]
+    },
+    {
+      "name": "WarPigs",
+      "description": "The evil that permeates this land has gone so far to infest the minds of even the most docile farm animals. Madness has consumed them and that travel the lands possessed by unatural strength. Seek out their kind and see them to the void.",
+      "x": 41,
+      "y": 119,
+      "icon": {
+        "id": "OpenBlocks:trophy",
+        "nbt": "{entity:\"Pig\"}"
+      },
+      "prerequisites": [
+        "March of the Undead"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "EvilPig",
+              "icon": {
+                "id": "OpenBlocks:trophy",
+                "nbt": "{entity:\"Pig\"}"
+              },
+              "mob": "abyssalcraft.evilpig",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "abyssalcraft:antipork",
+          "amount": 5
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:golden_apple"
+        },
+        {
+          "id": "minecraft:golden_carrot"
+        }
+      ]
+    },
+    {
+      "name": "Down With the Sickness",
+      "description": "The wretched creatures of the abyssal waste roam the earth spreading the plague to all manner of life in their path. Destroy these abominations and send them quickly back into the abyss from which they came. Care not to fall to their touch less you rise among them as ally....",
+      "x": 16,
+      "y": 119,
+      "icon": {
+        "id": "abyssalcraft:corbone"
+      },
+      "prerequisites": [
+        "March of the Undead"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Abyssal Zombies",
+              "icon": {
+                "id": "abyssalcraft:corflesh"
+              },
+              "mob": "abyssalcraft.abyssalzombie",
+              "kills": 15,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:potion",
+          "damage": 16423
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "abyssalcraft:cingot",
+          "amount": 2
+        },
+        {
+          "id": "aura:ingotAngelSteel",
+          "damage": 1,
+          "amount": 2
+        },
+        {
+          "id": "Thaumcraft:ItemResource",
+          "damage": 2,
+          "amount": 2
+        },
+        {
+          "id": "evilcraft:darkGem",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Merciless Onslaught",
+      "description": "Perhaps a sacrifice would appease whatever the evils you have unleashed... at least... long enough for you to amass further power.",
+      "x": 66,
+      "y": 120,
+      "icon": {
+        "id": "TConstruct:cleaver",
+        "nbt": "{InfiTool:{RenderExtra:6,BaseDurability:400,BaseAttack:8,ToolEXP:0L,Built:1b,HarvestLevel:3,RenderHead:6,ModDurability:0.0f,Shoddy:0.0f,RenderHandle:6,Accessory:6,MiningSpeed:700,Unbreaking:3,Damage:0,HarvestLevel2:3,BonusDurability:0,TotalDurability:400,MiningSpeed2:700,Head:6,Attack:8,Handle:6,Broken:0b,Extra:6,RenderAccessory:6,ToolLevel:1,Modifiers:0},display:{Name:\"§fObsidian Cleaver\"}}"
+      },
+      "prerequisites": [
+        "March of the Undead"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Cow",
+              "icon": {
+                "id": "props:props",
+                "damage": 233
+              },
+              "mob": "Cow",
+              "kills": 5,
+              "exact": false
+            },
+            {
+              "name": "Sheep",
+              "icon": {
+                "id": "props:props",
+                "damage": 235
+              },
+              "mob": "Sheep",
+              "kills": 5,
+              "exact": false
+            },
+            {
+              "name": "Chicken",
+              "icon": {
+                "id": "abyssalcraft:chickenp"
+              },
+              "mob": "Chicken",
+              "kills": 5,
+              "exact": false
+            },
+            {
+              "name": "Squid",
+              "icon": {
+                "id": "props:props",
+                "damage": 236
+              },
+              "mob": "Squid",
+              "kills": 5,
+              "exact": false
+            }
+          ]
+        },
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Bat",
+              "icon": {
+                "id": "OpenBlocks:trophy",
+                "nbt": "{entity:\"Bat\"}"
+              },
+              "mob": "Bat",
+              "kills": 1,
+              "exact": false
+            },
+            {
+              "name": "Horse",
+              "icon": {
+                "id": "minecraft:iron_horse_armor"
+              },
+              "mob": "EntityHorse",
+              "kills": 1,
+              "exact": false
+            },
+            {
+              "name": "Villagers",
+              "icon": {
+                "id": "OpenBlocks:trophy",
+                "nbt": "{entity:\"Villager\"}"
+              },
+              "mob": "Villager",
+              "kills": 5,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "aura:consumerBlockdye"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ExtraUtilities:golden_lasso"
+        },
+        {
+          "id": "TConstruct:ore.berries.two",
+          "damage": 9
+        },
+        {
+          "id": "HardcoreQuesting:hqmInvalidItem"
+        }
+      ]
+    },
+    {
+      "name": "Seek and Destroy",
+      "description": "They\u0027re EVERYWHERE, Monsters in the night, in your home, sneaking up beneath you and in the depths of your mines. No longer will you cower in the darkness, see them brought to grass beneath your fire and blade.",
+      "x": 15,
+      "y": 8,
+      "icon": {
+        "id": "abyssalcraft:corbow"
+      },
+      "prerequisites": [
+        "{A World Gone Mad}[Fight to Survive]"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Zombie",
+              "icon": {
+                "id": "minecraft:skull",
+                "damage": 2
+              },
+              "mob": "Zombie",
+              "kills": 10,
+              "exact": false
+            },
+            {
+              "name": "Skeleton",
+              "icon": {
+                "id": "minecraft:skull"
+              },
+              "mob": "Skeleton",
+              "kills": 10,
+              "exact": false
+            },
+            {
+              "name": "Creeper",
+              "icon": {
+                "id": "minecraft:skull",
+                "damage": 4
+              },
+              "mob": "Creeper",
+              "kills": 5,
+              "exact": false
+            },
+            {
+              "name": "Spider",
+              "icon": {
+                "id": "chocolateQuest:material",
+                "damage": 4
+              },
+              "mob": "Spider",
+              "kills": 5,
+              "exact": false
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:rotten_flesh"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:bone"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:gunpowder"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:string"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:potion",
+          "damage": 8259
+        },
+        {
+          "id": "minecraft:potion",
+          "damage": 8269
+        },
+        {
+          "id": "Thaumcraft:ItemResource",
+          "damage": 9,
+          "amount": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:blaze_powder",
+          "amount": 2
+        },
+        {
+          "id": "TConstruct:materials",
+          "damage": 8
+        },
+        {
+          "id": "Forestry:resourceStorage",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Hell and Back",
+      "description": "Deep below the impenetrable bedrock lies the world of fire and rage. Pushing yourself ever to the brink you must venture into this realm. Slaughter all that stand in the way of unlocking further Arcana and exterminating the insideous denizens of the Nether with extreme prejudice.",
+      "x": 37,
+      "y": 31,
+      "icon": {
+        "id": "chisel:nether_brick",
+        "damage": 8
+      },
+      "prerequisites": [
+        "Seek and Destroy"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Fire Bats",
+              "mob": "Thaumcraft.Firebat",
+              "kills": 2,
+              "exact": false
+            },
+            {
+              "name": "Zombie Pigmen",
+              "icon": {
+                "id": "IguanaTweaksTConstruct:skullItem",
+                "damage": 1
+              },
+              "mob": "PigZombie",
+              "kills": 10,
+              "exact": false
+            },
+            {
+              "name": "Heatscar Spiders",
+              "icon": {
+                "id": "Natura:barleyFood",
+                "damage": 7
+              },
+              "mob": "Natura.FlameSpider",
+              "kills": 2,
+              "exact": false
+            }
+          ]
+        },
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Blazes",
+              "icon": {
+                "id": "minecraft:blaze_rod"
+              },
+              "mob": "Blaze",
+              "kills": 5,
+              "exact": false
+            },
+            {
+              "name": "Ghast",
+              "icon": {
+                "id": "minecraft:ghast_tear"
+              },
+              "mob": "Ghast",
+              "kills": 1,
+              "exact": false
+            },
+            {
+              "name": "Magma Cream",
+              "icon": {
+                "id": "minecraft:magma_cream"
+              },
+              "mob": "LavaSlime",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        },
+        {
+          "type": "LOCATION",
+          "locations": [
+            {
+              "name": "The Nether",
+              "icon": {
+                "id": "chisel:nether_brick",
+                "damage": 8
+              },
+              "x": 0,
+              "y": 64,
+              "z": 0,
+              "dim": -1,
+              "radius": -1
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:hqmInvalidItem"
+        },
+        {
+          "id": "HardcoreQuesting:hqmInvalidItem"
+        },
+        {
+          "id": "HardcoreQuesting:hqmInvalidItem"
+        }
+      ]
+    },
+    {
+      "name": "FlySwatter",
+      "description": "In the depths of the nether you have come across a new development... Massive infernal hives of some sort of giant insects have sprung up all over the hellscape. Squash them once and for all by demolishing their hives.",
+      "x": 80,
+      "y": 34,
+      "icon": {
+        "id": "BiomesOPlenty:hive",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Hell and Back"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "BiomesOPlenty:hive",
+                "damage": 1
+              },
+              "required": 10,
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Wasps",
+              "icon": {
+                "id": "Forestry:beeDroneGE",
+                "nbt": "{MaxH:20,Health:20,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesMeadows\",UID0:\"forestry.speciesMeadows\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:10b},10:{UID1:\"forestry.floweringSlower\",UID0:\"forestry.floweringSlower\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
+              },
+              "mob": "BiomesOPlenty.Wasp",
+              "kills": 10,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "evilcraft:broom"
+        },
+        {
+          "id": "chisel:cloudinabottle"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "arsmagica2:flickerJar",
+          "damage": 6
+        },
+        {
+          "id": "arsmagica2:flickerJar",
+          "damage": 8
+        },
+        {
+          "id": "arsmagica2:flickerJar",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Ride the Lightning",
+      "description": "Wisps, annoying to say the least. You thought surely there could be nothing more annoying when seeking pech to trade with. Enter the Hellfire Wisp. While delving through the lava fields of the nether an infernal twisted brethren of the wisp has emerged near strange obsidian pillars that seem to thrive in the lakes of lava. Alas they must be dealt with.",
+      "x": 66,
+      "y": 58,
+      "icon": {
+        "id": "arsmagica2:essence",
+        "damage": 7
+      },
+      "prerequisites": [
+        "Hell and Back"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Hellfire Wisps",
+              "icon": {
+                "id": "Thaumcraft:FocusHellbat"
+              },
+              "mob": "Automagy.WispNether",
+              "kills": 10,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:brewVial",
+          "nbt": "{brewKey:\"fireResistance\"}"
+        },
+        {
+          "id": "Thaumcraft:ItemLootBag",
+          "damage": 2
+        },
+        {
+          "id": "Thaumcraft:ItemResource",
+          "damage": 9,
+          "amount": 4
+        },
+        {
+          "id": "ChromatiCraft:chromaticraft_item_fragment",
+          "nbt": "{page:\"LILY\"}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Thaumcraft:ItemEssence",
+          "damage": 1,
+          "amount": 4,
+          "nbt": "{Aspects:[0:{amount:8,key:\"ignis\"}]}"
+        },
+        {
+          "id": "ThaumicTinkerer:infusedSeeds",
+          "amount": 2,
+          "nbt": "{mainAspect:{Aspects:[0:{amount:1,key:\"ignis\"}]},aspectTendencies:{Aspects:[]}}"
+        },
+        {
+          "id": "AWWayofTime:incendium",
+          "amount": 8
+        },
+        {
+          "id": "Botania:shinyFlower",
+          "damage": 14,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "March of the Undead II",
+      "description": "It seems the undead have found their way into the Nether as well. Instead of being consumed by fire, it has fortified them into unholy hellspawn. Lay waste to them yet again.",
+      "x": 22,
+      "y": 65,
+      "icon": {
+        "id": "minecraft:rotten_flesh"
+      },
+      "prerequisites": [
+        "Hell and Back"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Zombie Pigmen",
+              "icon": {
+                "id": "OpenBlocks:trophy",
+                "nbt": "{entity:\"PigZombie\"}"
+              },
+              "mob": "PigZombie",
+              "kills": 20,
+              "exact": false
+            },
+            {
+              "name": "Wither Skeletons",
+              "icon": {
+                "id": "minecraft:skull",
+                "damage": 1
+              },
+              "mob": "witherSkeleton",
+              "kills": 5,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Chemical Warfare",
+      "description": "In your travels you have heard tale of a strange brew known only as Chemical X. This is rumored to hold interesting mutagenitc properties when applied to the mundane creatures of the world. Perhaps you can find a way to harness.... but to what end?",
+      "x": 89,
+      "y": 77,
+      "bigicon": true,
+      "icon": {
+        "id": "MutantCreatures:item.chemicalX"
+      },
+      "prerequisites": [
+        "Seek and Destroy",
+        "Down With the Sickness"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "MutantCreatures:item.chemicalX"
+              },
+              "required": 5,
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "evilcraft:lightningGrenade"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "arsmagica2:manaPotionBundle",
+          "damage": 771
+        },
+        {
+          "id": "Thaumcraft:ItemSanityChecker"
+        }
+      ]
+    },
+    {
+      "name": "The Four Horsemen",
+      "description": "After learning the formula for the curious Chemical X it\u0027s time to put it to use. Now to find some Test Subjects... For Scie... Err Magic!",
+      "x": 132,
+      "y": 80,
+      "icon": {
+        "id": "witchery:vampirehelmet"
+      },
+      "prerequisites": [
+        "Chemical Warfare"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Mutant Creeper",
+              "icon": {
+                "id": "minecraft:skull",
+                "damage": 4
+              },
+              "mob": "MutantCreatures.MutantCreeper",
+              "kills": 1,
+              "exact": false
+            },
+            {
+              "name": "Mutant Enderman",
+              "icon": {
+                "id": "HardcoreEnderExpansion:enderman_head"
+              },
+              "mob": "MutantCreatures.MutantEnderman",
+              "kills": 1,
+              "exact": false
+            },
+            {
+              "name": "Mutant Zombie",
+              "icon": {
+                "id": "minecraft:skull",
+                "damage": 2
+              },
+              "mob": "MutantCreatures.MutantZombie",
+              "kills": 1,
+              "exact": false
+            },
+            {
+              "name": "Mutant Skeleton",
+              "icon": {
+                "id": "minecraft:skull"
+              },
+              "mob": "MutantCreatures.MutantSkeleton",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "arsmagica2:rune",
+          "damage": 18
+        },
+        {
+          "id": "HardcoreEnderExpansion:essence",
+          "amount": 20
+        },
+        {
+          "id": "ChromatiCraft:chromaticraft_item_fragment"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Sanguimancy:bloodAmulet"
+        },
+        {
+          "id": "Thaumcraft:ItemAmuletVis",
+          "damage": 1
+        },
+        {
+          "id": "aura:amuletFood"
+        }
+      ]
+    },
+    {
+      "name": "Through the Never",
+      "description": "You\u0027re quickly finding the world isnt rainbows and sunshine. That doesn\u0027t mean you can\u0027t stop to smell the roses. Create a 2x2 of water and surround it with your favorite flowers. Throw a diamond in and by thunder enter a new realm. Your journal describes a fierce guardian of this new world, seek out the Naga and take your first step in bringing this dimension to it\u0027s knees.",
+      "x": 107,
+      "y": 152,
+      "bigicon": true,
+      "icon": {
+        "id": "TwilightForest:item.trophy",
+        "damage": 1
+      },
+      "prerequisites": [
+        "WarPigs",
+        "Seek and Destroy"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "New",
+              "mob": "TwilightForest.Naga",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ExtraTiC:largeplate",
+          "damage": 144
+        },
+        {
+          "id": "minecraft:potion",
+          "damage": 8229,
+          "amount": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "TwilightForest:item.liveRoot",
+          "amount": 10
+        },
+        {
+          "id": "TwilightForest:tile.TFMagicLogSpecial"
+        },
+        {
+          "id": "Thaumcraft:ItemResource",
+          "damage": 17,
+          "amount": 3
+        },
+        {
+          "id": "Botania:overgrowthSeed"
+        }
+      ]
+    },
+    {
+      "name": "King Nothing",
+      "description": "Your notes speak of a master of undeath dwelling within these lands... a tall skeleton-like creature wearing a purple cape and golden crown. His scepter contains power over death itself and you can be sure he will have many magical protections in place for himself. Dispatch this rival sorcerer and claim his scepter as your own. ",
+      "x": 141,
+      "y": 120,
+      "icon": {
+        "id": "TwilightForest:item.trophy",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Through the Never"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "TwilightForest:item.scepterTwilight"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ExtraUtilities:decorativeBlock1",
+          "damage": 11,
+          "amount": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "arsmagica2:rune",
+          "damage": 18
+        },
+        {
+          "id": "Botania:specialFlower",
+          "nbt": "{type:\"bloodthorn\"}"
+        },
+        {
+          "id": "Thaumcraft:ItemResource",
+          "damage": 17,
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Becoming the Bull",
+      "description": "Deep within the twisting labyrinths below the forest is a mazestone structure that has been infested with corrupted beasts half man and half bull. Enter the depths and put an end to the source of this corruption by dispatching the Minotaur lord and his underlings. ",
+      "x": 142,
+      "y": 187,
+      "icon": {
+        "id": "TwilightForest:item.meefStroganoff"
+      },
+      "prerequisites": [
+        "Through the Never"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Minoshroom",
+              "icon": {
+                "id": "chocolateQuest:banner",
+                "damage": 11
+              },
+              "mob": "TwilightForest.Minoshroom",
+              "kills": 1,
+              "exact": false
+            },
+            {
+              "name": "Minotaurs",
+              "icon": {
+                "id": "Botania:grassHorn",
+                "damage": 2
+              },
+              "mob": "TwilightForest.Minotaur",
+              "kills": 10,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Forestry:beeQueenGE",
+          "nbt": "{MaxH:20,Health:20,IsAnalyzed:1b,Genome:{Chromosomes:[0:{UID1:\"extrabees.species.fungal\",UID0:\"extrabees.species.fungal\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersMushrooms\",UID0:\"forestry.flowersMushrooms\",Slot:10b},10:{UID1:\"forestry.floweringSlower\",UID0:\"forestry.floweringSlower\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"extrabees.effect.bonemealmushroom\",UID0:\"extrabees.effect.bonemealmushroom\",Slot:13b}]}}"
+        },
+        {
+          "id": "Forestry:beeDroneGE",
+          "nbt": "{MaxH:20,Health:20,IsAnalyzed:1b,Genome:{Chromosomes:[0:{UID1:\"extrabees.species.fungal\",UID0:\"extrabees.species.fungal\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersMushrooms\",UID0:\"forestry.flowersMushrooms\",Slot:10b},10:{UID1:\"forestry.floweringSlower\",UID0:\"forestry.floweringSlower\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"extrabees.effect.bonemealmushroom\",UID0:\"extrabees.effect.bonemealmushroom\",Slot:13b}]}}"
+        },
+        {
+          "id": "arsmagica2:essence",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Forestry:beeQueenGE",
+          "nbt": "{MaxH:30,Health:30,IsAnalyzed:1b,Genome:{Chromosomes:[0:{UID1:\"extrabees.species.viscous\",UID0:\"extrabees.species.viscous\",Slot:0b},1:{UID1:\"forestry.speedSlow\",UID0:\"forestry.speedSlow\",Slot:1b},2:{UID1:\"forestry.lifespanShort\",UID0:\"forestry.lifespanShort\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceUp1\",UID0:\"forestry.toleranceUp1\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceUp1\",UID0:\"forestry.toleranceUp1\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersJungle\",UID0:\"forestry.flowersJungle\",Slot:10b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"extrabees.effect.ectoplasm\",UID0:\"extrabees.effect.ectoplasm\",Slot:13b}]}}"
+        },
+        {
+          "id": "Botania:floatingSpecialFlower",
+          "nbt": "{type:\"fallenKanade\"}"
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:2s,id:248s}]}"
+        }
+      ]
+    },
+    {
+      "name": "Through Fire and Flames",
+      "description": "Nonsensical scribblings are jotted down in the margins of this page that seem to reference some fierce multiheaded beast...                                                          \"I can\u0027t see the mountain over me, the Serpent Hollow.The silent fortress underneath.I sway,to the beat of our decay, the light of harder days.And fires hide the black island, the toxic sand.Dancing city lights glowing against the sky,Snowing, shimmering, shine dust in our eyes.\"...",
+      "x": 105,
+      "y": 198,
+      "icon": {
+        "id": "TwilightForest:item.trophy"
+      },
+      "prerequisites": [
+        "Through the Never"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Twilight Hydra",
+              "icon": {
+                "id": "TwilightForest:item.trophy"
+              },
+              "mob": "TwilightForest.Hydra",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:brewFlask",
+          "nbt": "{brewKey:\"resistance\"}"
+        },
+        {
+          "id": "arsmagica2:essence",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:hqmInvalidItem"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "aura:ingotAngelSteel",
+          "damage": 3,
+          "amount": 2
+        },
+        {
+          "id": "HardcoreQuesting:hqmInvalidItem"
+        },
+        {
+          "id": "Botania:manaResource",
+          "damage": 7,
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Hail to the King",
+      "description": "Floating high above the ground are towering islands that ooze blue slime. Rarely there have been rumors of screams of a raging beast that inhabits some of these mysterious islands. Find the Massive Slime and prove that YOU are the king of this mountain.",
+      "x": 97,
+      "y": 108,
+      "icon": {
+        "id": "betterstorage:bucketSlime"
+      },
+      "prerequisites": [
+        "Chemical Warfare",
+        "Merciless Onslaught"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "King Slime",
+              "icon": {
+                "id": "betterstorage:bucketSlime"
+              },
+              "mob": "TConstruct.KingSlime",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "arsmagica2:rune",
+          "damage": 17
+        },
+        {
+          "id": "TConstruct:materials",
+          "damage": 17,
+          "amount": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "TConstruct:fletching",
+          "damage": 4,
+          "amount": 2
+        },
+        {
+          "id": "abyssalcraft:corbow"
+        },
+        {
+          "id": "OpenBlocks:tank",
+          "nbt": "{tank:{FluidName:\"slime.blue\",Amount:16000}}"
+        }
+      ]
+    },
+    {
+      "name": "Uprising",
+      "description": "You have carved a path through the Twiilight forest. You have added to your knowledge, rediscovered lost secrets and added the souls of the fallen to your arsenal. With the power to breach the defenses of the Massive towers deep within the Dark Forest you can begin your climb to face the Elusive, and well defended, Ur-Ghast.",
+      "x": 190,
+      "y": 186,
+      "icon": {
+        "id": "TwilightForest:item.trophy",
+        "damage": 3
+      },
+      "prerequisites": [
+        "King Nothing",
+        "Becoming the Bull",
+        "Through Fire and Flames"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Ur-Ghast",
+              "icon": {
+                "id": "TwilightForest:item.trophy",
+                "damage": 3
+              },
+              "mob": "TwilightForest.Tower Boss",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "arsmagica2:rune",
+          "damage": 19
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:1s,id:51s}]}"
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:1s,id:101s}]}"
+        },
+        {
+          "id": "Forestry:beeQueenGE",
+          "nbt": "{MaxH:20,Health:20,IsAnalyzed:1b,Genome:{Chromosomes:[0:{UID1:\"magicbees.speciesGhastly\",UID0:\"magicbees.speciesGhastly\",Slot:0b},1:{UID1:\"forestry.speedFast\",UID0:\"forestry.speedFast\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityLow\",UID0:\"forestry.fertilityLow\",Slot:3b},4:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:8b},8:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:9b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:10b},10:{UID1:\"forestry.floweringFaster\",UID0:\"forestry.floweringFaster\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"magicbees.effectGhastly\",UID0:\"magicbees.effectGhastly\",Slot:13b}]}}"
+        }
+      ]
+    },
+    {
+      "name": "Angel of Death",
+      "description": "The Reanimator himself, the lord of the undead stands in servitude to none but the Primal Fiive themselves. Contruct a sacrificial pillar and mount the heads of his servants to issue a challenge to this undead monstrosity. The journal notes instruct to Slay this withering lord of hell and claim the famed \"Nether Star\" and unleash the power to form reality anew as you desire.",
+      "x": 124,
+      "y": 26,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:nether_star"
+      },
+      "prerequisites": [
+        "March of the Undead II",
+        "Hail to the King"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:nether_star"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Kill the Wither",
+              "icon": {
+                "id": "minecraft:skull",
+                "damage": 1
+              },
+              "mob": "WitherBoss",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mystcraft:portfolio",
+          "nbt": "{Collection:[0:{id:5453s,Count:1b,tag:{symbol:\"Biome224\"},Damage:0s},1:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.log.acacia\"},Damage:0s},2:{id:5453s,Count:1b,tag:{symbol:\"EnvAccel\"},Damage:0s},3:{id:5453s,Count:1b,tag:{symbol:\"Biome40\"},Damage:0s},4:{id:5453s,Count:1b,tag:{symbol:\"Biome99\"},Damage:0s},5:{id:5453s,Count:1b,tag:{symbol:\"TerrainAmplified\"},Damage:0s},6:{id:5453s,Count:1b,tag:{symbol:\"PvPOff\"},Damage:0s},7:{id:5453s,Count:1b,tag:{symbol:\"Biome41\"},Damage:0s},8:{id:5453s,Count:1b,tag:{symbol:\"Biome42\"},Damage:0s},9:{id:5453s,Count:1b,tag:{symbol:\"Biome43\"},Damage:0s},10:{id:5453s,Count:1b,tag:{symbol:\"Biome16\"},Damage:0s},11:{id:5453s,Count:1b,tag:{symbol:\"Biome27\"},Damage:0s},12:{id:5453s,Count:1b,tag:{symbol:\"Biome28\"},Damage:0s},13:{id:5453s,Count:1b,tag:{symbol:\"Biome156\"},Damage:0s},14:{id:5453s,Count:1b,tag:{symbol:\"Biome155\"},Damage:0s},15:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.log.birch\"},Damage:0s},16:{id:5453s,Count:1b,tag:{symbol:\"ModColorBlack\"},Damage:0s},17:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.myst.fluid.myst.ink.black\"},Damage:0s},18:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.hell_blood\"},Damage:0s},19:{id:5453s,Count:1b,tag:{symbol:\"ModColorBlue\"},Damage:0s},20:{id:5453s,Count:1b,tag:{symbol:\"Biome44\"},Damage:0s},21:{id:5453s,Count:1b,tag:{symbol:\"Biome111\"},Damage:0s},22:{id:5453s,Count:1b,tag:{symbol:\"Biome45\"},Damage:0s},23:{id:5453s,Count:1b,tag:{symbol:\"NoHorizon\"},Damage:0s},24:{id:5453s,Count:1b,tag:{symbol:\"LightingBright\"},Damage:0s},25:{id:5453s,Count:1b,tag:{symbol:\"Biome46\"},Damage:0s},26:{id:5453s,Count:1b,tag:{symbol:\"Biome119\"},Damage:0s},27:{id:5453s,Count:1b,tag:{symbol:\"TerrainNether\"},Damage:0s},28:{id:5453s,Count:1b,tag:{symbol:\"Caves\"},Damage:0s},29:{id:5453s,Count:1b,tag:{symbol:\"Biome118\"},Damage:0s},30:{id:5453s,Count:1b,tag:{symbol:\"Biome49\"},Damage:0s},31:{id:5453s,Count:1b,tag:{symbol:\"ModClear\"},Damage:0s},32:{id:5453s,Count:1b,tag:{symbol:\"ColorCloud\"},Damage:0s},33:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.oreCoal\"},Damage:0s},34:{id:5453s,Count:1b,tag:{symbol:\"Biome26\"},Damage:0s},35:{id:5453s,Count:1b,tag:{symbol:\"Biome30\"},Damage:0s},36:{id:5453s,Count:1b,tag:{symbol:\"Biome31\"},Damage:0s},37:{id:5453s,Count:1b,tag:{symbol:\"Biome158\"},Damage:0s},38:{id:5453s,Count:1b,tag:{symbol:\"Biome50\"},Damage:0s},39:{id:5453s,Count:1b,tag:{symbol:\"Biome94\"},Damage:0s},40:{id:5453s,Count:1b,tag:{symbol:\"Biome225\"},Damage:0s},41:{id:5453s,Count:1b,tag:{symbol:\"Biome226\"},Damage:0s},42:{id:5453s,Count:1b,tag:{symbol:\"Biome109\"},Damage:0s},43:{id:5453s,Count:1b,tag:{symbol:\"Biome52\"},Damage:0s},44:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.forestry.fluid.ice\"},Damage:0s},45:{id:5453s,Count:1b,tag:{symbol:\"Biome1\"},Damage:0s},46:{id:5453s,Count:1b,tag:{symbol:\"CryForm\"},Damage:0s},47:{id:5453s,Count:1b,tag:{symbol:\"ModColorCyan\"},Damage:0s},48:{id:5453s,Count:1b,tag:{symbol:\"Biome203\"},Damage:0s},49:{id:5453s,Count:1b,tag:{symbol:\"Biome204\"},Damage:0s},50:{id:5453s,Count:1b,tag:{symbol:\"ModColorDarkGreen\"},Damage:0s},51:{id:5453s,Count:1b,tag:{symbol:\"LightingDark\"},Damage:0s},52:{id:5453s,Count:1b,tag:{symbol:\"MoonDark\"},Damage:0s},53:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.log.big_oak\"},Damage:0s},54:{id:5453s,Count:1b,tag:{symbol:\"Biome227\"},Damage:0s},55:{id:5453s,Count:1b,tag:{symbol:\"StarsDark\"},Damage:0s},56:{id:5453s,Count:1b,tag:{symbol:\"SunDark\"},Damage:0s},57:{id:5453s,Count:1b,tag:{symbol:\"Biome228\"},Damage:0s},58:{id:5453s,Count:1b,tag:{symbol:\"Biome229\"},Damage:0s},59:{id:5453s,Count:1b,tag:{symbol:\"Biome230\"},Damage:0s},60:{id:5453s,Count:1b,tag:{symbol:\"Biome231\"},Damage:0s},61:{id:5453s,Count:1b,tag:{symbol:\"Biome232\"},Damage:0s},62:{id:5453s,Count:1b,tag:{symbol:\"Biome53\"},Damage:0s},63:{id:5453s,Count:1b,tag:{symbol:\"Biome54\"},Damage:0s},64:{id:5453s,Count:1b,tag:{symbol:\"Biome55\"},Damage:0s},65:{id:5453s,Count:1b,tag:{symbol:\"LakesDeep\"},Damage:0s},66:{id:5453s,Count:1b,tag:{symbol:\"Biome205\"},Damage:0s},67:{id:5453s,Count:1b,tag:{symbol:\"Biome24\"},Damage:0s},68:{id:5453s,Count:1b,tag:{symbol:\"Biome238\"},Damage:0s},69:{id:5453s,Count:1b,tag:{symbol:\"DenseOres\"},Damage:0s},70:{id:5453s,Count:1b,tag:{symbol:\"Biome223\"},Damage:0s},71:{id:5453s,Count:1b,tag:{symbol:\"Biome2\"},Damage:0s},72:{id:5453s,Count:1b,tag:{symbol:\"Biome17\"},Damage:0s},73:{id:5453s,Count:1b,tag:{symbol:\"Biome130\"},Damage:0s},74:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.dirt.default\"},Damage:0s},75:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.witchery:disease\"},Damage:0s},76:{id:5453s,Count:1b,tag:{symbol:\"ModDouble\"},Damage:0s},77:{id:5453s,Count:1b,tag:{symbol:\"Biome233\"},Damage:0s},78:{id:5453s,Count:1b,tag:{symbol:\"Biome234\"},Damage:0s},79:{id:5453s,Count:1b,tag:{symbol:\"Biome235\"},Damage:0s},80:{id:5453s,Count:1b,tag:{symbol:\"Biome117\"},Damage:0s},81:{id:5453s,Count:1b,tag:{symbol:\"Dungeons\"},Damage:0s},82:{id:5453s,Count:1b,tag:{symbol:\"ModEast\"},Damage:0s},83:{id:5453s,Count:1b,tag:{symbol:\"Biome194\"},Damage:0s},84:{id:5453s,Count:1b,tag:{symbol:\"Biome195\"},Damage:0s},85:{id:5453s,Count:1b,tag:{symbol:\"Biome206\"},Damage:0s},86:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.whiteStone\"},Damage:0s},87:{id:5453s,Count:1b,tag:{symbol:\"Biome239\"},Damage:0s},88:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.enderGoo\"},Damage:0s},89:{id:5453s,Count:1b,tag:{symbol:\"StarsEndSky\"},Damage:0s},90:{id:5453s,Count:1b,tag:{symbol:\"WeatherRain\"},Damage:0s},91:{id:5453s,Count:1b,tag:{symbol:\"WeatherSnow\"},Damage:0s},92:{id:5453s,Count:1b,tag:{symbol:\"WeatherStorm\"},Damage:0s},93:{id:5453s,Count:1b,tag:{symbol:\"WeatherOn\"},Damage:0s},94:{id:5453s,Count:1b,tag:{symbol:\"Biome34\"},Damage:0s},95:{id:5453s,Count:1b,tag:{symbol:\"Biome162\"},Damage:0s},96:{id:5453s,Count:1b,tag:{symbol:\"Biome3\"},Damage:0s},97:{id:5453s,Count:1b,tag:{symbol:\"Biome20\"},Damage:0s},98:{id:5453s,Count:1b,tag:{symbol:\"Biome131\"},Damage:0s},99:{id:5453s,Count:1b,tag:{symbol:\"WeatherFast\"},Damage:0s},100:{id:5453s,Count:1b,tag:{symbol:\"Biome56\"},Damage:0s},101:{id:5453s,Count:1b,tag:{symbol:\"Biome207\"},Damage:0s},102:{id:5453s,Count:1b,tag:{symbol:\"Biome213\"},Damage:0s},103:{id:5453s,Count:1b,tag:{symbol:\"Flat\"},Damage:0s},104:{id:5453s,Count:1b,tag:{symbol:\"FloatIslands\"},Damage:0s},105:{id:5453s,Count:1b,tag:{symbol:\"Biome57\"},Damage:0s},106:{id:5453s,Count:1b,tag:{symbol:\"Biome132\"},Damage:0s},107:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.witchery:spiritflowing\"},Damage:0s},108:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.witchery:hollowtears\"},Damage:0s},109:{id:5453s,Count:1b,tag:{symbol:\"ColorFog\"},Damage:0s},110:{id:5453s,Count:1b,tag:{symbol:\"ColorFoliage\"},Damage:0s},111:{id:5453s,Count:1b,tag:{symbol:\"Biome4\"},Damage:0s},112:{id:5453s,Count:1b,tag:{symbol:\"Biome18\"},Damage:0s},113:{id:5453s,Count:1b,tag:{symbol:\"Biome58\"},Damage:0s},114:{id:5453s,Count:1b,tag:{symbol:\"Biome10\"},Damage:0s},115:{id:5453s,Count:1b,tag:{symbol:\"Biome11\"},Damage:0s},116:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.forestry.fluid.juice\"},Damage:0s},117:{id:5453s,Count:1b,tag:{symbol:\"ModFull\"},Damage:0s},118:{id:5453s,Count:1b,tag:{symbol:\"Biome59\"},Damage:0s},119:{id:5453s,Count:1b,tag:{symbol:\"Biome60\"},Damage:0s},120:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.glass\"},Damage:0s},121:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.lightgem\"},Damage:0s},122:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.liquid.glue\"},Damage:0s},123:{id:5453s,Count:1b,tag:{symbol:\"ModGradient\"},Damage:0s},124:{id:5453s,Count:1b,tag:{symbol:\"ColorGrass\"},Damage:0s},125:{id:5453s,Count:1b,tag:{symbol:\"Biome61\"},Damage:0s},126:{id:5453s,Count:1b,tag:{symbol:\"ModColorGreen\"},Damage:0s},127:{id:5453s,Count:1b,tag:{symbol:\"ModColorGrey\"},Damage:0s},128:{id:5453s,Count:1b,tag:{symbol:\"BioConGrid\"},Damage:0s},129:{id:5453s,Count:1b,tag:{symbol:\"Biome62\"},Damage:0s},130:{id:5453s,Count:1b,tag:{symbol:\"ModHalf\"},Damage:0s},131:{id:5453s,Count:1b,tag:{symbol:\"Biome63\"},Damage:0s},132:{id:5453s,Count:1b,tag:{symbol:\"Biome8\"},Damage:0s},133:{id:5453s,Count:1b,tag:{symbol:\"Biome64\"},Damage:0s},134:{id:5453s,Count:1b,tag:{symbol:\"Biome210\"},Damage:0s},135:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.honey\"},Damage:0s},136:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.forestry.fluid.for.honey\"},Damage:0s},137:{id:5453s,Count:1b,tag:{symbol:\"BioConHuge\"},Damage:0s},138:{id:5453s,Count:1b,tag:{symbol:\"HugeTrees\"},Damage:0s},139:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.ice\"},Damage:0s},140:{id:5453s,Count:1b,tag:{symbol:\"Biome13\"},Damage:0s},141:{id:5453s,Count:1b,tag:{symbol:\"Biome12\"},Damage:0s},142:{id:5453s,Count:1b,tag:{symbol:\"Biome140\"},Damage:0s},143:{id:5453s,Count:1b,tag:{symbol:\"TerrainEnd\"},Damage:0s},144:{id:5453s,Count:1b,tag:{symbol:\"Biome101\"},Damage:0s},145:{id:5453s,Count:1b,tag:{symbol:\"Biome65\"},Damage:0s},146:{id:5453s,Count:1b,tag:{symbol:\"Biome21\"},Damage:0s},147:{id:5453s,Count:1b,tag:{symbol:\"Biome23\"},Damage:0s},148:{id:5453s,Count:1b,tag:{symbol:\"Biome151\"},Damage:0s},149:{id:5453s,Count:1b,tag:{symbol:\"Biome22\"},Damage:0s},150:{id:5453s,Count:1b,tag:{symbol:\"Biome149\"},Damage:0s},151:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.log.jungle\"},Damage:0s},152:{id:5453s,Count:1b,tag:{symbol:\"Biome95\"},Damage:0s},153:{id:5453s,Count:1b,tag:{symbol:\"FeatureLargeDummy\"},Damage:0s},154:{id:5453s,Count:1b,tag:{symbol:\"FeatureMediumDummy\"},Damage:0s},155:{id:5453s,Count:1b,tag:{symbol:\"FeatureSmallDummy\"},Damage:0s},156:{id:5453s,Count:1b,tag:{symbol:\"Biome122\"},Damage:0s},157:{id:5453s,Count:1b,tag:{symbol:\"BioConLarge\"},Damage:0s},158:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.lava\"},Damage:0s},159:{id:5453s,Count:1b,tag:{symbol:\"Biome66\"},Damage:0s},160:{id:5453s,Count:1b,tag:{symbol:\"EnvLightning\"},Damage:0s},161:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.Cwater\"},Damage:0s},162:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.forestry.fluid.glass\"},Damage:0s},163:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.liquid.slime\"},Damage:0s},164:{id:5453s,Count:1b,tag:{symbol:\"Biome67\"},Damage:0s},165:{id:5453s,Count:1b,tag:{symbol:\"Biome116\"},Damage:0s},166:{id:5453s,Count:1b,tag:{symbol:\"Biome68\"},Damage:0s},167:{id:5453s,Count:1b,tag:{symbol:\"ModColorMagenta\"},Damage:0s},168:{id:5453s,Count:1b,tag:{symbol:\"Biome193\"},Damage:0s},169:{id:5453s,Count:1b,tag:{symbol:\"Biome98\"},Damage:0s},170:{id:5453s,Count:1b,tag:{symbol:\"Biome255\"},Damage:0s},171:{id:5453s,Count:1b,tag:{symbol:\"ModColorMaroon\"},Damage:0s},172:{id:5453s,Count:1b,tag:{symbol:\"Biome70\"},Damage:0s},173:{id:5453s,Count:1b,tag:{symbol:\"Biome71\"},Damage:0s},174:{id:5453s,Count:1b,tag:{symbol:\"Biome102\"},Damage:0s},175:{id:5453s,Count:1b,tag:{symbol:\"BioConMedium\"},Damage:0s},176:{id:5453s,Count:1b,tag:{symbol:\"Biome160\"},Damage:0s},177:{id:5453s,Count:1b,tag:{symbol:\"Biome32\"},Damage:0s},178:{id:5453s,Count:1b,tag:{symbol:\"Biome33\"},Damage:0s},179:{id:5453s,Count:1b,tag:{symbol:\"Biome165\"},Damage:0s},180:{id:5453s,Count:1b,tag:{symbol:\"Biome37\"},Damage:0s},181:{id:5453s,Count:1b,tag:{symbol:\"Biome39\"},Damage:0s},182:{id:5453s,Count:1b,tag:{symbol:\"Biome38\"},Damage:0s},183:{id:5453s,Count:1b,tag:{symbol:\"Biome166\"},Damage:0s},184:{id:5453s,Count:1b,tag:{symbol:\"Biome167\"},Damage:0s},185:{id:5453s,Count:1b,tag:{symbol:\"EnvMeteor\"},Damage:0s},186:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.forestry.fluid.milk\"},Damage:0s},187:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.blockFluidMilk\"},Damage:0s},188:{id:5453s,Count:1b,tag:{symbol:\"Mineshafts\"},Damage:0s},189:{id:5453s,Count:1b,tag:{symbol:\"Biome72\"},Damage:0s},190:{id:5453s,Count:1b,tag:{symbol:\"Biome73\"},Damage:0s},191:{id:5453s,Count:1b,tag:{symbol:\"Biome216\"},Damage:0s},192:{id:5453s,Count:1b,tag:{symbol:\"Biome14\"},Damage:0s},193:{id:5453s,Count:1b,tag:{symbol:\"Biome15\"},Damage:0s},194:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.blockFluidMushroom\"},Damage:0s},195:{id:5453s,Count:1b,tag:{symbol:\"Biome74\"},Damage:0s},196:{id:5453s,Count:1b,tag:{symbol:\"ModEnd\"},Damage:0s},197:{id:5453s,Count:1b,tag:{symbol:\"BioConNative\"},Damage:0s},198:{id:5453s,Count:1b,tag:{symbol:\"ColorCloudNat\"},Damage:0s},199:{id:5453s,Count:1b,tag:{symbol:\"ColorFogNat\"},Damage:0s},200:{id:5453s,Count:1b,tag:{symbol:\"ColorFoliageNat\"},Damage:0s},201:{id:5453s,Count:1b,tag:{symbol:\"ColorGrassNat\"},Damage:0s},202:{id:5453s,Count:1b,tag:{symbol:\"ColorSkyNat\"},Damage:0s},203:{id:5453s,Count:1b,tag:{symbol:\"ColorWaterNat\"},Damage:0s},204:{id:5453s,Count:1b,tag:{symbol:\"ModColorNavy\"},Damage:0s},205:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.netherBrick\"},Damage:0s},206:{id:5453s,Count:1b,tag:{symbol:\"NetherFort\"},Damage:0s},207:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.hellrock\"},Damage:0s},208:{id:5453s,Count:1b,tag:{symbol:\"ColorSkyNight\"},Damage:0s},209:{id:5453s,Count:1b,tag:{symbol:\"NoSea\"},Damage:0s},210:{id:5453s,Count:1b,tag:{symbol:\"WeatherOff\"},Damage:0s},211:{id:5453s,Count:1b,tag:{symbol:\"LightingNormal\"},Damage:0s},212:{id:5453s,Count:1b,tag:{symbol:\"MoonNormal\"},Damage:0s},213:{id:5453s,Count:1b,tag:{symbol:\"StarsNormal\"},Damage:0s},214:{id:5453s,Count:1b,tag:{symbol:\"SunNormal\"},Damage:0s},215:{id:5453s,Count:1b,tag:{symbol:\"WeatherNorm\"},Damage:0s},216:{id:5453s,Count:1b,tag:{symbol:\"ModNorth\"},Damage:0s},217:{id:5453s,Count:1b,tag:{symbol:\"Biome217\"},Damage:0s},218:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.log.oak\"},Damage:0s},219:{id:5453s,Count:1b,tag:{symbol:\"Biome103\"},Damage:0s},220:{id:5453s,Count:1b,tag:{symbol:\"Obelisks\"},Damage:0s},221:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.obsidian\"},Damage:0s},222:{id:5453s,Count:1b,tag:{symbol:\"Biome0\"},Damage:0s},223:{id:5453s,Count:1b,tag:{symbol:\"ModColorOlive\"},Damage:0s},224:{id:5453s,Count:1b,tag:{symbol:\"Biome75\"},Damage:0s},225:{id:5453s,Count:1b,tag:{symbol:\"Biome236\"},Damage:0s},226:{id:5453s,Count:1b,tag:{symbol:\"Biome104\"},Damage:0s},227:{id:5453s,Count:1b,tag:{symbol:\"Biome76\"},Damage:0s},228:{id:5453s,Count:1b,tag:{symbol:\"Biome77\"},Damage:0s},229:{id:5453s,Count:1b,tag:{symbol:\"WeatherCloudy\"},Damage:0s},230:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.icePacked\"},Damage:0s},231:{id:5453s,Count:1b,tag:{symbol:\"Biome110\"},Damage:0s},232:{id:5453s,Count:1b,tag:{symbol:\"Biome253\"},Damage:0s},233:{id:5453s,Count:1b,tag:{symbol:\"Biome69\"},Damage:0s},234:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.poison\"},Damage:0s},235:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.blocks.blockPoison\"},Damage:0s},236:{id:5453s,Count:1b,tag:{symbol:\"Biome114\"},Damage:0s},237:{id:5453s,Count:1b,tag:{symbol:\"Biome78\"},Damage:0s},238:{id:5453s,Count:1b,tag:{symbol:\"Biome237\"},Damage:0s},239:{id:5453s,Count:1b,tag:{symbol:\"ModColorPurple\"},Damage:0s},240:{id:5453s,Count:1b,tag:{symbol:\"Biome105\"},Damage:0s},241:{id:5453s,Count:1b,tag:{symbol:\"Rainbow\"},Damage:0s},242:{id:5453s,Count:1b,tag:{symbol:\"Biome242\"},Damage:0s},243:{id:5453s,Count:1b,tag:{symbol:\"Biome79\"},Damage:0s},244:{id:5453s,Count:1b,tag:{symbol:\"Ravines\"},Damage:0s},245:{id:5453s,Count:1b,tag:{symbol:\"ModColorRed\"},Damage:0s},246:{id:5453s,Count:1b,tag:{symbol:\"Biome80\"},Damage:0s},247:{id:5453s,Count:1b,tag:{symbol:\"ModRising\"},Damage:0s},248:{id:5453s,Count:1b,tag:{symbol:\"Biome7\"},Damage:0s},249:{id:5453s,Count:1b,tag:{symbol:\"Biome29\"},Damage:0s},250:{id:5453s,Count:1b,tag:{symbol:\"Biome157\"},Damage:0s},251:{id:5453s,Count:1b,tag:{symbol:\"Biome81\"},Damage:0s},252:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.sandStone.default\"},Damage:0s},253:{id:5453s,Count:1b,tag:{symbol:\"Biome35\"},Damage:0s},254:{id:5453s,Count:1b,tag:{symbol:\"Biome163\"},Damage:0s},255:{id:5453s,Count:1b,tag:{symbol:\"Biome36\"},Damage:0s},256:{id:5453s,Count:1b,tag:{symbol:\"Biome164\"},Damage:0s},257:{id:5453s,Count:1b,tag:{symbol:\"EnvScorch\"},Damage:0s},258:{id:5453s,Count:1b,tag:{symbol:\"Biome106\"},Damage:0s},259:{id:5453s,Count:1b,tag:{symbol:\"Biome82\"},Damage:0s},260:{id:5453s,Count:1b,tag:{symbol:\"Biome127\"},Damage:0s},261:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.forestry.fluid.seedoil\"},Damage:0s},262:{id:5453s,Count:1b,tag:{symbol:\"ModSetting\"},Damage:0s},263:{id:5453s,Count:1b,tag:{symbol:\"Biome83\"},Damage:0s},264:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.forestry.fluid.short.mead\"},Damage:0s},265:{id:5453s,Count:1b,tag:{symbol:\"Biome84\"},Damage:0s},266:{id:5453s,Count:1b,tag:{symbol:\"Biome107\"},Damage:0s},267:{id:5453s,Count:1b,tag:{symbol:\"ModColorSilver\"},Damage:0s},268:{id:5453s,Count:1b,tag:{symbol:\"BioConSingle\"},Damage:0s},269:{id:5453s,Count:1b,tag:{symbol:\"Biome9\"},Damage:0s},270:{id:5453s,Count:1b,tag:{symbol:\"ColorSky\"},Damage:0s},271:{id:5453s,Count:1b,tag:{symbol:\"Skylands\"},Damage:0s},272:{id:5453s,Count:1b,tag:{symbol:\"Biome100\"},Damage:0s},273:{id:5453s,Count:1b,tag:{symbol:\"WeatherSlow\"},Damage:0s},274:{id:5453s,Count:1b,tag:{symbol:\"Biome85\"},Damage:0s},275:{id:5453s,Count:1b,tag:{symbol:\"BioConSmall\"},Damage:0s},276:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.snow\"},Damage:0s},277:{id:5453s,Count:1b,tag:{symbol:\"Biome51\"},Damage:0s},278:{id:5453s,Count:1b,tag:{symbol:\"Biome218\"},Damage:0s},279:{id:5453s,Count:1b,tag:{symbol:\"ModSouth\"},Damage:0s},280:{id:5453s,Count:1b,tag:{symbol:\"Biome115\"},Damage:0s},281:{id:5453s,Count:1b,tag:{symbol:\"TerModSpheres\"},Damage:0s},282:{id:5453s,Count:1b,tag:{symbol:\"GenSpikes\"},Damage:0s},283:{id:5453s,Count:1b,tag:{symbol:\"EnvExplosions\"},Damage:0s},284:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.log.spruce\"},Damage:0s},285:{id:5453s,Count:1b,tag:{symbol:\"Biome108\"},Damage:0s},286:{id:5453s,Count:1b,tag:{symbol:\"TerrainNormal\"},Damage:0s},287:{id:5453s,Count:1b,tag:{symbol:\"StarFissure\"},Damage:0s},288:{id:5453s,Count:1b,tag:{symbol:\"Biome86\"},Damage:0s},289:{id:5453s,Count:1b,tag:{symbol:\"Biome25\"},Damage:0s},290:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.stone\"},Damage:0s},291:{id:5453s,Count:1b,tag:{symbol:\"Biome245\"},Damage:0s},292:{id:5453s,Count:1b,tag:{symbol:\"Strongholds\"},Damage:0s},293:{id:5453s,Count:1b,tag:{symbol:\"Biome129\"},Damage:0s},294:{id:5453s,Count:1b,tag:{symbol:\"ColorHorizon\"},Damage:0s},295:{id:5453s,Count:1b,tag:{symbol:\"LakesSurface\"},Damage:0s},296:{id:5453s,Count:1b,tag:{symbol:\"Biome6\"},Damage:0s},297:{id:5453s,Count:1b,tag:{symbol:\"Biome134\"},Damage:0s},298:{id:5453s,Count:1b,tag:{symbol:\"Biome5\"},Damage:0s},299:{id:5453s,Count:1b,tag:{symbol:\"Biome19\"},Damage:0s},300:{id:5453s,Count:1b,tag:{symbol:\"Biome133\"},Damage:0s},301:{id:5453s,Count:1b,tag:{symbol:\"Biome192\"},Damage:0s},302:{id:5453s,Count:1b,tag:{symbol:\"ModColorTeal\"},Damage:0s},303:{id:5453s,Count:1b,tag:{symbol:\"Biome87\"},Damage:0s},304:{id:5453s,Count:1b,tag:{symbol:\"Tendrils\"},Damage:0s},305:{id:5453s,Count:1b,tag:{symbol:\"Biome88\"},Damage:0s},306:{id:5453s,Count:1b,tag:{symbol:\"Biome221\"},Damage:0s},307:{id:5453s,Count:1b,tag:{symbol:\"BioConTiled\"},Damage:0s},308:{id:5453s,Count:1b,tag:{symbol:\"BioConTiny\"},Damage:0s},309:{id:5453s,Count:1b,tag:{symbol:\"Biome89\"},Damage:0s},310:{id:5453s,Count:1b,tag:{symbol:\"Biome96\"},Damage:0s},311:{id:5453s,Count:1b,tag:{symbol:\"Biome90\"},Damage:0s},312:{id:5453s,Count:1b,tag:{symbol:\"Biome201\"},Damage:0s},313:{id:5453s,Count:1b,tag:{symbol:\"Biome222\"},Damage:0s},314:{id:5453s,Count:1b,tag:{symbol:\"Biome208\"},Damage:0s},315:{id:5453s,Count:1b,tag:{symbol:\"Biome209\"},Damage:0s},316:{id:5453s,Count:1b,tag:{symbol:\"Biome211\"},Damage:0s},317:{id:5453s,Count:1b,tag:{symbol:\"Biome219\"},Damage:0s},318:{id:5453s,Count:1b,tag:{symbol:\"Biome220\"},Damage:0s},319:{id:5453s,Count:1b,tag:{symbol:\"StarsTwinkle\"},Damage:0s},320:{id:5453s,Count:1b,tag:{symbol:\"Biome113\"},Damage:0s},321:{id:5453s,Count:1b,tag:{symbol:\"Villages\"},Damage:0s},322:{id:5453s,Count:1b,tag:{symbol:\"Biome112\"},Damage:0s},323:{id:5453s,Count:1b,tag:{symbol:\"Void\"},Damage:0s},324:{id:5453s,Count:1b,tag:{symbol:\"Biome97\"},Damage:0s},325:{id:5453s,Count:1b,tag:{symbol:\"Biome91\"},Damage:0s},326:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.water\"},Damage:0s},327:{id:5453s,Count:1b,tag:{symbol:\"ColorWater\"},Damage:0s},328:{id:5453s,Count:1b,tag:{symbol:\"ModWest\"},Damage:0s},329:{id:5453s,Count:1b,tag:{symbol:\"Biome92\"},Damage:0s},330:{id:5453s,Count:1b,tag:{symbol:\"ModColorWhite\"},Damage:0s},331:{id:5453s,Count:1b,tag:{symbol:\"Biome244\"},Damage:0s},332:{id:5453s,Count:1b,tag:{symbol:\"Biome93\"},Damage:0s},333:{id:5453s,Count:1b,tag:{symbol:\"ModColorYellow\"},Damage:0s},334:{id:5453s,Count:1b,tag:{symbol:\"ModNoon\"},Damage:0s},335:{id:5453s,Count:1b,tag:{symbol:\"ModZero\"},Damage:0s},336:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.tropicsWater\"},Damage:0s},337:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.witchery:brew\"},Damage:0s},338:{id:5453s,Count:1b,tag:{symbol:\"ModMat_tile.witchery:brewliquid\"},Damage:0s}],Name:\"Spawned (All Symbols)\"}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "arsmagica2:rune",
+          "damage": 19
+        },
+        {
+          "id": "ExtraUtilities:magnumTorch"
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:2s,id:232s}]}"
+        },
+        {
+          "id": "ChromatiCraft:chromaticraft_item_fragment",
+          "nbt": "{page:\"CASTING2\"}"
+        }
+      ]
+    },
+    {
+      "name": "Fight Fire With Fire",
+      "description": "You have climbed atop the fetid corpses of the undead and walked through the gates of hell. Out of fire your power has been reborn. It\u0027s time to put tame the fires of this inferno and fully master the searing bite of this realm.",
+      "x": 174,
+      "y": 6,
+      "icon": {
+        "id": "arsmagica2:essence",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Hell and Back",
+        "Ride the Lightning"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Blaze",
+              "icon": {
+                "id": "OpenBlocks:trophy",
+                "nbt": "{entity:\"Blaze\"}"
+              },
+              "mob": "Blaze",
+              "kills": 15,
+              "exact": false
+            },
+            {
+              "name": "Hellfire Wisps",
+              "icon": {
+                "id": "thaumcraftneiplugin:Aspect",
+                "nbt": "{Aspects:[0:{amount:2,key:\"infernus\"}]}"
+              },
+              "mob": "Automagy.WispNether",
+              "kills": 5,
+              "exact": false
+            },
+            {
+              "name": "Nitro Creeper",
+              "icon": {
+                "id": "minecraft:tnt"
+              },
+              "mob": "Natura.NitroCreeper",
+              "kills": 2,
+              "exact": false
+            },
+            {
+              "name": "Ghast",
+              "mob": "Ghast",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        },
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Magma Cube",
+              "icon": {
+                "id": "minecraft:magma_cream"
+              },
+              "mob": "LavaSlime",
+              "kills": 2,
+              "exact": false
+            },
+            {
+              "name": "Hellhound",
+              "icon": {
+                "id": "witchery:wolfhead",
+                "damage": 1
+              },
+              "mob": "witchery.hellhound",
+              "kills": 4,
+              "exact": false
+            },
+            {
+              "name": "Fire Bat",
+              "icon": {
+                "id": "Thaumcraft:ItemSpawnerEgg",
+                "damage": 3
+              },
+              "mob": "Thaumcraft.Firebat",
+              "kills": 2,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:hqmInvalidItem"
+        },
+        {
+          "id": "arsmagica2:rune",
+          "damage": 18
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "arsmagica2:rune",
+          "damage": 17,
+          "amount": 2
+        },
+        {
+          "id": "ChromatiCraft:chromaticraft_item_fragment",
+          "nbt": "{page:\"FIREBALL\"}"
+        },
+        {
+          "id": "Forestry:beeQueenGE",
+          "nbt": "{MaxH:40,Health:40,IsAnalyzed:1b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesSinister\",UID0:\"forestry.speciesSinister\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanNormal\",UID0:\"forestry.lifespanNormal\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceDown2\",UID0:\"forestry.toleranceDown2\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersNether\",UID0:\"forestry.flowersNether\",Slot:10b},10:{UID1:\"forestry.floweringAverage\",UID0:\"forestry.floweringAverage\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectAggressive\",UID0:\"forestry.effectAggressive\",Slot:13b}]}}"
+        },
+        {
+          "id": "Botania:openBucket"
+        }
+      ]
+    },
+    {
+      "name": "The Bad Touch",
+      "description": "All magic comes with a cost. Thaumaturgical magics have run unchecked for far too long and the blistering taintlands spread further across the lands each day. The task falls to you to arm yourself with the tools to purge the ever encroaching blight upon this world. Gather a means to stop the spread and go into the tainted lands to collect research specimens. ",
+      "x": 175,
+      "y": 75,
+      "icon": {
+        "id": "Thaumcraft:blockTaintFibres"
+      },
+      "prerequisites": [
+        "Chemical Warfare"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockCustomPlant",
+                "damage": 4
+              },
+              "required": 4,
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Tainted Swarms",
+              "icon": {
+                "id": "Thaumcraft:blockFluxGoo"
+              },
+              "mob": "Thaumcraft.TaintSwarm",
+              "kills": 5,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ForbiddenMagic:TaintSapling"
+        },
+        {
+          "id": "Thaumcraft:ItemSanityChecker"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Botania:brewVial",
+          "nbt": "{brewKey:\"warpWard\"}"
+        },
+        {
+          "id": "Thaumcraft:ItemSanitySoap",
+          "amount": 5
+        },
+        {
+          "id": "Thaumcraft:ItemLootBag",
+          "damage": 2,
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "My Name is Mud",
+      "description": "You\u0027ve isolated some of the cause of the taint to the flux like goo that careless thaumaturges have left throughout the ages. See if you can recreate the source to divine further insight in ways to fight the plague. ",
+      "x": 205,
+      "y": 74,
+      "icon": {
+        "id": "Thaumcraft:ItemResource",
+        "damage": 12
+      },
+      "prerequisites": [
+        "The Bad Touch"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Thaumic Slimes",
+              "icon": {
+                "id": "Thaumcraft:ItemResource",
+                "damage": 11
+              },
+              "mob": "Thaumcraft.ThaumSlime",
+              "kills": 3,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:specialFlower",
+          "nbt": "{type:\"narslimmus\"}"
+        },
+        {
+          "id": "Thaumcraft:ItemEssence",
+          "damage": 1,
+          "amount": 4,
+          "nbt": "{Aspects:[0:{amount:8,key:\"vitium\"}]}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Thaumcraft:ItemResource",
+          "damage": 9,
+          "amount": 4
+        },
+        {
+          "id": "Thaumcraft:ItemLootBag",
+          "damage": 2,
+          "amount": 2
+        },
+        {
+          "id": "ChromatiCraft:chromaticraft_block_super",
+          "damage": 13
+        }
+      ]
+    },
+    {
+      "name": "Call of Ktulu",
+      "description": "A revelation into the formation of this tainted curse has lead you to a much darker orgin than expected. By collecting some of the essnce of the tainted earth you believe you can infuse some of the otherworldly arifacts in your possession to create something that may lend itself to further explaination of the orgins. ",
+      "x": 216,
+      "y": 33,
+      "bigicon": true,
+      "icon": {
+        "id": "Thaumcraft:ItemEldritchObject"
+      },
+      "prerequisites": [
+        "The Bad Touch"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemResource",
+                "damage": 12
+              },
+              "required": 5,
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "Thaumcraft:ItemResource",
+                "damage": 11
+              },
+              "required": 5,
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:ender_eye"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "Thaumcraft:ItemThaumometer"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemEldritchObject"
+        },
+        {
+          "id": "arsmagica2:rune",
+          "damage": 17
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Thaumcraft:ItemBottleTaint",
+          "amount": 5
+        },
+        {
+          "id": "ThaumicExploration:tentacleRing"
+        },
+        {
+          "id": "Thaumcraft:ItemResource",
+          "damage": 9,
+          "amount": 5
+        },
+        {
+          "id": "Botania:rune",
+          "damage": 8,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Laid to Rest",
+      "description": "Even the docile animals that normally graze peacefully upon the earth have become infected by the spreading tiant. There even seems to be evidence that this madness can spread to mankind.... Find out if the rumors are true and put them ALL out of their misery. ",
+      "x": 191,
+      "y": 98,
+      "icon": {
+        "id": "Thaumcraft:ItemSpawnerEgg",
+        "damage": 20
+      },
+      "prerequisites": [
+        "The Bad Touch"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Tainted Chicken",
+              "icon": {
+                "id": "Thaumcraft:ItemSpawnerEgg",
+                "damage": 16
+              },
+              "mob": "Thaumcraft.TaintedChicken",
+              "kills": 3,
+              "exact": false
+            },
+            {
+              "name": "Tainted Sheep",
+              "icon": {
+                "id": "Thaumcraft:ItemSpawnerEgg",
+                "damage": 18
+              },
+              "mob": "Thaumcraft.TaintedSheep",
+              "kills": 1,
+              "exact": false
+            },
+            {
+              "name": "Tainted Pig",
+              "icon": {
+                "id": "Thaumcraft:ItemSpawnerEgg",
+                "damage": 18
+              },
+              "mob": "Thaumcraft.TaintedPig",
+              "kills": 1,
+              "exact": false
+            },
+            {
+              "name": "Tainted Cow",
+              "icon": {
+                "id": "Thaumcraft:ItemSpawnerEgg",
+                "damage": 18
+              },
+              "mob": "Thaumcraft.TaintedCow",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        },
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Tainted Villager",
+              "icon": {
+                "id": "menagerie:spawnegg",
+                "damage": 1
+              },
+              "mob": "Thaumcraft.TaintedVillager",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TaintedMagic:ShadowMetal",
+          "amount": 2
+        },
+        {
+          "id": "TaintedMagic:WarpSapAwakened"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "arsmagica2:rune",
+          "damage": 18
+        },
+        {
+          "id": "Thaumcraft:ItemResource",
+          "damage": 9,
+          "amount": 10
+        },
+        {
+          "id": "evilcraft:bowlOfPromises"
+        }
+      ]
+    },
+    {
+      "name": "In the End",
+      "description": "Inside the ancient fortress are the gates within the darkened void realm, The End. Breach this world, and see what your curse has brought. The merciless dragon lord of the End once thought unholy, yet mortal, is bound by void and soul to forever stalk this world without heart. Each time you return he will be reborn, a shadow of his former self. Kill him as many times as it takes and find a way to reset it all.",
+      "x": 290,
+      "y": 192,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:dragon_egg"
+      },
+      "prerequisites": [
+        "Uprising",
+        "The Thing That Should Not Be",
+        "The Unforgiven",
+        "Holy Diver",
+        "Fight Fire With Fire",
+        "Angel of Death",
+        "The Bad Touch"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "HardcoreEnderExpansion:temple_caller"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "The Ender Dragon",
+              "icon": {
+                "id": "chocolateQuest:egg",
+                "damage": 806
+              },
+              "mob": "EnderDragon",
+              "kills": 4,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:heartCanister",
+          "damage": 6,
+          "amount": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "arsmagica2:rune",
+          "damage": 19,
+          "amount": 2
+        },
+        {
+          "id": "ThaumicTinkerer:kamiResource",
+          "amount": 3
+        },
+        {
+          "id": "ForbiddenMagic:EldritchOrb"
+        },
+        {
+          "id": "HardcoreQuesting:hqmInvalidItem"
+        }
+      ]
+    },
+    {
+      "name": "Cult of Personality",
+      "description": "Delving into the eldritch designs of the void madness you\u0027ve stumbled upon an underground cult that may aid your research. The Crimson Cult initiates have been seen in strange gatherings around dark obelisks. Perhaps it is time to put them to the question and take their secrets for yourself. ",
+      "x": 283,
+      "y": 10,
+      "icon": {
+        "id": "Thaumcraft:ItemEldritchObject",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Call of Ktulu"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemEldritchObject",
+                "damage": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemResource",
+          "damage": 15
+        },
+        {
+          "id": "HardcoreEnderExpansion:essence",
+          "amount": 15
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Thaumcraft:ItemLootBag",
+          "damage": 2,
+          "amount": 3
+        },
+        {
+          "id": "Thaumcraft:ItemResource",
+          "damage": 9,
+          "amount": 4
+        },
+        {
+          "id": "Botania:manaResource",
+          "damage": 9
+        }
+      ]
+    },
+    {
+      "name": "Holy Diver",
+      "description": "The Eldritch obelisks are guarded by a fanatical Crimson Cult. Execute their masters and guards and unsurp the rituals power to your own ends.",
+      "x": 249,
+      "y": 63,
+      "prerequisites": [
+        "Cult of Personality"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Cutlist Clerics",
+              "icon": {
+                "id": "Thaumcraft:ItemHelmetCultistRobe"
+              },
+              "mob": "Thaumcraft.CultistCleric",
+              "kills": 3,
+              "exact": false
+            },
+            {
+              "name": "Cultist Knights",
+              "icon": {
+                "id": "TaintedMagic:CrimsonPlateVoidHelm"
+              },
+              "mob": "Thaumcraft.CultistKnight",
+              "kills": 2,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:hqmInvalidItem"
+        },
+        {
+          "id": "TaintedMagic:CrimsonPlating",
+          "amount": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Thaumcraft:ItemEldritchObject"
+        },
+        {
+          "id": "TaintedMagic:WarpSapAwakened"
+        },
+        {
+          "id": "Thaumcraft:FocusPrimal"
+        }
+      ]
+    },
+    {
+      "name": "The Unforgiven",
+      "description": "Enslaved souls that have given, or lost, their lives in the wake of the void itself have become bound to the task of defending the edlritch desires. Kill the eldritch guardians before they are set upon you.",
+      "x": 299,
+      "y": 49,
+      "icon": {
+        "id": "Thaumcraft:ItemEldritchObject",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Cult of Personality"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Eldritch Guardian",
+              "mob": "Thaumcraft.EldritchGuardian",
+              "kills": 5,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TaintedMagic:WarpedGoggles"
+        },
+        {
+          "id": "Thaumcraft:ItemLootBag",
+          "damage": 2,
+          "amount": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Thaumcraft:ItemResource",
+          "damage": 15
+        },
+        {
+          "id": "Botania:specialFlower",
+          "nbt": "{type:\"tainthistle\"}"
+        },
+        {
+          "id": "AWWayofTime:demonBloodShard"
+        }
+      ]
+    },
+    {
+      "name": "The Thing That Should Not Be",
+      "description": "You have uncovered the source of it all! The dreaded outlands themselves, gateway to the void. When you are ready you must perform the \"Apertis Oculis\". Drop the 4 Eldritch eyes in the strange obelisk altar and infuse it with as much primal vis energy as it can take. ",
+      "x": 279,
+      "y": 86,
+      "icon": {
+        "id": "WitchingGadgets:item.WG_Baubles",
+        "damage": 4,
+        "nbt": "{title:\"wg.title.crimsonPraetor\"}"
+      },
+      "prerequisites": [
+        "Cult of Personality"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemEldritchObject"
+              },
+              "required": 4,
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TaintedMagic:CrimsonVoidHelm"
+        },
+        {
+          "id": "TaintedMagic:CrimsonVoidChest"
+        },
+        {
+          "id": "TaintedMagic:CrimsonVoidLegs"
+        },
+        {
+          "id": "TaintedMagic:CrimsonVoidBoots"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "ThaumicTinkerer:kamiResource",
+          "amount": 3
+        },
+        {
+          "id": "Botania:pylon",
+          "damage": 2,
+          "amount": 4
+        },
+        {
+          "id": "AWWayofTime:bloodMagicBaseItems",
+          "damage": 27,
+          "amount": 10
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

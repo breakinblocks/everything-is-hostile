@@ -1,0 +1,1633 @@
+{
+  "name": "Eldritch Desires",
+  "description": "Scribed notes decending from clear thought stray ever towards madness in these passages. There are strange remaks of the aspects of the world, essntia components, a seemingly limitless energy called vis.                                                                                                                                     Much of this knowledge seems incredibly useful, albeit dangerous. Some of the final remarks speak of the void, the warping of the mind and eldritch insights into madness itself. Best to tread lightly whilst reclaiming this knowledge. ",
+  "quests": [
+    {
+      "name": "Abracadabra!",
+      "description": "After figuring out how to make swords and pickaxes out of wood and iron, lets try and see what else you can make of these seemingly mundane materials",
+      "x": 13,
+      "y": 10,
+      "bigicon": true,
+      "icon": {
+        "id": "Thaumcraft:WandCasting",
+        "nbt": "{aqua:2500,ignis:2500,terra:2500,ordo:2500,perditio:2500,aer:2500}"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:WandCasting",
+                "nbt": "{aqua:2500,ignis:2500,terra:2500,ordo:2500,perditio:2500,aer:2500}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:blockCustomPlant"
+        }
+      ]
+    },
+    {
+      "name": "Basiconomicon",
+      "description": "All these books just lying around on shelves, taking up space in your base, maybe you could magically enhance a bookcase, and then contain all this knowledge in a single entity ",
+      "x": 25,
+      "y": 52,
+      "icon": {
+        "id": "Thaumcraft:ItemThaumonomicon"
+      },
+      "prerequisites": [
+        "Abracadabra!"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemThaumonomicon"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:bookshelf"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Crafting 2.0",
+      "description": "Vanilla crafting table is good, but its not enough for more complex items. Time to fix that!",
+      "x": 80,
+      "y": 86,
+      "bigicon": true,
+      "icon": {
+        "id": "Thaumcraft:blockTable",
+        "damage": 15
+      },
+      "prerequisites": [
+        "The beginning of the rest of yo"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockTable",
+                "damage": 15
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemShard",
+          "damage": 6,
+          "amount": 2
+        },
+        {
+          "id": "Thaumcraft:blockCandle",
+          "amount": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Focal Manipulation",
+      "description": "Arent you getting tired of carrying all these foci? Surely there is a better solution then having them fill up your bags.",
+      "x": 96,
+      "y": 39,
+      "icon": {
+        "id": "Thaumcraft:FocusPouch"
+      },
+      "prerequisites": [
+        "Crafting 2.0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:FocusPouch"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:FocusExcavation"
+        }
+      ]
+    },
+    {
+      "name": "Phials or Vials?",
+      "description": "To store essentia in a physical form Phials are used... or is it Vials... ?",
+      "x": 19,
+      "y": 91,
+      "icon": {
+        "id": "Thaumcraft:ItemEssence"
+      },
+      "prerequisites": [
+        "Basiconomicon"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemEssence"
+              },
+              "required": 8,
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "Thaumcraft:blockJar"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemEssence",
+          "amount": 16
+        },
+        {
+          "id": "Thaumcraft:blockJar",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Better than Torches",
+      "description": "All these torches everywhere, This wont do, maybe you can combine some magical materials to make a much neater solution to this problem.",
+      "x": 125,
+      "y": 93,
+      "icon": {
+        "id": "Thaumcraft:blockMetalDevice",
+        "damage": 7
+      },
+      "prerequisites": [
+        "Crafting 2.0"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockMetalDevice",
+                "damage": 7
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemResource",
+          "damage": 1,
+          "amount": 8
+        },
+        {
+          "id": "Thaumcraft:blockCosmeticOpaque",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Bubble of Safety",
+      "description": "Fed up of unstable, fading and just generally rubbish nodes? why not normalise them by adding in a Node Stabalizer TM ",
+      "x": 84,
+      "y": 150,
+      "icon": {
+        "id": "Thaumcraft:blockStoneDevice",
+        "damage": 9
+      },
+      "prerequisites": [
+        "Crafting 2.0",
+        "But where does it come from?"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockStoneDevice",
+                "damage": 9
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:blockStoneDevice",
+          "damage": 10
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Thaumcraft:blockJar",
+          "damage": 3,
+          "amount": 4
+        },
+        {
+          "id": "Thaumcraft:ItemEssence",
+          "damage": 1,
+          "amount": 8,
+          "nbt": "{Aspects:[0:{amount:8,key:\"potentia\"}]}"
+        },
+        {
+          "id": "Thaumcraft:ItemGolemCore",
+          "damage": 100
+        }
+      ]
+    },
+    {
+      "name": "The beginning of the rest of yo",
+      "description": "I have a feeling Im going to be spending a lot of time at this table...",
+      "x": 57,
+      "y": 40,
+      "icon": {
+        "id": "Thaumcraft:ItemInkwell"
+      },
+      "prerequisites": [
+        "Abracadabra!"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemInkwell"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:paper"
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:dye",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:double_plant",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Digital Jars",
+      "description": "Quickly tiring of jars as a method of storing your arcane energies, you\u0027ve discovered a way to condense them utilizing the crystal structures in certus... Energetic alien storage of magical essentia! Nothing could possibly go wrong with this!",
+      "x": 27,
+      "y": 134,
+      "icon": {
+        "id": "thaumicenergistics:material"
+      },
+      "prerequisites": [
+        "Phials or Vials?"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "thaumicenergistics:storage.component"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "thaumicenergistics:part.base",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "thaumicenergistics:storage.component",
+          "amount": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Thaumcraft:ItemLootBag",
+          "damage": 2
+        },
+        {
+          "id": "thaumicenergistics:material"
+        },
+        {
+          "id": "thaumicenergistics:material",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "But where does it come from?",
+      "description": "Your initial research into thaumaturgical sciences has made you keenly aware of vis a source of energy. Nodes appear throughout the world providing near limitless amounts of it. Perhaps you could find a way to transport this...",
+      "x": 54,
+      "y": 71,
+      "icon": {
+        "id": "Thaumcraft:blockAiry"
+      },
+      "prerequisites": [
+        "Basiconomicon"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:wooden_slab"
+              },
+              "required": 9,
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:glass"
+              },
+              "required": 25,
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:blockAiry"
+        }
+      ]
+    },
+    {
+      "name": "Hyper Vis!",
+      "description": "Using the untapped energy of redstone you\u0027ve found a way to build a device capable of channeling the vis from a nod into its more primal states. In this primal form the energy flows much for freely, although it loses many of its complex properties. Build a transducer and a few relays for your new Centivis network.",
+      "x": 90,
+      "y": 179,
+      "icon": {
+        "id": "Thaumcraft:blockStoneDevice",
+        "damage": 11
+      },
+      "prerequisites": [
+        "Bubble of Safety"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockStoneDevice",
+                "damage": 11
+              }
+            },
+            {
+              "item": {
+                "id": "Thaumcraft:blockMetalDevice",
+                "damage": 14
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:blockMetalDevice",
+          "damage": 2
+        },
+        {
+          "id": "minecraft:redstone_block"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Thaumcraft:ItemLootBag",
+          "damage": 2,
+          "amount": 2
+        },
+        {
+          "id": "Botania:specialFlower",
+          "nbt": "{type:\"daybloom\"}"
+        },
+        {
+          "id": "EnderIO:itemAlloy",
+          "damage": 2,
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "What is this, witchery?",
+      "description": "With a bit of vis from your wand you\u0027ve found a way to turn a mundane cauldron into a crucible. Use it to forge new fires into the world. The endless light nitor and the destructive potential energy within Alumentum should prove quite useful to you.",
+      "x": 103,
+      "y": 118,
+      "icon": {
+        "id": "Thaumcraft:blockMetalDevice"
+      },
+      "prerequisites": [
+        "Basiconomicon",
+        "Phials or Vials?"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemResource",
+                "damage": 1
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "Thaumcraft:ItemResource"
+              },
+              "required": 4,
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:blockJar",
+          "amount": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Thaumcraft:blockJar",
+          "damage": 3
+        },
+        {
+          "id": "Thaumcraft:ItemChestplateRobe"
+        },
+        {
+          "id": "TConstruct:heartCanister",
+          "damage": 1
+        },
+        {
+          "id": "evilcraft:hardenedBlood"
+        }
+      ]
+    },
+    {
+      "name": "Hyperenergetic Vis",
+      "description": "With your complex modeling of the certus crystal structure and discoveries of centivis it\u0027s become obvious that a union between the two are possible. Create a device to channel the centivis into the energistics network.",
+      "x": 59,
+      "y": 170,
+      "icon": {
+        "id": "thaumicenergistics:part.base",
+        "damage": 6
+      },
+      "prerequisites": [
+        "Digital Jars",
+        "Hyper Vis!"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "thaumicenergistics:part.base",
+                "damage": 6
+              },
+              "required": 2,
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:blockMetalDevice",
+          "damage": 14,
+          "amount": 2
+        },
+        {
+          "id": "appliedenergistics2:item.ToolMemoryCard"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:ender_eye",
+          "amount": 3
+        },
+        {
+          "id": "thaumicenergistics:focus.aewrench"
+        },
+        {
+          "id": "ThaumicHorizons:focusIllumination",
+          "damage": 7
+        },
+        {
+          "id": "witchery:chalkheart",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "A Scanner, Thaumicly",
+      "description": "Upon discovery of the energy contained within the wand you have expanded your search towards the things that makeup the world. Construct a Thaumometer to analyze your environment and aid in your research.",
+      "x": 60,
+      "y": 10,
+      "icon": {
+        "id": "Thaumcraft:ItemThaumometer"
+      },
+      "prerequisites": [
+        "Abracadabra!"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemThaumometer"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:blockCustomPlant",
+          "amount": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Thaumcraft:ItemResource",
+          "damage": 9,
+          "amount": 2
+        },
+        {
+          "id": "Thaumcraft:ItemLootBag",
+          "damage": 2
+        },
+        {
+          "id": "minecraft:dye",
+          "amount": 8
+        },
+        {
+          "id": "minecraft:spawn_egg",
+          "damage": 93
+        }
+      ]
+    },
+    {
+      "name": "Do You Believe in Magic?",
+      "description": "It\u0027s crude, it\u0027s dangerous, ok let\u0027s be honest, this will probably Kill you. You\u0027ve deciphered a way to focus essentias into a focalized Infusion Matrix to tap into the very essence of creation itself. The Matrix itself is always in a state of ebb and flow, finding elments to place near it to help create essential stability may be advisable. ",
+      "x": 157,
+      "y": 100,
+      "bigicon": true,
+      "icon": {
+        "id": "Thaumcraft:blockStoneDevice",
+        "damage": 2
+      },
+      "prerequisites": [
+        "What is this, witchery?",
+        "Crafting 2.0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockStoneDevice",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:blockJar",
+          "damage": 3,
+          "amount": 2
+        },
+        {
+          "id": "Thaumcraft:blockStoneDevice",
+          "damage": 1,
+          "amount": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Botania:miniIsland",
+          "amount": 4
+        },
+        {
+          "id": "Thaumcraft:blockCrystal",
+          "damage": 6,
+          "amount": 4
+        },
+        {
+          "id": "minecraft:skull",
+          "amount": 4
+        },
+        {
+          "id": "Thaumcraft:blockCandle",
+          "damage": 15,
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "The Core of the Matter",
+      "description": "By infusing otherwise mundane pickaxes with essentia and a few other odds and ends you\u0027ve managed to create an impressive tool. The pickaxe of the core can detect ores for you and has a chance to smelt them into a quasi alchemical state called a cluster. These clusters often yield twice as much as standard ore chunks would. ",
+      "x": 183,
+      "y": 138,
+      "icon": {
+        "id": "Thaumcraft:ItemPickaxeElemental"
+      },
+      "prerequisites": [
+        "Do You Believe in Magic?"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemPickaxeElemental"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:blockCosmeticSolid",
+          "amount": 6
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:1s,id:33s}]}"
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:4s,id:32s}]}"
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:1s,id:151s}]}"
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:2s,id:34s}]}"
+        }
+      ]
+    },
+    {
+      "name": "The Infinite Lie...",
+      "description": "Delicious Cake! Rummaging around for a late night snake it suddenly dawned on you that by infusing essentia into a mundane pastry could result in a self replenishing supply of delicious frosted goodness. Care to remind guests not to become too greedy, even magic has it\u0027s limits. ",
+      "x": 151,
+      "y": 58,
+      "icon": {
+        "id": "ForbiddenMagic:ArcaneCakeItem"
+      },
+      "prerequisites": [
+        "Do You Believe in Magic?"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ForbiddenMagic:ArcaneCakeItem"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "WitchingGadgets:item.WG_Bag",
+          "damage": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Thaumcraft:ItemAmuletVis",
+          "damage": 1
+        },
+        {
+          "id": "aura:fairyCharm",
+          "damage": 7
+        },
+        {
+          "id": "Botania:bloodPendant",
+          "nbt": "{brewKey:\"resistance\"}"
+        },
+        {
+          "id": "ForbiddenMagic:RingNutrition"
+        }
+      ]
+    },
+    {
+      "name": "Stone Age Incomming!",
+      "description": "Finally theres a way to automagically produce cobblestone! Craft a Thaumic extruder and let the stone flow like... wat...err well nevermind that, I\u0027m sure you\u0027ll find a use!",
+      "x": 138,
+      "y": 10,
+      "prerequisites": [
+        "Crafting 2.0",
+        "A Scanner, Thaumicly"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemEssence",
+          "damage": 1,
+          "amount": 4,
+          "nbt": "{Aspects:[0:{amount:8,key:\"terra\"}]}"
+        },
+        {
+          "id": "ExtraUtilities:cobblestone_compressed",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Automagy:blockGolemWorkbench"
+        },
+        {
+          "id": "StevesWorkshop:production_table"
+        },
+        {
+          "id": "arsmagica2:rune",
+          "damage": 18
+        },
+        {
+          "id": "AWWayofTime:weakBloodShard"
+        }
+      ]
+    },
+    {
+      "name": "Mathicus Exibitus",
+      "description": "Tiring of the endless calculations involved in the thaumaturgical studies you\u0027ve been driven to innovation. This new device allows you to calculate a multitude of things such as the amount of primals a complex node contains, and even the amount of ambient instability an infusion matrix contains. ",
+      "x": 174,
+      "y": 16,
+      "icon": {
+        "id": "WitchingGadgets:item.WG_Material",
+        "damage": 7
+      },
+      "prerequisites": [
+        "Do You Believe in Magic?"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "WitchingGadgets:item.WG_Material",
+                "damage": 7
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemShard",
+          "damage": 6,
+          "amount": 2
+        },
+        {
+          "id": "Thaumcraft:ItemGolemCore",
+          "damage": 100,
+          "amount": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "Thaumcraft:ItemGirdleHover"
+        },
+        {
+          "id": "Thaumcraft:ItemRingRunic",
+          "damage": 1
+        },
+        {
+          "id": "Botania:travelBelt"
+        }
+      ]
+    },
+    {
+      "name": "New Horizons",
+      "description": "In the abandoned ruins you\u0027ve come across bizzare hybrid mutants. Research into what has caused these horrendous abominations to emerge throughout the world has brought your research to new horizons. By constructing the mystical curative vat you will gain the ability to craft a containment focus for your wand and begin collecting specimens for further...experimentation...",
+      "x": 199,
+      "y": 41,
+      "bigicon": true,
+      "icon": {
+        "id": "ThaumicHorizons:focusContainment"
+      },
+      "prerequisites": [
+        "Do You Believe in Magic?"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ThaumicHorizons:focusContainment"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:blockTube",
+          "amount": 8
+        },
+        {
+          "id": "minecraft:spawn_egg",
+          "damage": 98
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "AWWayofTime:reinforcedSlate",
+          "amount": 4
+        },
+        {
+          "id": "Thaumcraft:ItemResource",
+          "damage": 9,
+          "amount": 4
+        },
+        {
+          "id": "Botania:floatingSpecialFlower",
+          "nbt": "{type:\"nightshade\"}"
+        }
+      ]
+    },
+    {
+      "name": "Essentia Remastered",
+      "description": "Again with the Jars! There had to be a better way and naturally, you\u0027ve figured it out! By funneling the essentia into digital storage you\u0027re able to create a device utilizing the coalescent cores to distribute the required essentia for all of your alchemy needs. ",
+      "x": 40,
+      "y": 188,
+      "icon": {
+        "id": "thaumicenergistics:thaumicenergistics.block.essentia.provider"
+      },
+      "prerequisites": [
+        "What is this, witchery?",
+        "Digital Jars"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "thaumicenergistics:thaumicenergistics.block.essentia.provider"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "thaumicenergistics:storage.essentia",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "thaumicenergistics:thaumicenergistics.block.essentia.cell.workbench"
+        },
+        {
+          "id": "HardcoreQuesting:hqmInvalidItem"
+        },
+        {
+          "id": "Thaumcraft:blockMetalDevice",
+          "damage": 9,
+          "amount": 2
+        },
+        {
+          "id": "HardcoreQuesting:hqmInvalidItem"
+        }
+      ]
+    },
+    {
+      "name": "Digital Infusion",
+      "description": "Building on the idea of ditial manipulation of essentia and the new utilization of your infusion matrix the next order of business seems clear. Create a device to deliver the essentia required for your delicate infusions. ",
+      "x": 123,
+      "y": 194,
+      "icon": {
+        "id": "thaumicenergistics:thaumicenergistics.block.infusion.provider"
+      },
+      "prerequisites": [
+        "Do You Believe in Magic?",
+        "Digital Jars"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "thaumicenergistics:material",
+                "damage": 1
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "thaumicenergistics:material"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "Thaumcraft:ItemResource",
+                "damage": 14
+              },
+              "required": 2,
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "thaumicenergistics:thaumicenergistics.block.infusion.provider"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "thaumicenergistics:storage.essentia",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "Botania:floatingSpecialFlower",
+          "nbt": "{type:\"tainthistle\"}"
+        },
+        {
+          "id": "technom:fluxLamp",
+          "amount": 4,
+          "nbt": "{Empty:\"\",Stabilize:1b,x:0,y:0,z:0,id:\"TileFluxLamp\",Placed:0b,AspectAmount:0}"
+        },
+        {
+          "id": "AWWayofTime:demonicSlate",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "The Silver Lining",
+      "description": "By exploting the intrinsic magical nature of the silverwood you believe it possible to create a wand that holds far more vis even the greatwood. Use your knowledge of the infusion matrix to funnel the nescesary essentias into a more powerful instrument. ",
+      "x": 185,
+      "y": 71,
+      "icon": {
+        "id": "Thaumcraft:WandCasting",
+        "damage": 54,
+        "nbt": "{aqua:10000,terra:10000,ignis:10000,cap:\"thaumium\",rod:\"silverwood\",ordo:10000,perditio:10000,aer:10000}"
+      },
+      "prerequisites": [
+        "Do You Believe in Magic?"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:WandRod",
+                "damage": 2
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:blockCustomPlant",
+          "damage": 1,
+          "amount": 2
+        },
+        {
+          "id": "Thaumcraft:blockCustomPlant",
+          "damage": 4
+        },
+        {
+          "id": "Thaumcraft:ItemResource",
+          "damage": 17
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "aura:ingotAngelSteel",
+          "damage": 3,
+          "amount": 2
+        },
+        {
+          "id": "Botania:manaResource",
+          "damage": 4,
+          "amount": 2
+        },
+        {
+          "id": "AWWayofTime:bloodMagicBaseItems",
+          "damage": 27,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "This for That",
+      "description": "Magic comes with a cost, forcing the laws of Thaumaturgy to obey their own doctrine you\u0027ve devised a wand focus to equally exchange one material for another. ",
+      "x": 117,
+      "y": 60,
+      "icon": {
+        "id": "Thaumcraft:FocusTrade"
+      },
+      "prerequisites": [
+        "Crafting 2.0",
+        "Focal Manipulation"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:FocusTrade"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemShard",
+          "damage": 6,
+          "amount": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Automagy:baubleEnderDisjunction"
+        },
+        {
+          "id": "Thaumcraft:blockCosmeticSolid",
+          "damage": 12,
+          "amount": 64
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:4s,id:3s}]}"
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:4s,id:4s}]}"
+        }
+      ]
+    },
+    {
+      "name": "Choose your own Adventure!",
+      "description": "Channeling the sinister energies of the obsidian totems through nitor seems to remove the mysteries behind traditional enchanting. This new research seems to allow you to channel the enchantment of your choice with some coaxing of the vis from your wand. ",
+      "x": 213,
+      "y": 97,
+      "icon": {
+        "id": "ThaumicTinkerer:enchanter"
+      },
+      "prerequisites": [
+        "Do You Believe in Magic?"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockCosmeticSolid"
+              },
+              "required": 6,
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "Thaumcraft:ItemResource",
+                "damage": 1
+              },
+              "required": 6,
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "ThaumicTinkerer:enchanter"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThaumicTinkerer:repairer"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "arsmagica2:rune",
+          "damage": 19
+        },
+        {
+          "id": "ExtraUtilities:bedrockiumIngot",
+          "amount": 3
+        },
+        {
+          "id": "Botania:spreader",
+          "damage": 3,
+          "amount": 2
+        },
+        {
+          "id": "AWWayofTime:AlchemicalWizardrybloodRune",
+          "damage": 2,
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "The True Power of a Star",
+      "description": "After maddening research into the heart of the nether star you\u0027ve unlocked a pathway to the source of all things. This new ichor material is one of the most important breakthrough\u0027s you may ever make. \"The blood of the gods? It bloody well better be with how much it costs to make this stuff!\"",
+      "x": 215,
+      "y": 128,
+      "bigicon": true,
+      "icon": {
+        "id": "ThaumicTinkerer:kamiResource"
+      },
+      "prerequisites": [
+        "Choose your own Adventure!",
+        "The Silver Lining",
+        "The Core of the Matter",
+        "A Scanner, Thaumicly"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:nether_star"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "ThaumicTinkerer:kamiResource"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "ThaumicTinkerer:kamiResource",
+                "damage": 7
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "ThaumicTinkerer:kamiResource",
+                "damage": 6
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThaumicTinkerer:kamiResource",
+          "damage": 6,
+          "amount": 2
+        },
+        {
+          "id": "ThaumicTinkerer:kamiResource",
+          "damage": 7,
+          "amount": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "A Nonchemical Attaction",
+      "description": "Fighting enemies from every direction can quickly wear you down. You\u0027ve managed to discover research into a device that can react with redstone energies to pull in all nearby entities, conveniently clumping them for you to dispatch.",
+      "x": 245,
+      "y": 61,
+      "icon": {
+        "id": "ThaumicTinkerer:magnet",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Choose your own Adventure!"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ThaumicTinkerer:magnet",
+                "damage": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "aura:consumerBlockmob",
+          "amount": 3
+        },
+        {
+          "id": "HardcoreQuesting:hqmInvalidItem"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreEnderExpansion:essence",
+          "amount": 20
+        },
+        {
+          "id": "Botania:manaResource",
+          "damage": 8,
+          "amount": 6
+        },
+        {
+          "id": "witchery:ingredient",
+          "damage": 150,
+          "amount": 3
+        },
+        {
+          "id": "ExtraUtilities:unstableingot",
+          "damage": 1,
+          "amount": 18
+        }
+      ]
+    },
+    {
+      "name": "Embrace the Infernal",
+      "description": "After embracing the heart of fire, you\u0027ve become accustomed to the hazzards of the nether. Using the research you\u0027ve gathered there you believe it possible to craft a wand with the essence of the plane thereby mastering it completely. Crafting an infernal wand seems to convey protection from fire and the withering effects, as well as being an even more potent vis carrier than the beloved silverwood wand.",
+      "x": 257,
+      "y": 87,
+      "icon": {
+        "id": "ForbiddenMagic:WandCores",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Choose your own Adventure!"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ForbiddenMagic:WandCores",
+                "damage": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:FocusHellbat"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Thaumcraft:WandCap",
+          "damage": 2,
+          "amount": 2
+        },
+        {
+          "id": "Thaumcraft:WandCap",
+          "damage": 7,
+          "amount": 2
+        },
+        {
+          "id": "ForbiddenMagic:WandCaps",
+          "amount": 2
+        },
+        {
+          "id": "ForbiddenMagic:WandCaps",
+          "damage": 3,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "A New World Awaits",
+      "description": "You\u0027ve broken through the very foundation of the world. The unbreakable crumbles before you and now an entire world of riches is yours, and yours alone for the taking. It has been a long journey but rewards well earned!",
+      "x": 245,
+      "y": 165,
+      "bigicon": true,
+      "icon": {
+        "id": "ThaumicTinkerer:ichorPickGem"
+      },
+      "prerequisites": [
+        "The True Power of a Star"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ThaumicTinkerer:ichorPickGem"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ThaumicTinkerer:placementMirror"
+        },
+        {
+          "id": "TwilightForest:item.charmOfKeeping3",
+          "amount": 3
+        },
+        {
+          "id": "Botania:dice"
+        },
+        {
+          "id": "ForbiddenMagic:EldritchOrb"
+        }
+      ]
+    },
+    {
+      "name": "It\u0027s ALIIIIIIIIVE!!!!",
+      "description": "The next obvious step is of course to infuse essentia into living creatures. By using what you\u0027ve learned exploring this new horizon you\u0027ve discovered a way to further modify your infusion matrix to cater to more... deplorable operations...",
+      "x": 205,
+      "y": 9,
+      "icon": {
+        "id": "ExtraUtilities:decorativeBlock1",
+        "damage": 12
+      },
+      "prerequisites": [
+        "New Horizons"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ThaumicHorizons:modMatrix"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThaumicHorizons:focusLiquefaction"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ThaumicExploration:thinkTankJar"
+        },
+        {
+          "id": "technom:advDeconTable",
+          "nbt": "{breakspeed:80,x:0,y:0,z:0,Items:[],id:\"techno:TileAdvDeconTable\"}"
+        },
+        {
+          "id": "technom:essentiaDynamo",
+          "nbt": "{face:1b,Boost:0b,fuel:0,Amount:0s,x:0,y:0,modified:0b,z:0,id:\"TileEssentiaDynamo\",redstoneSettings:\"High\",energy:0}"
+        },
+        {
+          "id": "ThaumicTinkerer:interface"
+        }
+      ]
+    },
+    {
+      "name": "Death, meet my double",
+      "description": "At last! Immortality! Through the tremendous power of a primordial pearl combined with aspects of the void itself you\u0027ve uncovered a method of exerting a greater force on your soul than that of the great beyond. At the moment of your death this soul beacon will snap your soul back into a prepared corpse effigy as the curative vat soothes away the memories of whatever fate had befallen you.",
+      "x": 273,
+      "y": 128,
+      "icon": {
+        "id": "minecraft:skull",
+        "damage": 3
+      },
+      "prerequisites": [
+        "New Horizons",
+        "The True Power of a Star"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ThaumicHorizons:soulBeacon"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:nether_star"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "TConstruct:heartCanister",
+          "damage": 6,
+          "amount": 2
+        },
+        {
+          "id": "Thaumcraft:ItemEldritchObject",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Thaumaturgical Interfacing",
+      "description": "After finding a method of interfacing with all of your stored goods it mingling the results of that with your magical endeavors was a small step. Designs in your journal have given a blueprint for an arcane interface to the terminal which should allow an accomodation for your wand as well.",
+      "x": 62,
+      "y": 126,
+      "icon": {
+        "id": "thaumicenergistics:part.base",
+        "damage": 5
+      },
+      "prerequisites": [
+        "Crafting 2.0",
+        "Digital Jars"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "thaumicenergistics:part.base",
+                "damage": 5
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "technom:essentiaDynamo",
+          "nbt": "{face:1b,Boost:0b,fuel:0,Amount:0s,x:0,y:0,modified:0b,z:0,id:\"TileEssentiaDynamo\",redstoneSettings:\"High\",energy:0}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "technom:itemBoost"
+        },
+        {
+          "id": "Thaumcraft:blockCosmeticSolid",
+          "damage": 12,
+          "amount": 32
+        },
+        {
+          "id": "TConstruct:heartCanister",
+          "damage": 2
+        },
+        {
+          "id": "ExtraUtilities:unstableingot",
+          "damage": 1,
+          "amount": 9
+        }
+      ]
+    },
+    {
+      "name": "Indentured Servitude",
+      "description": "So many mundane tasks distract from your studies, surely there must be a way to get competent help around here! Create a golem animation core and bring to life the lifeless. If you want it done right, do it yourself, for everything else there\u0027s Golems.",
+      "x": 125,
+      "y": 143,
+      "icon": {
+        "id": "Thaumcraft:ItemGolemPlacer",
+        "damage": 1
+      },
+      "prerequisites": [
+        "What is this, witchery?"
+      ],
+      "repeat": {
+        "type": "TIME",
+        "days": 7,
+        "hours": 0
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemGolemCore",
+                "damage": 100
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:GolemBell"
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

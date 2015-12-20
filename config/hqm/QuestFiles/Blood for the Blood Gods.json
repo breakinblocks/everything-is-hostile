@@ -1,0 +1,969 @@
+{
+  "name": "Blood for the Blood Gods",
+  "quests": [
+    {
+      "name": "Donating Blood",
+      "description": "To craft things in the blood altar, you\u0027ll need to put blood in it. What blood you ask? Well... you\u0027ll find a source. (The knife might be a good hint)",
+      "x": 27,
+      "y": 11,
+      "icon": {
+        "id": "AWWayofTime:sacrificialKnife"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AWWayofTime:sacrificialKnife"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "AWWayofTime:runeOfSelfSacrifice",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Decent into Darkness",
+      "description": "By placing a mana diamond into a blood altar one can create an orb to manipulate blood itself to preform ones bidding. The Blood Orb is the only thing capable of charging your Soul with the Life force gathered within your Altar. And don\u0027t you think that won\u0027t be needed. There are TONS of things using that Life force from your so-called Soul Network.",
+      "x": 52,
+      "y": 41,
+      "bigicon": true,
+      "icon": {
+        "id": "AWWayofTime:weakBloodOrb"
+      },
+      "prerequisites": [
+        "Donating Blood"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AWWayofTime:weakBloodOrb"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:potion",
+          "damage": 8261,
+          "amount": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Bloody Fuel",
+      "description": "With this sweet little crystal you can replace anything like coal to burn it. Want a furnace never needing to be restocked on coal? Add this instead and it will feed from your Soul Network. Do you know what that means? That means you can basically use your enemies as fuel in your furnaces. Talking about humiliation...",
+      "x": 109,
+      "y": 39,
+      "icon": {
+        "id": "AWWayofTime:lavaCrystal"
+      },
+      "prerequisites": [
+        "Decent into Darkness"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AWWayofTime:lavaCrystal"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "AWWayofTime:itemKeyOfDiablo"
+        }
+      ]
+    },
+    {
+      "name": "Slats, Slats, Slats",
+      "description": "Upgrading the altar requires mostly one thing: Stone. Tons of it. Toss it into the altar to make slates and thus rune stones. Who knows what blood infused stone could be used to create.",
+      "x": 34,
+      "y": 89,
+      "icon": {
+        "id": "AWWayofTime:blankSlate"
+      },
+      "prerequisites": [
+        "Decent into Darkness"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AWWayofTime:blankSlate"
+              },
+              "required": 8,
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "AWWayofTime:blankSlate",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Bloody Balls",
+      "description": "You can sense your alter cannot provide the necessary essence required to progress, The 25,000LP required is a big hurdle maybe you could trick some monsters into being sacrifices for your alter, that should speed up the process.",
+      "x": 157,
+      "y": 25,
+      "icon": {
+        "id": "AWWayofTime:magicianBloodOrb"
+      },
+      "prerequisites": [
+        "Bloody Fuel"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AWWayofTime:magicianBloodOrb"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "AWWayofTime:AlchemicalWizardrybloodRune",
+          "damage": 1,
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Don\u0027t donate Blood",
+      "description": "Why painfully cut yourself when you can just cut others aswell? This dagger will instantly slay almost every mob standing next to the Altar and make it suck up the blood like a vampire sponge.",
+      "x": 108,
+      "y": 6,
+      "icon": {
+        "id": "AWWayofTime:daggerOfSacrifice"
+      },
+      "prerequisites": [
+        "Bloody Fuel"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AWWayofTime:daggerOfSacrifice"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "AWWayofTime:runeOfSacrifice",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Not So Clean Slate",
+      "description": "\"By infusing life essence to stone, you where able to instill dark power into this normal material, lets see how deep this rabit hole goes\"",
+      "x": 29,
+      "y": 129,
+      "icon": {
+        "id": "AWWayofTime:reinforcedSlate"
+      },
+      "prerequisites": [
+        "Slats, Slats, Slats"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AWWayofTime:reinforcedSlate"
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "AWWayofTime:bucketLife"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "AWWayofTime:reinforcedSlate",
+          "amount": 4
+        },
+        {
+          "id": "HardcoreQuesting:hqmInvalidItem"
+        },
+        {
+          "id": "arsmagica2:itemOre",
+          "damage": 2,
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "Supporting Bloody Balls",
+      "description": "\"You notice that in your bloodlusted progress for power, your supply or life essence isnt as steady as you thought, leaving your infusions dry and unsatisified...maybe there is something you can add to your alter to combat this issue.\"",
+      "x": 74,
+      "y": 77,
+      "icon": {
+        "id": "Sanguimancy:BlockBloodTank"
+      },
+      "prerequisites": [
+        "Decent into Darkness"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Sanguimancy:BlockBloodTank"
+              },
+              "required": 4,
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "AWWayofTime:efficiencyRune",
+          "amount": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:blaze_rod",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:ghast_tear"
+        },
+        {
+          "id": "NOVA:blockSapling"
+        },
+        {
+          "id": "Thaumcraft:ItemGoggles"
+        }
+      ]
+    },
+    {
+      "name": "Ritual of Binding",
+      "description": "\"You\u0027ve heard whispers of a ritual to create a dark blade, a blade full of demonic power, able to capture part of a monster\u0027s soul into a shard. The very heavens cry out when one is made, to deter the weaker willed; But you are not one so easily fooled. You can put out the fire of doubt and carry on the bloodlusted drive of progress. \"",
+      "x": 167,
+      "y": 86,
+      "bigicon": true,
+      "icon": {
+        "id": "AWWayofTime:energySword"
+      },
+      "prerequisites": [
+        "Ritualistic Newbie"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:diamond_sword"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AWWayofTime:energySword"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:floatingSpecialFlower",
+          "nbt": "{type:\"bloodthorn\"}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "AWWayofTime:weakBloodShard",
+          "amount": 4
+        },
+        {
+          "id": "Thaumcraft:ItemEssence",
+          "damage": 1,
+          "amount": 4,
+          "nbt": "{Aspects:[0:{amount:8,key:\"victus\"}]}"
+        },
+        {
+          "id": "aura:consumerBlockmob"
+        },
+        {
+          "id": "witchery:chalkheart",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Getting Good at It",
+      "description": "The need of progress drives you further on your quest, the next step requires a flow of life essence to create a new orb. You may need your pools to be larger; 40k should be enough for now, however more may be required later.",
+      "x": 197,
+      "y": 122,
+      "icon": {
+        "id": "AWWayofTime:masterBloodOrb"
+      },
+      "prerequisites": [
+        "Ritual of Binding"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AWWayofTime:masterBloodOrb"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "AWWayofTime:masterBloodOrb"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:hqmInvalidItem"
+        },
+        {
+          "id": "Botania:spark",
+          "amount": 2
+        },
+        {
+          "id": "Thaumcraft:ItemEssence",
+          "damage": 1,
+          "amount": 4,
+          "nbt": "{Aspects:[0:{amount:8,key:\"fabrico\"}]}"
+        },
+        {
+          "id": "arsmagica2:rune",
+          "damage": 17,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Bound Things",
+      "description": "Amongst some of the most powerful tools in existience are the demonic infused bound tools. Tread carefully though as with great power comes great responsibility, where one small action can have disastrous repercussions.",
+      "x": 128,
+      "y": 131,
+      "icon": {
+        "id": "AWWayofTime:boundPickaxe"
+      },
+      "prerequisites": [
+        "Ritual of Binding"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AWWayofTime:boundPickaxe"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "AWWayofTime:boundAxe"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "AWWayofTime:boundShovel"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "OpenBlocks:tank",
+          "nbt": "{tank:{FluidName:\"life essence\",Amount:16000}}"
+        },
+        {
+          "id": "AWWayofTime:weakBloodShard",
+          "amount": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "evilcraft:hardenedBlood",
+          "amount": 4
+        },
+        {
+          "id": "Thaumcraft:ItemEssence",
+          "damage": 1,
+          "amount": 4,
+          "nbt": "{Aspects:[0:{amount:8,key:\"exanimis\"}]}"
+        },
+        {
+          "id": "Botania:floatingSpecialFlower",
+          "amount": 4,
+          "nbt": "{type:\"nightshade\"}"
+        },
+        {
+          "id": "aura:auraNodeblack",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Ritualistic Newbie",
+      "description": "\"After experimenting with infusing life essence with materials, you wonder how other aspects of the world can affect items. By combining the powers of the elements you can figure out how to put them together in a structure to create new and powerful items.  You have heard stories where Blood mages would place down a Master Ritual stone, and select the ritual they would desire using the power of their diviners, after placing the ritual stones you wonder on how to activate this ritual.\"",
+      "x": 119,
+      "y": 73,
+      "icon": {
+        "id": "AWWayofTime:activationCrystal"
+      },
+      "prerequisites": [
+        "Bloody Balls",
+        "Supporting Bloody Balls"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AWWayofTime:ritualStone"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "AWWayofTime:masterStone"
+              }
+            },
+            {
+              "item": {
+                "id": "AWWayofTime:itemRitualDiviner"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "AWWayofTime:activationCrystal"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "AWWayofTime:ritualStone",
+          "amount": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "AWWayofTime:ritualDismantler"
+        },
+        {
+          "id": "arsmagica2:rune",
+          "damage": 18
+        },
+        {
+          "id": "Forestry:beeQueenGE",
+          "nbt": "{MaxH:40,Health:40,IsAnalyzed:1b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesImperial\",UID0:\"forestry.speciesImperial\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanNormal\",UID0:\"forestry.lifespanNormal\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:10b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectBeatific\",UID0:\"forestry.effectBeatific\",Slot:13b}]}}"
+        },
+        {
+          "id": "Botania:manaTablet",
+          "damage": 1000
+        }
+      ]
+    },
+    {
+      "name": "Sanguine Armory",
+      "description": "\"You\u0027ve found that your progress in Blood Magic can benefit you in your other magical endeavours. By joining together the properties of certain magical metals that you\u0027ve discovered elsewhere you wonder if you can create a new suit of armour to benefit you on your thaumaturgic adventures.\"",
+      "x": 211,
+      "y": 46,
+      "icon": {
+        "id": "AWWayofTime:sanguineHelmet"
+      },
+      "prerequisites": [
+        "Ritual of Binding"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AWWayofTime:sanguineHelmet"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "AWWayofTime:sanguineRobe"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "AWWayofTime:sanguinePants"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "AWWayofTime:sanguineBoots"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "AWWayofTime:weakBloodShard",
+          "amount": 5
+        },
+        {
+          "id": "AWWayofTime:largeBloodStoneBrick",
+          "amount": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:1s,id:249s}]}"
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:2s,id:177s}]}"
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:2s,id:248s}]}"
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:1s,id:101s}]}"
+        }
+      ]
+    },
+    {
+      "name": "Primordial Reagents",
+      "description": "\"Materials have always been the key to progress, surely their must be a way to alchemicaly infuse materials down into base elements \"",
+      "x": 57,
+      "y": 105,
+      "icon": {
+        "id": "AWWayofTime:blockWritingTable"
+      },
+      "prerequisites": [
+        "Decent into Darkness"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "AWWayofTime:blockWritingTable"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "AWWayofTime:simpleCatalyst",
+          "amount": 3
+        },
+        {
+          "id": "AWWayofTime:bloodMagicBaseAlchemyItems",
+          "damage": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:reeds",
+          "amount": 64
+        },
+        {
+          "id": "minecraft:glowstone_dust",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:redstone",
+          "amount": 32
+        },
+        {
+          "id": "minecraft:obsidian",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "Elemental Flow",
+      "description": "\"Solid materials built everything from alters to rituals, but what can other forms of materia be used for you wonder. \"",
+      "x": 62,
+      "y": 150,
+      "icon": {
+        "id": "AWWayofTime:blockAlchemicCalcinator"
+      },
+      "prerequisites": [
+        "Primordial Reagents"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "AWWayofTime:blockAlchemicCalcinator"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "AWWayofTime:itemAttunedCrystal"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "AWWayofTime:bloodMagicBaseAlchemyItems",
+          "damage": 2,
+          "amount": 4
+        },
+        {
+          "id": "AWWayofTime:bloodMagicBaseAlchemyItems",
+          "damage": 8,
+          "amount": 4
+        },
+        {
+          "id": "AWWayofTime:bloodMagicBaseAlchemyItems",
+          "damage": 6,
+          "amount": 4
+        },
+        {
+          "id": "AWWayofTime:sanctus",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Summoning Satan; Not Quite.",
+      "description": "To summon a demon (to get demon blood shards) you\u0027ll need to surround an Arcane Plinth with 6 Arcane Pedestals on a distance of 1 in a hexagon pattern. Put at least a T4 Orb on the Plinth in the middle and element essences on the Pedestals. As soon as the last item is placed lighning will consume each of them (not the orb) and summon an elemental at the end. Killing that with a Bound Blade will give a chance for it to drop a demon shard (looting works). ",
+      "x": 80,
+      "y": 192,
+      "icon": {
+        "id": "minecraft:beacon"
+      },
+      "prerequisites": [
+        "Elemental Flow"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AWWayofTime:blockPedestal"
+              },
+              "required": 6
+            },
+            {
+              "item": {
+                "id": "AWWayofTime:blockPlinth"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "AWWayofTime:incendium",
+          "amount": 6
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "technom:bloodDynamo",
+          "nbt": "{face:1b,liquid:0,Boost:0b,fuel:0,x:0,y:0,modified:0b,z:0,id:\"TileBloodDynamo\",redstoneSettings:\"High\",energy:0}"
+        },
+        {
+          "id": "EnderStorage:enderChest",
+          "damage": 4096,
+          "amount": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "Forestry:beeQueenGE",
+          "nbt": "{MaxH:50,Health:50,IsAnalyzed:1b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesMonastic\",UID0:\"forestry.speciesMonastic\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanLong\",UID0:\"forestry.lifespanLong\",Slot:2b},3:{UID1:\"forestry.fertilityLow\",UID0:\"forestry.fertilityLow\",Slot:3b},4:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:9b},9:{UID1:\"forestry.flowersWheat\",UID0:\"forestry.flowersWheat\",Slot:10b},10:{UID1:\"forestry.floweringFaster\",UID0:\"forestry.floweringFaster\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
+        }
+      ]
+    },
+    {
+      "name": "And on and On and ONNNNN",
+      "description": "Let\u0027s look into tons of rituals. I\u0027ll just give you some names to look up here: Well of Suffering, Call of the Zephyr, Drill of the Dead, Ritual of the Feathered Knife, Mark of the Falling tower, Ritual of Regeneration. For some of these you\u0027ll have to upgrade your Ritual Diviner but that shouldn\u0027t be a problem by now. The Awakened Activation Crystal though, like the Archmage\u0027s Blood Orb, requires a Demon Blood Shard. Aside from those rituals which you don\u0027t really NEED for high-tier Blood Magic (very useful though) you WILL need 4 beacons for a T5 Altar.",
+      "x": 250,
+      "y": 116,
+      "icon": {
+        "id": "AWWayofTime:archmageBloodOrb"
+      },
+      "prerequisites": [
+        "Getting Good at It"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AWWayofTime:archmageBloodOrb"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:beacon"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "AWWayofTime:AlchemicalWizardrybloodRune",
+          "damage": 4,
+          "amount": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "AWWayofTime:AlchemicalWizardrybloodRune",
+          "damage": 2,
+          "amount": 4
+        },
+        {
+          "id": "AWWayofTime:AlchemicalWizardrybloodRune",
+          "damage": 5,
+          "amount": 4
+        },
+        {
+          "id": "AWWayofTime:AlchemicalWizardrybloodRune",
+          "damage": 3,
+          "amount": 4
+        },
+        {
+          "id": "ForbiddenMagic:Boundwell"
+        }
+      ]
+    },
+    {
+      "name": "Hell on Earth",
+      "description": "You figured that you could not go on without reaching out for hell itself. But what does that mean? You\u0027re sure you can\u0027t go there without being dead and that doesnt sound too comfy. So hey, let\u0027s just bring hell here instead! Build the ritual \u0027convocation of the damned\u0027, place a crystal bell jar on each pillar, gather 15m LP in your Soul Network, activate the ritual, route all the essence into the Master ritual stone (look up Alchemic Router and Alchemic Cleanser), Place a blood Altar on the Master Ritual Stone, spawn a demon next to it (right clicking with the demon crystal will spawn the demon that dropped it in the first place - Try Fallen Angel) and sacrifice it to finish the Ritual and unleash hell on earth. Be sure to be well-prepared for what will come after. A simple Bound armor won\u0027t stop hell\u0027s villagers from tearing you apart.",
+      "x": 212,
+      "y": 168,
+      "icon": {
+        "id": "Botania:fireRod"
+      },
+      "prerequisites": [
+        "And on and On and ONNNNN"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AWWayofTime:blockCrystalBelljar",
+                "nbt": "{reagentTanks:[0:{amount:16000,Reagent:\"incendium\",capacity:16000}]}"
+              }
+            },
+            {
+              "item": {
+                "id": "AWWayofTime:blockCrystalBelljar",
+                "nbt": "{reagentTanks:[0:{amount:16000,Reagent:\"tenebrae\",capacity:16000}]}"
+              }
+            },
+            {
+              "item": {
+                "id": "AWWayofTime:blockCrystalBelljar",
+                "nbt": "{reagentTanks:[0:{amount:16000,Reagent:\"terrae\",capacity:16000}]}"
+              }
+            },
+            {
+              "item": {
+                "id": "AWWayofTime:blockCrystalBelljar",
+                "nbt": "{reagentTanks:[0:{amount:16000,Reagent:\"aquasalus\",capacity:16000}]}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AWWayofTime:blockCrystalBelljar",
+                "nbt": "{reagentTanks:[0:{amount:16000,Reagent:\"potentia\",capacity:16000}]}"
+              }
+            },
+            {
+              "item": {
+                "id": "AWWayofTime:blockCrystalBelljar",
+                "nbt": "{reagentTanks:[0:{amount:16000,Reagent:\"magicales\",capacity:16000}]}"
+              }
+            },
+            {
+              "item": {
+                "id": "AWWayofTime:blockCrystalBelljar",
+                "nbt": "{reagentTanks:[0:{amount:16000,Reagent:\"sanctus\",capacity:16000}]}"
+              }
+            },
+            {
+              "item": {
+                "id": "AWWayofTime:blockCrystalBelljar",
+                "nbt": "{reagentTanks:[0:{amount:16000,Reagent:\"aether\",capacity:16000}]}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AWWayofTime:ritualStone"
+              },
+              "required": 128,
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "arsmagica2:rune",
+          "damage": 19
+        },
+        {
+          "id": "Botania:floatingSpecialFlower",
+          "amount": 4,
+          "nbt": "{type:\"thermalily\"}"
+        },
+        {
+          "id": "ThaumicTinkerer:kamiResource",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "Collecting your Claim",
+      "description": "\"You have made the journey, you have ran down the bloody guantlet that not many have survived. only a few tasks still remain in your goal of obtaining the ultimate  power that blood can provide. after surviving the invasion of hellspawn lets see what this true demonic power can provide for you \"",
+      "x": 269,
+      "y": 168,
+      "icon": {
+        "id": "AWWayofTime:blockCrystal"
+      },
+      "prerequisites": [
+        "Hell on Earth"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AWWayofTime:blockCrystal"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "AWWayofTime:blockCrystal"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "evilcraft:boundBloodDrop"
+        },
+        {
+          "id": "witchery:ingredient",
+          "damage": 64
+        },
+        {
+          "id": "Botania:dice"
+        },
+        {
+          "id": "TwilightForest:item.charmOfKeeping3",
+          "amount": 3
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}
