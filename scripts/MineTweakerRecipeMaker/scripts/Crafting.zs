@@ -23,7 +23,6 @@ recipes.remove(<magicalcrops:CopperSeeds>);
 recipes.remove(<magicalcrops:CertusQuartzSeeds>);
 recipes.remove(<magicalcrops:ArditeSeeds>);
 recipes.remove(<magicalcrops:CobaltSeeds>);
-recipes.remove(<magicalcrops:AluminiumSeeds>);
 recipes.remove(<magicalcrops:SheepSeeds>);
 recipes.remove(<magicalcrops:SlimeSeeds>);
 recipes.remove(<magicalcrops:SpiderSeeds>);
@@ -187,7 +186,6 @@ recipes.addShaped(<Thaumcraft:GolemBell>, [[null, <Thaumcraft:ItemResource:2>, n
 recipes.addShaped(<witchery:ingredient:153>, [[null, <witchery:seedsartichoke>, null], [<witchery:seedsbelladonna>, <ore:itemClay>, <witchery:seedssnowbell>], [null, <witchery:seedsmandrake>, null]]);
 recipes.addShaped(<EnderIO:bucketNutrient_distillation>, [[null, <minecraft:nether_wart>, null], [null, <minecraft:water_bucket>, null], [<minecraft:sugar>, null, <minecraft:sugar>]]);
 recipes.addShaped(<magicalcrops:BronzeSeeds>, [[<ore:ingotBronze>, <magicalcrops:3CrucioEssence>, <ore:ingotBronze>], [<magicalcrops:3CrucioEssence>, <minecraft:melon_seeds>, <magicalcrops:3CrucioEssence>], [<ore:ingotBronze>, <magicalcrops:3CrucioEssence>, <ore:ingotBronze>]]);
-recipes.addShaped(<magicalcrops:AlumiteSeeds>, [[<TConstruct:materials:15>, <magicalcrops:4ImperioEssence>, <TConstruct:materials:15>], [<magicalcrops:4ImperioEssence>, <minecraft:melon_seeds>, <magicalcrops:4ImperioEssence>], [<TConstruct:materials:15>, <magicalcrops:4ImperioEssence>, <TConstruct:materials:15>]]);
 recipes.addShaped(<magicalcrops:TinSeeds>, [[<ore:ingotTin>, <magicalcrops:3CrucioEssence>, <ore:ingotTin>], [<magicalcrops:3CrucioEssence>, <minecraft:melon_seeds>, <magicalcrops:3CrucioEssence>], [<ore:ingotTin>, <magicalcrops:3CrucioEssence>, <ore:ingotTin>]]);
 recipes.addShaped(<magicalcrops:CertusQuartzSeeds>, [[<appliedenergistics2:item.ItemMultiMaterial>, <magicalcrops:3CrucioEssence>, <appliedenergistics2:item.ItemMultiMaterial>], [<magicalcrops:3CrucioEssence>, <minecraft:melon_seeds>, <magicalcrops:3CrucioEssence>], [<appliedenergistics2:item.ItemMultiMaterial>, <magicalcrops:3CrucioEssence>, <appliedenergistics2:item.ItemMultiMaterial>]]);
 recipes.addShaped(<magicalcrops:CopperSeeds>, [[<ore:ingotCopper>, <magicalcrops:3CrucioEssence>, <ore:ingotCopper>], [<magicalcrops:3CrucioEssence>, <minecraft:melon_seeds>, <magicalcrops:3CrucioEssence>], [<ore:ingotCopper>, <magicalcrops:3CrucioEssence>, <ore:ingotCopper>]]);
