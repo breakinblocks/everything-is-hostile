@@ -18,7 +18,6 @@ recipes.remove(<arsmagica2:playerjournal>);
 recipes.remove(<witchery:ingredient:153>);
 recipes.remove(<magicalcrops:BronzeSeeds>);
 recipes.remove(<magicalcrops:TinSeeds>);
-recipes.remove(<magicalcrops:AlumiteSeeds>);
 recipes.remove(<magicalcrops:CopperSeeds>);
 recipes.remove(<magicalcrops:CertusQuartzSeeds>);
 recipes.remove(<magicalcrops:ArditeSeeds>);
