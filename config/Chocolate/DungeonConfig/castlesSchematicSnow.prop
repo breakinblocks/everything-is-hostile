@@ -3,13 +3,13 @@
 #Will try to find the highest position to spawn, better avoid any biome with hills
 #Needs at least 20 blocks underground, so it not recommended to use in biomes with height lower than 25
 
-#biomes = FROZEN
-biomes = FROZEN
+#biomes = SNOWY
+biomes = SNOWY
 
 #chance: define the ratio at wich the dungeon spawns, if set to 0 the dungeon will be disabled.
 #The formula goes like that: every 5 chunks there is 1 between the number set to chance probabilities to spawn a dungeon.
 
-chance = 10
+chance = 20
 
 #mob: defines the mob spawned in that dungeon
 mob = walker
@@ -24,13 +24,13 @@ builder = templateSurface
 #Special data for templateSurface
 
 #folder: the folder containing the templates
-folder = snowCastles
+folder = DungeonConfig/Building/snowCastles
 
 #underGroundOffset: how many block will be used under the ground.
 underGroundOffset = 8
 
 #supportStructure: Generates a support cube under the dungeon using the specified blocks
 supportStructure = true
-structureBlock = minecraft:dirt
+structureBlock = @biome_filler
 structureTopBlock = minecraft:snow
 

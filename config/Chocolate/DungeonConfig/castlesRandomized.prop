@@ -1,8 +1,3 @@
-#Biomes, put biome names separated by comma, example:
-#biomes = Plains, Forest, Hell, Desert
-#Will try to find the highest position to spawn, better avoid any biome with hills
-#Needs at least 20 blocks underground, so it not recommended to use in biomes with height lower than 25
-
 #biomes = PLAINS, WASTELAND, FOREST, DESERT, SWAMP
 biomes = NONWATER
 
@@ -14,7 +9,7 @@ chance = 50
 #mob: defines the mob spawned in that dungeon
 mob = default
 
-#icon: used as the item icon intex in the dungeon spawner item. (look at textures/items/bd/ d1, d2..., only the number is required)
+#icon: used as the item icon intex in the dungeon spawner item.
 icon = 5
 
 #Builder allows you to choose what builder does the dungeon use
@@ -22,7 +17,7 @@ builder = castle
 
 #Options
 #maxSize : Size of the castle perimeter
-maxSize = 60
+maxSize = 50
 #roomSize of individual rooms(also affects towers)
 roomSize = 10
 #doorWidth, doorHeigth: height and width of interior doors

@@ -31,7 +31,7 @@ builder = lavaCity
 #posY: the height to spawn the building
 #rows: how many rows and building on each row.
 
-folder = pigcity
+folder = DungeonConfig/Building/pigcity
 
 #Nether brick = minecraft:nether_brick
 floorBlock= minecraft:nether_brick

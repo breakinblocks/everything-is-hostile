@@ -91,10 +91,6 @@ Take some potions!
 @prompt:Any undead tonight?
 There is a group of zombies east.
 #####
-@name:orcChiefBull
-@prompt:Where can I find it?
-It's a giant bull, you will find it around 200 meters north
-#####
 @name:helloMarket
 @prompt:helloMarket
 Hello wanderer, welcome to the Market.
@@ -119,11 +115,6 @@ The Inquisition was founded around 1000 years ago by king Otbrael's sisters
 Amada and Namu, in the name of Diurna, goddess of light.
 Or  mission is to fight against the night forces and  discover the cause of 
 their spawn.
-#####
-@name:orcChiefTurtle
-@prompt:Where can I find it?
-It's a giant turtle, you will find it around 200 meters east
-Try not to get dizzy with its spin!
 #####
 @name:huntedMonster
 @prompt:Aleady hunted it!
@@ -301,10 +292,6 @@ Congratulations, you just completed the arena!
 Welcome to the market traveler.
 Can I offer you something?
 #####
-@name:orcChiefShelob
-@prompt:Where can I find it?
-It's a giant spider, you will find it around 200 meters south
-#####
 @name:loreOrc
 @prompt:Tell me about Orcs
 Goblins and Dwarves were the first known species that inhabited the surface, 
@@ -373,11 +360,6 @@ come to meet me again if you need some enchantments
 @name:horseBad
 @prompt:Give me a donkey 16[minecraft:emerald]
 Here is your donkey
-#####
-@name:orcChiefSlime
-@prompt:Where can I find it?
-It's a slimy frog, be careful it's very aggresive.
-You will find it 200 meters west
 #####
 @name:witchRottenFlesh
 @prompt:Can I help you?
@@ -516,3 +498,30 @@ I can help you in your travels for just 32 [minecraft:emerald]
 @prompt:Upgrade my items
 (@name stares at you)
 #####
+@name:orcChiefBull
+@prompt:Where can I find it?
+It's a giant bull, you will find it around 200 meters north
+#####
+@name:orcChiefTurtle
+@prompt:Where can I find it?
+It's a giant turtle, you will find it around 200 meters east.
+To beat the turtle you have to smack it on the head. If the head is
+visible the turtle will enter in a extreme regeneration mode.
+You can also hit it on the legs to increase the ammount of droped items.
+Try not to get dizzy with its spin!
+#####
+@name:orcChiefShelob
+@prompt:Where can I find it?
+It's a giant spider, you will find it around 200 meters south
+Be careful with her stings, dodge them at all costs, if you have a long
+range weapon bring it to the battle, the spider does not hach much projectile projection.
+She will also launch poison at you, so if you can take a milk bucket to the battle.
+One more thing, if you are cached by her web, sneak to get rid of it.
+#####
+@name:orcChiefSlime
+@prompt:Where can I find it?
+It's a slimy frrog, be careful it's verry aggresive.
+You will find it 200 meters west.
+If you want my advice try to use area of effect weapons to get rrid of
+small slimes, otherwise they will heal the frrog.
+####

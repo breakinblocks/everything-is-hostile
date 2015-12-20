@@ -20,7 +20,7 @@ builder = templateSurface
 #Special data for templateSurface
 
 #folder: the folder containing the templates
-folder = Building/village
+folder = DungeonConfig/Building/village
 
 #underGroundOffset: how many block will be used under the ground.
 underGroundOffset = 0
