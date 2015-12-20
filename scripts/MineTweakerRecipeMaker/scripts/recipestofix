@@ -1,0 +1,2 @@
+recipes.addShaped(<EnderIO:itemFrankenSkull:3>, [[<ore:ingotSoularium>, <SSR:ssr_soul_shard>, <ore:ingotSoularium>], [<ore:itemVibrantCrystal>, <EnderIO:blockEndermanSkull>, <ore:itemVibrantCrystal>], [<ore:ingotSoularium>, <EnderIO:itemAlloy:7>, <ore:ingotSoularium>]]);
+recipes.addShaped(<EnderIO:itemFrankenSkull:1>, [[null, <ore:itemSkull>, null], [<ore:ingotSoularium>, <SSR:ssr_soul_shard>, <EnderIO:itemAlloy:7>]]);

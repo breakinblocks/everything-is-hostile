@@ -20,26 +20,9 @@ vanilla.loot.addChestLoot("bonusChest", <abyssalcraft:dshovel>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("bonusChest", <BiomesOPlenty:wadingBoots>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("bonusChest", <BiomesOPlenty:flippers>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("bonusChest", <Botania:blackLotus>.weight(1), 1, 1);
-vanilla.loot.addChestLoot("bonusChest", <ChromatiCraft:chromaticraft_item_shard>.weight(5), 1, 5);
-vanilla.loot.addChestLoot("bonusChest", <ChromatiCraft:chromaticraft_item_shard:1>.weight(5), 1, 5);
-vanilla.loot.addChestLoot("bonusChest", <ChromatiCraft:chromaticraft_item_shard:2>.weight(5), 1, 5);
-vanilla.loot.addChestLoot("bonusChest", <ChromatiCraft:chromaticraft_item_shard:3>.weight(5), 1, 5);
-vanilla.loot.addChestLoot("bonusChest", <ChromatiCraft:chromaticraft_item_shard:4>.weight(5), 1, 5);
-vanilla.loot.addChestLoot("bonusChest", <ChromatiCraft:chromaticraft_item_shard:5>.weight(5), 1, 5);
-vanilla.loot.addChestLoot("bonusChest", <ChromatiCraft:chromaticraft_item_shard:6>.weight(5), 1, 5);
-vanilla.loot.addChestLoot("bonusChest", <ChromatiCraft:chromaticraft_item_shard:7>.weight(5), 1, 5);
-vanilla.loot.addChestLoot("bonusChest", <ChromatiCraft:chromaticraft_item_shard:8>.weight(5), 1, 5);
-vanilla.loot.addChestLoot("bonusChest", <ChromatiCraft:chromaticraft_item_shard:9>.weight(5), 1, 5);
-vanilla.loot.addChestLoot("bonusChest", <ChromatiCraft:chromaticraft_item_shard:10>.weight(5), 1, 5);
-vanilla.loot.addChestLoot("bonusChest", <ChromatiCraft:chromaticraft_item_shard:11>.weight(5), 1, 5);
-vanilla.loot.addChestLoot("bonusChest", <ChromatiCraft:chromaticraft_item_shard:12>.weight(5), 1, 5);
-vanilla.loot.addChestLoot("bonusChest", <ChromatiCraft:chromaticraft_item_shard:13>.weight(5), 1, 5);
-vanilla.loot.addChestLoot("bonusChest", <ChromatiCraft:chromaticraft_item_shard:14>.weight(5), 1, 5);
-vanilla.loot.addChestLoot("bonusChest", <ChromatiCraft:chromaticraft_item_shard:15>.weight(5), 1, 5);
 vanilla.loot.addChestLoot("bonusChest", <HardcoreEnderExpansion:knowledge_note>.weight(5), 1, 5);
 vanilla.loot.addChestLoot("bonusChest", <Thaumcraft:ItemResource:9>.weight(3), 3, 5);
-vanilla.loot.addChestLoot("bonusChest", <ChromatiCraft:chromaticraft_item_fragment>.weight(5), 1, 2);
-vanilla.loot.addChestLoot("bonusChest", <magicalcrops:magicalcrops_1MinicioEssence>.weight(10), 4, 16);
+vanilla.loot.addChestLoot("bonusChest", <magicalcrops:1MinicioEssence>.weight(10), 4, 16);
 vanilla.loot.addChestLoot("bonusChest", <aura:AuraCrystal>.weight(5), 4, 16);
 vanilla.loot.addChestLoot("bonusChest", <aura:AuraCrystal:1>.weight(5), 4, 16);
 vanilla.loot.addChestLoot("bonusChest", <aura:AuraCrystal:2>.weight(5), 4, 16);
@@ -65,7 +48,6 @@ vanilla.loot.addChestLoot("bonusChest", <aura:greenAmulet>.weight(1), 1, 1);
 
 //Dungeon loot
 vanilla.loot.removeChestLoot("dungeonChest", <*>);
-vanilla.loot.addChestLoot("dungeonChest", <Forestry:beeDroneGE>.weight(8), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <Automagy:phialExtra>.weight(3), 1, 3);
 vanilla.loot.addChestLoot("dungeonChest", <Automagy:baubleEnderDisjunction>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <Thaumcraft:ItemAmuletVis>.weight(1), 1, 1);
@@ -84,7 +66,7 @@ vanilla.loot.addChestLoot("dungeonChest", <Thaumcraft:ItemResource:1>.weight(2),
 vanilla.loot.addChestLoot("dungeonChest", <Botania:livingrock>.weight(3), 3, 6);
 vanilla.loot.addChestLoot("dungeonChest", <Botania:livingwood>.weight(3), 3, 6);
 vanilla.loot.addChestLoot("dungeonChest", <witchery:ingredient:14>.weight(1), 1, 1);
-vanilla.loot.addChestLoot("dungeonChest", <magicalcrops:magicalcrops_1MinicioEssence>.weight(15), 4, 16);
+vanilla.loot.addChestLoot("dungeonChest", <magicalcrops:1MinicioEssence>.weight(15), 4, 16);
 vanilla.loot.addChestLoot("dungeonChest", <aura:AuraCrystal>.weight(5), 4, 16);
 vanilla.loot.addChestLoot("dungeonChest", <aura:AuraCrystal:1>.weight(5), 4, 16);
 vanilla.loot.addChestLoot("dungeonChest", <aura:AuraCrystal:2>.weight(5), 4, 16);
@@ -131,23 +113,6 @@ vanilla.loot.addChestLoot("dungeonChest", <RandomThings:whitestone>.weight(1), 1
 vanilla.loot.addChestLoot("dungeonChest", <HardcoreEnderExpansion:temple_caller>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <HardcoreEnderExpansion:knowledge_note>.weight(6), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <TConstruct:heartCanister>.weight(1), 1, 1);
-vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_shard>.weight(3), 1, 5);
-vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_shard:1>.weight(3), 1, 5);
-vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_shard:2>.weight(3), 1, 5);
-vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_shard:3>.weight(3), 1, 5);
-vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_shard:4>.weight(3), 1, 5);
-vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_shard:5>.weight(3), 1, 5);
-vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_shard:6>.weight(3), 1, 5);
-vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_shard:7>.weight(3), 1, 5);
-vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_shard:8>.weight(3), 1, 5);
-vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_shard:9>.weight(3), 1, 5);
-vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_shard:10>.weight(3), 1, 5);
-vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_shard:11>.weight(3), 1, 5);
-vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_shard:12>.weight(3), 1, 5);
-vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_shard:13>.weight(3), 1, 5);
-vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_shard:14>.weight(3), 1, 5);
-vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_shard:15>.weight(3), 1, 5);
-vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_fragment>.weight(5), 1, 2);
 vanilla.loot.addChestLoot("dungeonChest", <EnderIO:itemAlloy:6>.weight(10), 1, 3);
 vanilla.loot.addChestLoot("dungeonChest", <minecraft:quartz>.weight(15), 4, 8);
 vanilla.loot.addChestLoot("dungeonChest", <minecraft:nether_wart>.weight(8), 1, 4);
@@ -168,7 +133,6 @@ vanilla.loot.addChestLoot("dungeonChest", <TwilightForest:tile.TFSapling:9>.weig
 vanilla.loot.addChestLoot("dungeonChest", <TConstruct:slime.sapling>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <TaintedMagic:WarpSap>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <TConstruct:slime.sapling>.weight(3), 1, 1);
-vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_block_rainbowsapling>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <arsmagica2:magicBroom>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <arsmagica2:saplingWitchwood>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <minecraft:potion:16417>.weight(3), 1, 1);
@@ -205,7 +169,6 @@ vanilla.loot.addChestLoot("mineshaftCorridor", <TravellersGear:simpleGear:6>.wei
 vanilla.loot.addChestLoot("mineshaftCorridor", <HardcoreEnderExpansion:adventurers_diary>.weight(4), 1, 1);
 vanilla.loot.addChestLoot("mineshaftCorridor", <HardcoreEnderExpansion:temple_caller>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("mineshaftCorridor", <HardcoreEnderExpansion:knowledge_note>.weight(6), 1, 1);
-vanilla.loot.addChestLoot("mineshaftCorridor", <ChromatiCraft:chromaticraft_item_fragment>.weight(10), 1, 2);
 vanilla.loot.addChestLoot("mineshaftCorridor", <aura:AuraCrystal>.weight(5), 4, 16);
 vanilla.loot.addChestLoot("mineshaftCorridor", <aura:AuraCrystal:1>.weight(5), 4, 16);
 vanilla.loot.addChestLoot("mineshaftCorridor", <aura:AuraCrystal:2>.weight(5), 4, 16);
@@ -220,7 +183,7 @@ vanilla.loot.addChestLoot("mineshaftCorridor", <appliedenergistics2:item.ItemMul
 vanilla.loot.addChestLoot("mineshaftCorridor", <appliedenergistics2:item.ItemMultiMaterial:2>.weight(4), 1, 4);
 vanilla.loot.addChestLoot("mineshaftCorridor", <Automagy:baubleEnderDisjunction>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("mineshaftCorridor", <Automagy:phialExtra>.weight(3), 1, 3);
-vanilla.loot.addChestLoot("mineshaftCorridor", <magicalcrops:magicalcrops_AccioFurnace>.weight(2), 1, 1);
+vanilla.loot.addChestLoot("mineshaftCorridor", <magicalcrops:AccioFurnace>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("mineshaftCorridor", <minecraft:tnt>.weight(10), 1, 4);
 vanilla.loot.addChestLoot("mineshaftCorridor", <minecraft:emerald_ore>.weight(1), 2, 3);
 vanilla.loot.addChestLoot("mineshaftCorridor", <minecraft:experience_bottle>.weight(10), 1, 1);
@@ -242,6 +205,7 @@ vanilla.loot.addChestLoot("mineshaftCorridor", <aura:angelsteelPickaxe0>.weight(
 vanilla.loot.addChestLoot("mineshaftCorridor", <abyssalcraft:apick>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("mineshaftCorridor", <Thaumcraft:ItemPickThaumium>.weight(1), 1, 1);
 
+
 //pyramidDesertyChest
 vanilla.loot.removeChestLoot("pyramidDesertyChest", <minecraft:saddle>);
 vanilla.loot.removeChestLoot("pyramidDesertyChest", <minecraft:iron_horse_armor>);
@@ -258,16 +222,14 @@ vanilla.loot.addChestLoot("pyramidDesertyChest", <aura:AuraCrystal:6>.weight(5),
 vanilla.loot.addChestLoot("pyramidDesertyChest", <aura:AuraCrystal:7>.weight(5), 4, 16);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <minecraft:coal>.weight(20), 12, 16);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <ExtraUtilities:unstableingot:1>.weight(4), 2, 3);
-vanilla.loot.addChestLoot("pyramidDesertyChest", <abyssalcraft:cshovel>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("pyramidDesertyChest", <abyssalcraft:corshovel>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <minecraft:soul_sand>.weight(5), 2, 4);
-vanilla.loot.addChestLoot("pyramidDesertyChest", <ChromatiCraft:chromaticraft_item_tiered>.weight(5), 1, 5);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <TConstruct:jerky:5>.weight(20), 2, 4);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <EnderIO:itemMaterial>.weight(15), 2, 6);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <appliedenergistics2:item.ItemMultiMaterial:8>.weight(10), 4, 8);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <appliedenergistics2:item.ItemMultiMaterial:3>.weight(20), 4, 8);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <appliedenergistics2:item.ItemMultiMaterial:2>.weight(20), 4, 8);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <ExtraBees:misc:26>.weight(20), 12, 16);
-
 
 
 //pyramidJungleChest
@@ -295,27 +257,11 @@ vanilla.loot.addChestLoot("pyramidJungleChest", <aura:greenAmulet>.weight(1), 1,
 //pyramidJungleDispenser
 vanilla.loot.removeChestLoot("pyramidJungleDispenser", <evilcraft:boxOfEternalClosure>);
 vanilla.loot.removeChestLoot("pyramidJungleDispenser", <evilcraft:broom>);
-vanilla.loot.removeChestLoot("pyramidJungleDispenser", <ChromatiCraft:chromaticraft_item_shard:0>);
-vanilla.loot.removeChestLoot("pyramidJungleDispenser", <ChromatiCraft:chromaticraft_item_shard:1>);
-vanilla.loot.removeChestLoot("pyramidJungleDispenser", <ChromatiCraft:chromaticraft_item_shard:2>);
-vanilla.loot.removeChestLoot("pyramidJungleDispenser", <ChromatiCraft:chromaticraft_item_shard:3>);
-vanilla.loot.removeChestLoot("pyramidJungleDispenser", <ChromatiCraft:chromaticraft_item_shard:4>);
-vanilla.loot.removeChestLoot("pyramidJungleDispenser", <ChromatiCraft:chromaticraft_item_shard:5>);
-vanilla.loot.removeChestLoot("pyramidJungleDispenser", <ChromatiCraft:chromaticraft_item_shard:6>);
-vanilla.loot.removeChestLoot("pyramidJungleDispenser", <ChromatiCraft:chromaticraft_item_shard:7>);
-vanilla.loot.removeChestLoot("pyramidJungleDispenser", <ChromatiCraft:chromaticraft_item_shard:8>);
-vanilla.loot.removeChestLoot("pyramidJungleDispenser", <ChromatiCraft:chromaticraft_item_shard:9>);
-vanilla.loot.removeChestLoot("pyramidJungleDispenser", <ChromatiCraft:chromaticraft_item_shard:10>);
-vanilla.loot.removeChestLoot("pyramidJungleDispenser", <ChromatiCraft:chromaticraft_item_shard:11>);
-vanilla.loot.removeChestLoot("pyramidJungleDispenser", <ChromatiCraft:chromaticraft_item_shard:12>);
-vanilla.loot.removeChestLoot("pyramidJungleDispenser", <ChromatiCraft:chromaticraft_item_shard:13>);
-vanilla.loot.removeChestLoot("pyramidJungleDispenser", <ChromatiCraft:chromaticraft_item_shard:14>);
-vanilla.loot.removeChestLoot("pyramidJungleDispenser", <ChromatiCraft:chromaticraft_item_shard:15>);
 vanilla.loot.addChestLoot("pyramidJungleDispenser", <chocolateQuest:bullet:3>.weight(10), 2, 4);
 vanilla.loot.addChestLoot("pyramidJungleDispenser", <evilcraft:redstoneGrenade>.weight(5), 1, 1);
 vanilla.loot.addChestLoot("pyramidJungleDispenser", <evilcraft:lightningGrenade>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("pyramidJungleDispenser", <witchery:sungrenade>.weight(5), 1, 1);
-vanilla.loot.addChestLoot("pyramidJungleDispenser", <xreliquary:holy_hand_grenade>.weight(1), 1, 1);
+
 
 
 //strongholdCorridor
@@ -385,6 +331,6 @@ vanilla.loot.addChestLoot("villageBlacksmith", <TConstruct:materials:5>.weight(5
 vanilla.loot.addChestLoot("villageBlacksmith", <TConstruct:materials:6>.weight(20), 1, 1);
 vanilla.loot.addChestLoot("villageBlacksmith", <minecraft:obsidian>.weight(25), 1, 3);
 vanilla.loot.addChestLoot("villageBlacksmith", <TConstruct:materials:11>.weight(25), 1, 3);
-vanilla.loot.addChestLoot("villageBlacksmith", <magicalcrops:magicalcrops_AccioFurnace>.weight(2), 1, 1);
+vanilla.loot.addChestLoot("villageBlacksmith", <magicalcrops:AccioFurnace>.weight(2), 1, 1);
 
 

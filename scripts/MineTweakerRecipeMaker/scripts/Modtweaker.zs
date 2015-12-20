@@ -68,7 +68,7 @@ myOres.add(<TConstruct:SearedBrick:5>);
 myOres.add(<TConstruct:SearedBrick:4>);
 
 val mcOres = <ore:mcOres>;
-mcOres.add(<magicalcrops:magicalcrops_MinicioOre>);
+mcOres.add(<magicalcrops:MinicioOre>);
 
 mods.bloodmagic.FallingTower.removeFocus(<minecraft:nether_star>);
 mods.bloodmagic.FallingTower.removeFocus(<minecraft:diamond>);
