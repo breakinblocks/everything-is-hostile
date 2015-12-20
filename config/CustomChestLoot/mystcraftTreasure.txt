@@ -1,2 +1,0 @@
-count=4-8
-contents=minecraft:paper;0;1-8;50,minecraft:leather;0;1-8;50,Mystcraft:vial;0;1-2;50,Mystcraft:booster;0;1-4;1000
