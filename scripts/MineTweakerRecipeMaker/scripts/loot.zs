@@ -61,7 +61,6 @@ vanilla.loot.addChestLoot("dungeonChest", <Thaumcraft:ItemLootBag:1>.weight(5), 
 vanilla.loot.addChestLoot("dungeonChest", <Thaumcraft:ItemLootBag:2>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <Thaumcraft:blockCrystal:6>.weight(3), 1, 2);
 vanilla.loot.addChestLoot("dungeonChest", <Thaumcraft:ItemResource:2>.weight(10), 1, 4);
-vanilla.loot.addChestLoot("dungeonChest", <ForestryExtras:item.fe.frame.frameThaumium>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <Thaumcraft:ItemResource:1>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <Botania:livingrock>.weight(3), 3, 6);
 vanilla.loot.addChestLoot("dungeonChest", <Botania:livingwood>.weight(3), 3, 6);
@@ -142,6 +141,8 @@ vanilla.loot.addChestLoot("dungeonChest", <minecraft:potion:16425>.weight(3), 1,
 
 
 
+
+
 //mineshaftCorridor
 vanilla.loot.removeChestLoot("mineshaftCorridor", <*>);
 vanilla.loot.addChestLoot("mineshaftCorridor", <minecraft:diamond>.weight(7), 1, 2);
@@ -195,7 +196,6 @@ vanilla.loot.addChestLoot("mineshaftCorridor", <EnderIO:itemAlloy>.weight(20), 2
 vanilla.loot.addChestLoot("mineshaftCorridor", <RandomThings:ingredient:4>.weight(5), 2, 4);
 vanilla.loot.addChestLoot("mineshaftCorridor", <evilcraft:lightningBomb>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("mineshaftCorridor", <aura:ingotAngelSteel:2>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("mineshaftCorridor", <ForestryExtras:item.fe.item.reinforcedIngot>.weight(5), 2, 4);
 vanilla.loot.addChestLoot("mineshaftCorridor", <ExtraUtilities:unstableingot:1>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("mineshaftCorridor", <ExtraUtilities:golden_lasso>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("mineshaftCorridor", <EnderIO:itemPowderIngot>.weight(10), 4, 8);
@@ -229,7 +229,7 @@ vanilla.loot.addChestLoot("pyramidDesertyChest", <EnderIO:itemMaterial>.weight(1
 vanilla.loot.addChestLoot("pyramidDesertyChest", <appliedenergistics2:item.ItemMultiMaterial:8>.weight(10), 4, 8);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <appliedenergistics2:item.ItemMultiMaterial:3>.weight(20), 4, 8);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <appliedenergistics2:item.ItemMultiMaterial:2>.weight(20), 4, 8);
-vanilla.loot.addChestLoot("pyramidDesertyChest", <ExtraBees:misc:26>.weight(20), 12, 16);
+
 
 
 //pyramidJungleChest
