@@ -2,10 +2,10 @@
 
 "biome ids" {
     I:"Ender Forest Biome ID"=239
-    I:"Island Biome ID"=143
-    I:"Plains Biome ID"=142
+    I:"Island Biome ID"=100
+    I:"Plains Biome ID"=1
     I:"Rainbow Forest Biome ID"=242
-    I:"Skyland Biome ID"=141
+    I:"Skyland Biome ID"=101
 }
 
 
@@ -30,7 +30,6 @@
     B:"Ender Forest Coloring"=true
     I:"Ender Pool Density from 1 to 3"=1
     I:"Energy Buffer Overlay Location"=0
-    B:"Forge G1GC To Prevent Crashes - Disabling this disables some content"=true
     B:"Generate Anti-Taint plants in Rainbow Forest"=false
     B:"Generate Pylons in Non-Overworld"=false
     B:"Generate Some Pylons as Broken"=false
