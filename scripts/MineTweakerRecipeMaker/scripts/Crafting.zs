@@ -12,6 +12,23 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<betterstorage:crate>);
+recipes.remove(<Natura:barleyFood:2>);
+recipes.remove(<StorageDrawers:controller>);
+recipes.remove(<appliedenergistics2:tile.BlockEnergyAcceptor>);
+recipes.remove(<technom:flowerDynamo>);
+recipes.remove(<TConstruct:LavaTankNether>);
+recipes.remove(<TConstruct:LavaTank>);
+recipes.remove(<ExtraUtilities:dark_portal>);
+recipes.remove(<ExtraUtilities:nodeUpgrade:2>);
+recipes.remove(<ExtraUtilities:angelRing>);
+recipes.remove(<ExtraUtilities:angelRing:4>);
+recipes.remove(<ExtraUtilities:angelRing:3>);
+recipes.remove(<ExtraUtilities:angelRing:2>);
+recipes.remove(<ExtraUtilities:angelRing:1>);
+recipes.remove(<ExtraUtilities:watering_can:3>);
+recipes.remove(<ExtraUtilities:watering_can:1>);
+recipes.remove(<Avaritia:Resource:1>);
 recipes.remove(<EnderIO:blockVat>);
 recipes.remove(<TwilightForest:tile.TFUncraftingTable>);
 recipes.remove(<arsmagica2:playerjournal>);
@@ -138,6 +155,7 @@ recipes.remove(<EnderIO:itemAlloy:7>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPED
+recipes.removeShaped(<minecraft:gunpowder> * 8, [[<ore:imperioMaterial>, <ore:imperioMaterial>, <ore:imperioMaterial>], [<ore:imperioMaterial>, null, <ore:imperioMaterial>], [<ore:imperioMaterial>, <ore:imperioMaterial>, <ore:imperioMaterial>]]);
 recipes.removeShaped(<magicalcrops:SkeletonSeeds>, [[<minecraft:bone>, <magicalcrops:4ImperioEssence>, <minecraft:bone>], [<magicalcrops:4ImperioEssence>, <magicalcrops:MinicioSeeds>, <magicalcrops:4ImperioEssence>], [<minecraft:bone>, <magicalcrops:4ImperioEssence>, <minecraft:bone>]]);
 recipes.removeShaped(<magicalcrops:GhastSeeds>, [[<minecraft:ghast_tear>, <magicalcrops:4ImperioEssence>, <minecraft:ghast_tear>], [<magicalcrops:4ImperioEssence>, <magicalcrops:MinicioSeeds>, <magicalcrops:4ImperioEssence>], [<minecraft:ghast_tear>, <magicalcrops:4ImperioEssence>, <minecraft:ghast_tear>]]);
 recipes.removeShaped(<magicalcrops:LapisSeeds>, [[<minecraft:dye:4>, <magicalcrops:4ImperioEssence>, <minecraft:dye:4>], [<magicalcrops:4ImperioEssence>, null, <magicalcrops:4ImperioEssence>], [<minecraft:dye:4>, <magicalcrops:4ImperioEssence>, <minecraft:dye:4>]]);
@@ -159,6 +177,7 @@ furnace.addRecipe(<EnderIO:blockFusedQuartz>, <minecraft:quartz_block>, 0.5);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<TConstruct:LavaTankNether>, [<ore:dyeBrown>, <TConstruct:LavaTank>]);
 recipes.addShapeless(<minecraft:glass>, [<EnderIO:blockFusedQuartz:1>]);
 recipes.addShapeless(<EnderIO:blockFusedQuartz:1>, [<ore:blockGlassColorless>]);
 recipes.addShapeless(<minecraft:nether_star> * 9, [<ore:blockNetherStar>]);
@@ -166,6 +185,38 @@ recipes.addShapeless(<minecraft:paper> * 4, [<TConstruct:materials>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<ExtraUtilities:watering_can:1>, [[<Thaumcraft:ItemNugget:19>, null, null], [<aura:ingotAngelSteel:1>, null, <aura:ingotAngelSteel:1>], [<aura:ingotAngelSteel:1>, <magicalcrops:WaterEssence>, <aura:ingotAngelSteel:1>]]);
+recipes.addShaped(<ExtraUtilities:watering_can:1>, [[<technom:existenceGem:100>, null, null], [<aura:ingotAngelSteel:1>, null, <aura:ingotAngelSteel:1>], [<aura:ingotAngelSteel:1>, <arsmagica2:essence:4>, <aura:ingotAngelSteel:1>]]);
+recipes.addShaped(<minecraft:gunpowder> * 32, [[<ore:imperioMaterial>, <ore:imperioMaterial>, <ore:imperioMaterial>], [<ore:imperioMaterial>, null, <ore:imperioMaterial>], [<ore:imperioMaterial>, <ore:imperioMaterial>, <ore:imperioMaterial>]]);
+recipes.addShaped(<BiomesOPlenty:misc:11> * 2, [[null, <ChromatiCraft:chromaticraft_item_tiered>, null], [<ChromatiCraft:chromaticraft_item_tiered>, <ore:elvenPixieDust>, <ChromatiCraft:chromaticraft_item_tiered>], [null, <ChromatiCraft:chromaticraft_item_tiered>, null]]);
+recipes.addShaped(<EnderIO:itemAlloy:3> * 3, [[<ore:cropAurigold>, <ore:cropAurigold>, <ore:cropAurigold>], [<minecraft:gold_nugget>, <minecraft:redstone>, <ore:cropAurigold>], [<ore:cropAurigold>, <ore:cropAurigold>, <minecraft:gold_nugget>]]);
+recipes.addShaped(<EnderIO:itemFrankenSkull:3>, [[null, <HardcoreEnderExpansion:enderman_head>, null], [<EnderIO:itemMaterial>, <Botania:enderEyeBlock>, <EnderIO:itemMaterial>], [<EnderIO:itemAlloy:7>, null, <EnderIO:itemAlloy:7>]]);
+recipes.addShaped(<EnderIO:itemFrankenSkull:3>, [[null, <IguanaTweaksTConstruct:skullItem>, null], [<EnderIO:itemMaterial>, <Botania:enderEyeBlock>, <EnderIO:itemMaterial>], [<EnderIO:itemAlloy:7>, null, <EnderIO:itemAlloy:7>]]);
+recipes.addShaped(<EnderIO:itemFrankenSkull:3>, [[null, <EnderIO:blockEndermanSkull>, null], [<EnderIO:itemMaterial>, <Botania:enderEyeBlock>, <EnderIO:itemMaterial>], [<EnderIO:itemAlloy:7>, null, <EnderIO:itemAlloy:7>]]);
+recipes.addShaped(<EnderIO:itemFrankenSkull>, [[null, <ore:itemSkull>, null], [<ore:itemSilicon>, <evilcraft:bloodInfusionCore>, <ore:itemSilicon>], [<ore:ingotEnergeticAlloy>, null, <ore:ingotEnergeticAlloy>]]);
+recipes.addShaped(<minecraft:wheat_seeds>, [[<ore:natureMaterial>]]);
+recipes.addShaped(<Natura:barleyFood:2> * 8, [[<ore:natureMaterial>, <minecraft:wheat>, <ore:natureMaterial>], [<ore:natureMaterial>, null, <ore:natureMaterial>], [<minecraft:wheat>, <ore:natureMaterial>, <ore:natureMaterial>]]);
+recipes.addShaped(<StorageDrawers:controller>, [[<ore:barsIron>, <ore:manaDiamond>, <ore:barsIron>], [<ore:pearlEnder>, <ore:drawerBasic>, <minecraft:ender_pearl>], [<ore:barsIron>, <ore:manaDiamond>, <ore:barsIron>]]);
+recipes.addShaped(<appliedenergistics2:tile.BlockEnergyAcceptor>, [[<Thaumcraft:blockCrystal:4>, <appliedenergistics2:tile.BlockQuartzGlass>, <Thaumcraft:blockCrystal:4>], [<appliedenergistics2:tile.BlockQuartzGlass>, <ore:crystalPureFluix>, <appliedenergistics2:tile.BlockQuartzGlass>], [<Thaumcraft:blockCrystal:4>, <appliedenergistics2:tile.BlockQuartzGlass>, <Thaumcraft:blockCrystal:4>]]);
+recipes.addShaped(<technom:flowerDynamo>, [[null, <technom:itemBO>, null], [<technom:itemBO:1>, <ore:ingotElvenElementium>, <technom:itemBO:1>], [<ore:ingotElvenElementium>, <Automagy:blockRedcrystal>, <ore:ingotElvenElementium>]]);
+recipes.addShaped(<TConstruct:LavaTank>, [[<TConstruct:materials:2>, <TConstruct:materials:2>, <TConstruct:materials:2>], [<TConstruct:materials:2>, <Botania:manaGlass>, <TConstruct:materials:2>], [<TConstruct:materials:2>, <TConstruct:materials:2>, <TConstruct:materials:2>]]);
+recipes.addShaped(<minecraft:torch> * 24, [[<ore:itemBlazePowder>], [<ore:stickWood>]]);
+recipes.addShaped(<ExtraUtilities:dark_portal>, [[<ore:pearlEnderEye>, <ore:ingotUnstable>, <ore:pearlEnderEye>], [<ExtraUtilities:bedrockiumIngot>, <AWWayofTime:blockCrystal>, <ExtraUtilities:bedrockiumIngot>], [<aura:ingotAngelSteel:3>, <ore:ingotUnstable>, <aura:ingotAngelSteel:3>]]);
+recipes.addShaped(<ExtraUtilities:dark_portal>, [[<ore:pearlEnderEye>, <ore:ingotUnstable>, <ore:pearlEnderEye>], [<ExtraUtilities:bedrockiumIngot>, <WitchingGadgets:WG_MetalDevice:7>, <ExtraUtilities:bedrockiumIngot>], [<aura:ingotAngelSteel:3>, <ore:ingotUnstable>, <aura:ingotAngelSteel:3>]]);
+recipes.addShaped(<ExtraUtilities:dark_portal>, [[<ore:pearlEnderEye>, <ore:ingotUnstable>, <ore:pearlEnderEye>], [<ExtraUtilities:bedrockiumIngot>, <Botania:storage:1>, <ExtraUtilities:bedrockiumIngot>], [<aura:ingotAngelSteel:3>, <ore:ingotUnstable>, <aura:ingotAngelSteel:3>]]);
+recipes.addShaped(<ExtraUtilities:nodeUpgrade:2>, [[<ore:nuggetAluminum>, <ore:manaDiamond>, <ore:nuggetAluminum>], [<ore:nuggetAluminum>, <aura:angelsteelPickaxe0>, <ore:nuggetAluminum>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
+recipes.addShaped(<ExtraUtilities:angelRing:2>, [[null, <BiomesOPlenty:misc:11>, null], [<BiomesOPlenty:misc:11>, <ExtraUtilities:angelRing>, <BiomesOPlenty:misc:11>], [null, <BiomesOPlenty:misc:11>, null]]);
+recipes.addShaped(<ExtraUtilities:angelRing:1>, [[null, <TwilightForest:item.tfFeather>, null], [<TwilightForest:item.tfFeather>, <ExtraUtilities:angelRing>, <TwilightForest:item.tfFeather>], [null, <TwilightForest:item.tfFeather>, null]]);
+recipes.addShaped(<ExtraUtilities:angelRing:4>, [[null, <witchery:ingredient:102>, null], [<witchery:ingredient:102>, <ExtraUtilities:angelRing>, <witchery:ingredient:102>], [null, <witchery:ingredient:102>, null]]);
+recipes.addShaped(<ExtraUtilities:angelRing:3>, [[null, <ore:itemLeather>, null], [<minecraft:leather>, <ExtraUtilities:angelRing>, <ore:itemLeather>], [null, <ore:itemLeather>, null]]);
+recipes.addShaped(<ExtraUtilities:watering_can:3>, [[null, <ExtraUtilities:mini-soul>, null], [<Botania:openBucket>, <ExtraUtilities:watering_can:1>, <Botania:openBucket>], [<Avaritia:Resource:4>, <ore:ingotUnstable>, <Avaritia:Resource:4>]]);
+recipes.addShaped(<Avaritia:Resource:4> * 3, [[null, <ThaumicTinkerer:kamiResource>, null], [<ExtraUtilities:bedrockiumIngot>, <ore:itemNetherStar>, <ExtraUtilities:bedrockiumIngot>], [null, <ThaumicTinkerer:kamiResource>, null]]);
+recipes.addShaped(<Avaritia:Resource:4>, [[null, <ExtraUtilities:unstableingot>, null], [<ExtraUtilities:bedrockiumIngot>, <ore:itemNetherStar>, <ExtraUtilities:bedrockiumIngot>], [null, <ExtraUtilities:unstableingot>, null]]);
+recipes.addShaped(<Avaritia:Resource:4>, [[null, <Botania:manaResource:4>, null], [<ExtraUtilities:bedrockiumIngot>, <ore:itemNetherStar>, <ExtraUtilities:bedrockiumIngot>], [null, <Botania:manaResource:4>, null]]);
+recipes.addShaped(<Avaritia:Resource:4>, [[null, <AWWayofTime:bloodMagicBaseItems:27>, null], [<ExtraUtilities:bedrockiumIngot>, <ore:itemNetherStar>, <ExtraUtilities:bedrockiumIngot>], [null, <AWWayofTime:bloodMagicBaseItems:27>, null]]);
+recipes.addShaped(<Avaritia:Resource:1>, [[null, <aura:ingotAngelSteel>, null], [<ore:ingotGold>, <ore:manaDiamond>, <ore:ingotGold>], [null, <ore:ingotGold>, null]]);
+recipes.addShaped(<Avaritia:Resource:1>, [[null, <TwilightForest:item.ironwoodIngot>, null], [<ore:ingotGold>, <ore:manaDiamond>, <ore:ingotGold>], [null, <ore:ingotGold>, null]]);
+recipes.addShaped(<Avaritia:Resource:1>, [[null, <ore:ingotThaumium>, null], [<ore:ingotGold>, <ore:manaDiamond>, <ore:ingotGold>], [null, <ore:ingotGold>, null]]);
 recipes.addShaped(<minecraft:spawn_egg:302>, [[<arsmagica2:itemOre:8>, <arsmagica2:itemOre:8>, <arsmagica2:itemOre:8>], [<arsmagica2:itemOre:8>, <minecraft:potion:8235>, <arsmagica2:itemOre:8>], [<arsmagica2:itemOre:8>, <arsmagica2:itemOre:8>, <arsmagica2:itemOre:8>]]);
 recipes.addShaped(<MutantCreatures:item.mcSpawnEgg:6>, [[null, <MutantCreatures:item.chemicalX>, null], [<MutantCreatures:item.chemicalX>, <ore:itemSkull>, <MutantCreatures:item.chemicalX>], [null, <MutantCreatures:item.chemicalX>, null]]);
 recipes.addShaped(<ExtraUtilities:decorativeBlock1:2>, [[<EnderIO:blockFusedQuartz>]]);

@@ -195,7 +195,6 @@ Aspects.set(<TwilightForest:tile.Slider:2>, "motus 6, vinculum 3, arbor 2");
 
 Aspects.set(<TwilightForest:tile.Slider:3>, "motus 6, vinculum 3, arbor 2");
 
-
 Aspects.set(<TwilightForest:tile.CastleBrick>, "terra 2, ordo 3");
 
 Aspects.set(<TwilightForest:tile.CastleBrick:1>, "terra 2, ordo 3, aer 1");

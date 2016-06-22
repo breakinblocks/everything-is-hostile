@@ -103,3 +103,31 @@ mods.thaumcraft.Crucible.addRecipe("ASPECTS", <ForbiddenMagic:UmbralBush>, <Bota
 mods.thaumcraft.Crucible.addRecipe("ASPECTS", <Thaumcraft:blockCosmeticSolid>, <Thaumcraft:blockCosmeticSolid:1>, "exanimis 8, auram 8, alienis 10"); mods.thaumcraft.Crucible.addRecipe("ASPECTS", <Thaumcraft:blockCosmeticSolid:12>, <minecraft:stonebrick>, "exanimis 8, auram 8, alienis 10");
 
 mods.thaumcraft.Infusion.addRecipe("INFUSION",<EnderIO:itemMachinePart>, [<EnderIO:itemFrankenSkull:4>,<witchery:ingredient:10>, <EnderStorage:enderChest>, <EnderIO:itemMaterial:6>, <Thaumcraft:ItemResource:16>, <Mystcraft:unlinkedbook>, <Botania:manaResource:14>], "alienis 32, potentia 64, machina 32", <EnderIO:blockTransceiver>, 1);
+
+
+
+
+//EXTREME Crafting
+
+
+mods.avaritia.ExtremeCrafting.addShaped(<ExtraUtilities:angelRing>, 
+[[null, null, null,null, null, null,null, null, null],	
+[null, null, null,null, null, null,null, null, null],	
+[null, null, null,null, <minecraft:feather>, null,null, null, null],	
+[null, null, null, <witchery:ingredient:102>, <aura:mirror>,<witchery:ingredient:102>, null, null, null],	
+[null, null, <minecraft:feather>,<Avaritia:Resource:4>, <evilcraft:vengeanceRing>, <Avaritia:Resource:4>,<minecraft:feather>, null, null],	
+[null, null, null, <witchery:ingredient:102>, <aura:mirror>,<witchery:ingredient:102>, null, null, null],	
+[null, null, null,null, <minecraft:feather>, null,null, null, null],	
+[null, null, null,null, null, null,null, null, null],	
+[null, null, null,null, null, null,null, null, null]]	
+);
+
+
+//AE2 Grindstone
+mods.appeng.Grinder.addRecipe(<evilcraft:darkGem>, <evilcraft:darkGemCrushed>, 4, <evilcraft:darkGemCrushed>, 0.1, <EnderIO:itemPowderIngot:7>, 0.05);
+
+//Thaumcraft Aspects
+mods.thaumcraft.Aspects.set(<minecraft:coal>, "ignis 1, potentia 2");
+mods.thaumcraft.Aspects.set(<minecraft:coal:1>, "ignis 1, potentia 2");
+mods.thaumcraft.Aspects.set(<minecraft:paper>, "cognitio 2");
+mods.thaumcraft.Aspects.set(<minecraft:chest>, "vacuos  2, arbor 1");
